@@ -7,7 +7,7 @@ cd /c/Users/flyku/Documents/GitHub/open-fraud-detection-kit
 now=$(date +%s)
 
 # Two years ago in seconds
-two_years_ago=$(date -d"2 years ago" +%s)
+two_years_ago=$(date -d"1 years ago" +%s)
 
 # Predefined commit messages to mimic real-world commit messages
 commit_messages=("Initial commit" "Update" "Fix bug" "Refactor code" "Add new feature" "Improve performance" "Update documentation")
