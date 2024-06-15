@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="720" y="330" width="516" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Percentile Value passed down from parent module and inserted into formulas</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1416" y="546" width="144" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1248" y="546" width="156" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>The answer is now in the last row in the field WeightedPercentile.  So select that cell for output.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1068" y="546" width="168" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If the cumaltive total is less than the goal then we can take the corresponding value.  Otherwise we calculate the value between the two values.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="948" y="546" width="108" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Get Records where the cumlative total is less than or equal to the Goal</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="852" y="546" width="84" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Attach Goal Value to each record</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="720" y="786" width="120" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Calculate Cumlative Weight</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="720" y="546" width="120" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Calculate Goal Value</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="612" y="786" width="96" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Sort by Value field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="612" y="546" width="96" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Calculate Total Macro Weight for all records</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="480" y="546" width="120" height="432" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Filter out records with Zero Weight</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="312" y="546" width="156" height="432" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="492" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[__Macro_Weight]!=0</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[__Macro_Weight]!=0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="360" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input11</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="26" />
+              <Fields>
+                <Field name="__Macro_Weight" />
+                <Field name="__Macro_Value" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>2</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>0.6</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.3</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.3</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>0.3</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.7</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.7</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>1.7</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>0.4</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>0.5</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.5</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.2</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>1.1</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.6</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>1.4</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>0.2</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>1.6</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.6</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>1.3</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.1</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>1.1</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.2</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.1</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.4</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>0.9</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input11</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="624" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="__Macro_Value" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>__Macro_Value - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="__Macro_Value" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="732" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>NumberOfKids</UpdateField_Name>
+          <CreateField_Name>PreviousSum</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:__Macro_Weight]+[Row-1:PreviousSum]</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row-1:__Macro_Weight]+[Row-1:PreviousSum]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+            <Field description="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" name="PreviousSum" source="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" type="Int32" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="__Macro_Value" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1452" y="690" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_16588_88cb1c36e15048a086c41116098dfde9\Engine_15732_45938846a3c04130bb9df0ae0a847011.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="624" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="__Macro_Weight" action="Sum" rename="Sum___Macro_Weight" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sum___Macro_Weight" source="Summarize: Sum - __Macro_Weight" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AppendFields.AppendFields">
+        <Position x="864" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <CartesianMode>Error</CartesianMode>
+          <SelectConfiguration>
+            <Configuration outputConnection="Output">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Source_Sum___Macro_Weight" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+            <Field description="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" name="PreviousSum" source="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" type="Int32" />
+            <Field name="__Macro_Goal" source="Formula: [Sum___Macro_Weight]*0.5" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAppendFields" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="960" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[PreviousSum]&lt;=[__Macro_Goal]</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[PreviousSum]&lt;=[__Macro_Goal]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+            <Field description="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" name="PreviousSum" source="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" type="Int32" />
+            <Field name="__Macro_Goal" source="Formula: [Sum___Macro_Weight]*0.5" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+            <Field description="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" name="PreviousSum" source="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" type="Int32" />
+            <Field name="__Macro_Goal" source="Formula: [Sum___Macro_Weight]*0.5" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1086" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>NumberOfKids</UpdateField_Name>
+          <CreateField_Name>WeigtedPercentile</CreateField_Name>
+          <CreateField_Type>Double</CreateField_Type>
+          <CreateField_Size>8</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>if [PreviousSum]&lt;[__Macro_Goal] then 
+[__Macro_Value]
+else
+[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.5
+
+endif</Expression>
+          <GroupByFields />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>if [PreviousSum]&lt;[__Macro_Goal] then 
+[__Macro_Value]
+else
+[R...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__Macro_Value" source="TextInput:" type="Float" />
+            <Field description="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" name="PreviousSum" source="Formula: [Row-1:__Macro_Weight]+[Row-1:PreviousSum]" type="Int32" />
+            <Field name="__Macro_Goal" source="Formula: [Sum___Macro_Weight]*0.5" type="Double" />
+            <Field description="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.5&#xA;&#xA;endif" name="WeigtedPercentile" source="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.5&#xA;&#xA;endif" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="732" y="654" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="__Macro_Goal" type="Double" size="8" expression="[Sum___Macro_Weight]*0.5" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>__Macro_Goal=[Sum___Macro_Weight]*0.5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sum___Macro_Weight" source="Summarize: Sum - __Macro_Weight" type="Int64" />
+            <Field name="__Macro_Goal" source="Formula: [Sum___Macro_Weight]*0.5" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1260" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="WeigtedPercentile" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.5&#xA;&#xA;endif" name="WeigtedPercentile" source="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.5&#xA;&#xA;endif" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1332" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>Last</Mode>
+          <N>1</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Last 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.5&#xA;&#xA;endif" name="WeigtedPercentile" source="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.5&#xA;&#xA;endif" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1452" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output25</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output25</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="924" y="354" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Percentile</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="312" y="126" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="312" y="294" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="480" y="126" width="756" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_WeightedMedian.yxmcbatch
+
+]]></Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="480" y="234" width="756" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+Batch macro used in CReW_WeightedMedian.yxmc</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="744" y="474" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1098" y="474" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="16" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="16" Connection="Source" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="37" Connection="Action" />
+      <Destination ToolID="19" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Action" />
+      <Destination ToolID="18" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="Percentile">
+      <Origin ToolID="28" Connection="Question" />
+      <Destination ToolID="37" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="28" Connection="Question" />
+      <Destination ToolID="51" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Percentile</Name>
+        <Value>0.5</Value>
+        <IsNumeric value="True" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>WeightedMedian</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author>Ned Harding</Author>
+      <Company>Alteryx</Company>
+      <Copyright>This module in in the public domain</Copyright>
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="37" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>0.5</ReplaceText>
+              <Destination>19/FormulaFields/FormulaField/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="51" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText><![CDATA[0.5
+]]></ReplaceText>
+              <Destination>18/Expression</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (29)</Name>
+          <ToolId value="29" />
+          <Questions>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Percentile (Set to 0.5 for Median)</Description>
+              <Name>Percentile</Name>
+              <ToolId value="28" />
+              <Minimum value="0" />
+              <Maximum value="1" />
+              <Increment value="0.1" />
+              <Default value="0.5" />
+              <Decimals value="2" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output25</Description>
+              <Name>Output25</Name>
+              <ToolId value="32" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input11</Description>
+          <Name>Tab (30)</Name>
+          <ToolId value="30" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input11</Description>
+              <Name>Input11</Name>
+              <ToolId value="31" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="32" />
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams />
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="31" Selected="True" />
+        <Tool ToolId="14" Selected="False" />
+        <Tool ToolId="32" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

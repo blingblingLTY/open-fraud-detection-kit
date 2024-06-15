@@ -1,0 +1,1149 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1638" y="729.8" width="132" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1494" y="729.8" width="132" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Rejoin report elements back to original data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="642" y="729.8" width="840" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use a batch macro to create a report element for each data row</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="642" y="429.8" width="840" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User select Width, Height, Latitude and Longitude Fields.  Values passed to Batch Macor</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="429.8" width="264" height="288" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Optionally update bearing value</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="366" y="729.8" width="264" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create default bearing field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="198" y="729.8" width="156" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add record id so we can rejoin it back together 
+after we have created the report elements</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="729.8" width="108" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="90" y="801.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="3" />
+              <Fields>
+                <Field name="UpdateLat" />
+                <Field name="UpdateLon" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>40</c>
+                  <c>-105</c>
+                </r>
+                <r>
+                  <c>40.43423</c>
+                  <c>-105</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="UpdateLat" source="TextInput:" type="Double" />
+            <Field name="UpdateLon" source="TextInput:" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="1098" y="801.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Width Inches">1</Value>
+          <Value name="Height Inches">1</Value>
+          <Value name="ControlParams"><![CDATA[Latitude=UpdateLat
+Longitude=UpdateLon
+Bearing=NonRepeatableNameBearing
+RecordID=NonRepeatableNameRecordID
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>StreetView (7)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="NonRepeatableNameRecordID" source="Formula: 0 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_StreetView.yxmcBatch" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1662" y="813.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1662" y="861.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\DOCUME~1\rileya\LOCALS~1\Temp\Alteryx_1420_cf02002521694d948b096f28ede65e9f.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (9)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="426" y="801.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="NonRepeatableNameBearing" type="V_String" size="64" expression="'0'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Formula (10)</Name>
+          <DefaultAnnotationText>NonRepeatableNameBearing='0'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableNameRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="UpdateLat" source="TextInput:" type="Double" />
+            <Field name="UpdateLon" source="TextInput:" type="Int16" />
+            <Field name="NonRepeatableNameBearing" size="64" source="Formula: '0'" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableNameRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="246" y="801.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>NonRepeatableNameRecordID</FieldName>
+          <FieldType>Int32</FieldType>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Record ID (11)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableNameRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="UpdateLat" source="TextInput:" type="Double" />
+            <Field name="UpdateLon" source="TextInput:" type="Int16" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableNameRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1530" y="813.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="NonRepeatableNameRecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="NonRepeatableNameRecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="Left_NonRepeatableNameRecordID" selected="False" />
+                <SelectField field="Right_NonRepeatableNameRecordID" selected="False" rename="Right_NonRepeatableNameRecordID" />
+                <SelectField field="Right_UpdateLat" selected="False" />
+                <SelectField field="Right_UpdateLon" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="Left_Text" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Join (12)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+            <Field name="NonRepeatableNameRecordID" source="Formula: 0 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int32" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="NonRepeatableNameRecordID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Text" size="2147483647" source="Report:Text: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NonRepeatableNameRecordID" source="RecordID: Starting Value=1" type="Int32" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="NonRepeatableNameRecordID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="810" y="465.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Width</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="1026" y="465.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Height</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="1170" y="465.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Select Latitude Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="1326" y="465.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Select Longitude Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="378" y="465.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Bearing Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="462" y="465.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Select Bearing Field (Optional)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="462" y="573.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1182" y="645.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1338" y="645.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="822" y="645.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1038" y="645.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+        <Position x="654" y="549.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Width must be numeric greater than zero</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+        <Position x="870" y="549.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Height must be numeric greater than zero</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="438" y="645.8" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Bearing Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="165.8" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="333.8" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="246" y="165.8" width="636" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_StreetView.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="894" y="165.8" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="246" y="285.8" width="876" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+Macro to enable google streeview elements to be added to html reports</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings>
+        <Position x="1062" y="213.8" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Version XML URL">versions.ChaosReignsWithin.com\StreetView.xml</Value>
+          <Value name="Version of this Macro">2.0</Value>
+          <Value name="EnableTest">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_Version.yxmc" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="78" y="933.8" width="1056" height="120" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version History: 
+
+1.0 - Initial release
+2.0 - Updated to Alteryx 9.0 macro interface</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="49" Connection="Question" />
+      <Destination ToolID="40" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="49" Connection="Question" />
+      <Destination ToolID="41" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="49" Connection="Question" />
+      <Destination ToolID="42" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="7" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Action" />
+      <Destination ToolID="7" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Action" />
+      <Destination ToolID="7" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Action" />
+      <Destination ToolID="7" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Action" />
+      <Destination ToolID="7" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="10" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Join" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="Width">
+      <Origin ToolID="37" Connection="Question" />
+      <Destination ToolID="29" Connection="Question" />
+    </Connection>
+    <Connection name="Width">
+      <Origin ToolID="37" Connection="Question" />
+      <Destination ToolID="31" Connection="Question" />
+    </Connection>
+    <Connection name="Height">
+      <Origin ToolID="38" Connection="Question" />
+      <Destination ToolID="30" Connection="Question" />
+    </Connection>
+    <Connection name="Height">
+      <Origin ToolID="38" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection name="Select Latitude Field">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="27" Connection="Question" />
+    </Connection>
+    <Connection name="Select Longitude Field">
+      <Origin ToolID="41" Connection="Question" />
+      <Destination ToolID="28" Connection="Question" />
+    </Connection>
+    <Connection name="Bearing Field">
+      <Origin ToolID="42" Connection="Question" />
+      <Destination ToolID="33" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="True Condition" />
+      <Destination ToolID="33" Connection="Condition" />
+    </Connection>
+    <Connection name="Select Bearing Field (Optional)">
+      <Origin ToolID="43" Connection="Question" />
+      <Destination ToolID="36" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Width</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Height</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Select Latitude Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Select Longitude Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Bearing Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Select Bearing Field (Optional)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[ Street View]]></Name>
+      <Description>Enables Google streetview elements to be added to html reports. Specifically, it allows you to insert a Google Street View iframe into an html report from a given set of x, y co-ordinates without needing to know about HTMLPassThrough.</Description>
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Select Latitude Field</Description>
+              <ToolId value="27" />
+              <Mode>Simple</Mode>
+              <Variable>Select Latitude Field</Variable>
+              <Replace value="True" />
+              <ReplaceText>UpdateLat</ReplaceText>
+              <Destination>7/Value[@name='ControlParams']</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Width</Description>
+              <ToolId value="29" />
+              <Mode>Simple</Mode>
+              <Variable>Width</Variable>
+              <Replace value="False" />
+              <Destination>7/Value[@name='Width Inches']</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Height</Description>
+              <ToolId value="30" />
+              <Mode>Simple</Mode>
+              <Variable>Height</Variable>
+              <Replace value="False" />
+              <Destination>7/Value[@name='Height Inches']</Destination>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>Width must be numeric greater than zero</Description>
+              <ToolId value="31" />
+              <Expression>!(TONUMBER([Width])&gt;0)</Expression>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>Height must be numeric greater than zero</Description>
+              <ToolId value="32" />
+              <Expression>!(TONUMBER([Height])&gt;0)</Expression>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Select Longitude Field</Description>
+              <ToolId value="28" />
+              <Mode>Simple</Mode>
+              <Variable>Select Longitude Field</Variable>
+              <Replace value="True" />
+              <ReplaceText>UpdateLon</ReplaceText>
+              <Destination>7/Value[@name='ControlParams']</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="36" />
+          <Expression>[Select Bearing Field (Optional)]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="33" />
+              <Expression>'TONUMBER('+[Bearing Field]+')'</Expression>
+              <Destination>10/FormulaFields/FormulaField/@expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Settings</Description>
+          <Name>Tab (47)</Name>
+          <ToolId value="47" />
+          <Questions>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Size (W x H) Inches</Description>
+              <Name>LabelGroup (39)</Name>
+              <ToolId value="39" />
+              <Questions>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Width</Description>
+                  <Name>Width</Name>
+                  <ToolId value="37" />
+                  <Default>4</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+                <Question>
+                  <Type>TextBox</Type>
+                  <Description>Height</Description>
+                  <Name>Height</Name>
+                  <ToolId value="38" />
+                  <Default>4</Default>
+                  <Password value="False" />
+                  <Multiline value="False" />
+                  <Hidden value="False" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Street View Settings</Description>
+              <Name>LabelGroup (44)</Name>
+              <ToolId value="44" />
+              <Questions>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description>Select Latitude Field</Description>
+                  <Name>Select Latitude Field</Name>
+                  <ToolId value="40" />
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="6" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+                </Question>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description>Select Longitude Field</Description>
+                  <Name>Select Longitude Field</Name>
+                  <ToolId value="41" />
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="6" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString</MacroField_FilterTypes>
+                </Question>
+                <Question>
+                  <Type>BooleanGroup</Type>
+                  <Description>Select Bearing Field (Optional)</Description>
+                  <Name>Select Bearing Field (Optional)</Name>
+                  <ToolId value="43" />
+                  <Questions>
+                    <Question>
+                      <Type>ListBox</Type>
+                      <Description />
+                      <Name>Bearing Field</Name>
+                      <ToolId value="42" />
+                      <Multiple value="False" />
+                      <Default />
+                      <Mode>MacroField</Mode>
+                      <MacroField_InputTool value="6" />
+                      <Field_IncludeNone value="False" />
+                      <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString</MacroField_FilterTypes>
+                    </Question>
+                  </Questions>
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+              </Questions>
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input</Description>
+          <Name>Tab (48)</Name>
+          <ToolId value="48" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input</Description>
+              <Name>Input</Name>
+              <ToolId value="49" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output</Description>
+              <Name>Output</Name>
+              <ToolId value="50" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="49" Selected="True" />
+        <Tool ToolId="7" Selected="True" />
+        <Tool ToolId="50" Selected="True" />
+        <Tool ToolId="9" Selected="False" />
+        <Tool ToolId="68" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,993 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="361.9" width="516" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User selects fields conatining options for formula tool</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1020" y="600" width="144" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Outputs</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="804" y="601.9" width="204" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use the batch macro tool with a single iteration to take data from the data stream and inject it into a Alteryx tool</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="768" width="156" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input - Data
+
+The data feed which we will add the formulas to</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="600" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input - Formulas
+
+Contains the dynamic formula information</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="601.9" width="516" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Build the xml which will sit behind the formula tool</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (37)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="396" y="685.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="DynamicFormula" type="V_String" size="536870911" expression="'&lt;FormulaField field=&quot;'+ EscapeXMLMetacharacters(Tostring([DynamicName])) &#xA;+'&quot; type=&quot;' + EscapeXMLMetacharacters(Tostring([DynamicType]))&#xA;+ '&quot; size=&quot;'+ EscapeXMLMetacharacters(Tostring([Dynamicsize])) &#xA;+'&quot; expression=&quot;' + EscapeXMLMetacharacters(Tostring([DynamicExpression])) + '&quot; /&gt;'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Formula (6)</Name>
+          <DefaultAnnotationText>DynamicFormula='&lt;FormulaField field="'+ EscapeXMLMetacharacte...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DynamicName" size="10" source="TextInput:" type="String" />
+            <Field name="DynamicType" size="6" source="TextInput:" type="String" />
+            <Field name="DynamicSize" source="TextInput:" type="Byte" />
+            <Field name="DynamicExpression" size="13" source="TextInput:" type="String" />
+            <Field name="DynamicFormula" size="2147483647" source="Formula: '&lt;FormulaField field=&quot;'+ EscapeXMLMetacharacters(Tostring([DynamicName])) &#xA;+'&quot; type=&quot;' + EscapeXMLMetacharacters(Tostring([DynamicType]))&#xA;+ '&quot; size=&quot;'+ EscapeXMLMetacharacters(Tostring([Dynamicsize])) &#xA;+'&quot; expression=&quot;' + EscapeXMLMetacharacters(Tostring([DynamicExpression])) + '&quot; /&gt;'" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="516" y="685.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="DynamicFormula" action="Concat" rename="DynamicFormulaXML">
+              <Concat_Start />
+              <Separator />
+              <Concat_End />
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Summarize (12)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DynamicFormulaXML" size="2147483647" source="Summarize: Concat - DynamicFormula" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="612" y="685.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="DynamicFormulaXML" type="V_String" size="2147483647" expression="'&lt;Properties&gt;&#xA;  &lt;Configuration&gt;&#xA;    &lt;FormulaFields&gt;'&#xA;  + [DynamicFormulaXML] +    &#xA;    '&lt;/FormulaFields&gt;&#xA;  &lt;/Configuration&gt;&#xA;  &lt;Annotation&gt;&#xA;    &lt;Name&gt;&lt;/Name&gt;&#xA;    &lt;DefaultAnnotationText&gt;&lt;/DefaultAnnotationText&gt;&#xA;  &lt;/Annotation&gt;&#xA;&lt;/Properties&gt;'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Formula (13)</Name>
+          <DefaultAnnotationText>DynamicFormulaXML='&lt;Properties&gt;
+  &lt;Configuration&gt;
+    &lt;Formul...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DynamicFormulaXML" size="2147483647" source="Formula: '&lt;Properties&gt;&#xA;  &lt;Configuration&gt;&#xA;    &lt;FormulaFields&gt;'&#xA;  + [DynamicFormulaXML] +    &#xA;    '&lt;/FormulaFields&gt;&#xA;  &lt;/Configuration&gt;&#xA;  &lt;Annotation&gt;&#xA;    &lt;Name&gt;&lt;/Name&gt;&#xA;    &lt;DefaultAnnotationText&gt;&lt;/DefaultAnnotationText&gt;&#xA;  &lt;/Annotation&gt;&#xA;&lt;/Properties&gt;'" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1056" y="793.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_4140_d1a053e7257c41b383de58d4e13f186a\Engine_6964_ffec48e5f54f4cebb89906df74f1ae61.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (14)</Name>
+          <AnnotationText />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1056" y="697.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings>
+        <Position x="876" y="697.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="BatchMacroGroupBy" />
+          <Value name="ControlParams"><![CDATA[FormulaXml=DynamicFormulaXML
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>New Module2 (21)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output2">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
+            <Field name="Field2" source="TextInput: (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Byte" />
+            <Field name="New Field" size="50" source="Formula: Field1+Field2 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
+            <Field name="New Field2" size="50" source="Formula: Field2 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_DynamicFormula.yxmcbatch" />
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="156" y="853.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Data</Name>
+          <Abbrev>D</Abbrev>
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="Field1" />
+                <Field name="Field2" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>2</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Data</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+            <Field name="Field2" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="696" y="625.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_4140_d1a053e7257c41b383de58d4e13f186a\Engine_6964_1fd4c1a8b66a43b2957822558b2701fe.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (42)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="156" y="685.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Formulas</Name>
+          <Abbrev>F</Abbrev>
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="3" />
+              <Fields>
+                <Field name="DynamicName" />
+                <Field name="DynamicType" />
+                <Field name="DynamicSize" />
+                <Field name="DynamicExpression" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>New Field</c>
+                  <c>String</c>
+                  <c>50</c>
+                  <c>Field1+Field2</c>
+                </r>
+                <r>
+                  <c>New Field2</c>
+                  <c>String</c>
+                  <c>50</c>
+                  <c>Field2</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Formulas</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DynamicName" size="10" source="TextInput:" type="String" />
+            <Field name="DynamicType" size="6" source="TextInput:" type="String" />
+            <Field name="DynamicSize" source="TextInput:" type="Byte" />
+            <Field name="DynamicExpression" size="13" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="108" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="276" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="108" width="636" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_Dynamic Formula.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="924" y="108" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 3.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="217.9" width="876" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+The Dynamic Formula Tool allows you to dynamically create formulas using a data feed. Effectively allowing you to write formulas by using other formulas, the summarize tool or other techniques. Great for when you need to write a long or complex formula or create a lot of formulas and don't want to do it manually.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings>
+        <Position x="1092" y="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Version XML URL">versions.ChaosReignsWithin.com\DynamicFormula.xml</Value>
+          <Value name="Version of this Macro">3.0</Value>
+          <Value name="EnableTest">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_Version.yxmc" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="949.9" width="1056" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version History: 
+
+1.0 - Initial release
+1.1  - Increased length of formula fields to allow for longer dynamic formulas.
+2.0 - Updated to 8.5 layout.  
+         Fixed bug with XML metacharacters in formulas &lt; &gt; &amp; ".  
+         Checked "Output fields change base on the data input into the macro". 
+         Added versioning macro. 
+         Added online help. 
+         Updated icon.
+3.0 - Updated to Alteryx 9.0 macro interface</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="300" y="505.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="288" y="409.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Name Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="432" y="505.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="420" y="409.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Type Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="516" y="409.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Size Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="528" y="505.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="612" y="409.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Expression Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="624" y="505.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="21" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="21" Connection="Input1" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output2" />
+      <Destination ToolID="70" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output2" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Action" />
+      <Destination ToolID="6" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="69" Connection="Question" />
+      <Destination ToolID="61" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="69" Connection="Question" />
+      <Destination ToolID="62" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="69" Connection="Question" />
+      <Destination ToolID="63" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="69" Connection="Question" />
+      <Destination ToolID="64" Connection="Question Input" />
+    </Connection>
+    <Connection name="Name Field">
+      <Origin ToolID="61" Connection="Question" />
+      <Destination ToolID="57" Connection="Question" />
+    </Connection>
+    <Connection name="Type Field">
+      <Origin ToolID="62" Connection="Question" />
+      <Destination ToolID="60" Connection="Question" />
+    </Connection>
+    <Connection name="Size Field">
+      <Origin ToolID="63" Connection="Question" />
+      <Destination ToolID="58" Connection="Question" />
+    </Connection>
+    <Connection name="Expression Field">
+      <Origin ToolID="64" Connection="Question" />
+      <Destination ToolID="59" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Name Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Type Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Size Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Expression Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Dynamic Formula</Name>
+      <Description>The Dynamic Formula Tool allows you to dynamically create formulas using a data feed. Effectively allowing you to write formulas by using other formulas, the summarize tool or other techniques. Great for when you need to write a long or complex formula or create a lot of formulas and don't want to do it manually.</Description>
+      <CategoryName />
+      <SearchTags>Formula, Dynamic, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Name Field</Description>
+              <ToolId value="57" />
+              <Mode>Simple</Mode>
+              <Variable>Name Field</Variable>
+              <Replace value="True" />
+              <ReplaceText>DynamicName</ReplaceText>
+              <Destination>6/FormulaFields/FormulaField/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Size Field</Description>
+              <ToolId value="58" />
+              <Mode>Simple</Mode>
+              <Variable>Size Field</Variable>
+              <Replace value="True" />
+              <ReplaceText>Dynamicsize</ReplaceText>
+              <Destination>6/FormulaFields/FormulaField/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Expression Field</Description>
+              <ToolId value="59" />
+              <Mode>Simple</Mode>
+              <Variable>Expression Field</Variable>
+              <Replace value="True" />
+              <ReplaceText>DynamicExpression</ReplaceText>
+              <Destination>6/FormulaFields/FormulaField/@expression</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Type Field</Description>
+              <ToolId value="60" />
+              <Mode>Simple</Mode>
+              <Variable>Type Field</Variable>
+              <Replace value="True" />
+              <ReplaceText>DynamicType</ReplaceText>
+              <Destination>6/FormulaFields/FormulaField/@expression</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (65)</Name>
+          <ToolId value="65" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Output Field</Description>
+              <Name>Name Field</Name>
+              <ToolId value="61" />
+              <Multiple value="False" />
+              <Default>Out</Default>
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="44" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Type</Description>
+              <Name>Type Field</Name>
+              <ToolId value="62" />
+              <Multiple value="False" />
+              <Default>Type</Default>
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="44" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Size</Description>
+              <Name>Size Field</Name>
+              <ToolId value="63" />
+              <Multiple value="False" />
+              <Default>Size</Default>
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="44" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Expression</Description>
+              <Name>Expression Field</Name>
+              <ToolId value="64" />
+              <Multiple value="False" />
+              <Default>Expression</Default>
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="44" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output</Description>
+              <Name>Output</Name>
+              <ToolId value="70" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>In - Data</Description>
+          <Name>Tab (66)</Name>
+          <ToolId value="66" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Data</Description>
+              <Name>Data</Name>
+              <ToolId value="67" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>In - Formulas</Description>
+          <Name>Tab (68)</Name>
+          <ToolId value="68" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Formulas</Description>
+              <Name>Formulas</Name>
+              <ToolId value="69" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="True" />
+      <MacroCustomHelpLink>http://help.chaosreignswithin.com/DynamicFormula.html</MacroCustomHelpLink>
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="14" Selected="False" />
+        <Tool ToolId="70" Selected="True" />
+        <Tool ToolId="21" Selected="True" />
+        <Tool ToolId="67" Selected="True" />
+        <Tool ToolId="42" Selected="False" />
+        <Tool ToolId="69" Selected="True" />
+        <Tool ToolId="55" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

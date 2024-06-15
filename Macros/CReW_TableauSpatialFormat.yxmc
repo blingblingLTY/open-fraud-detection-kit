@@ -1,0 +1,1096 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="228" y="421.9" width="144" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User chooses spatial field to convert</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="888" y="804" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Warn the user that we threw away some of their data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="756" y="804" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Count how many holes we discarded</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1416" y="636" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1284" y="636" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Remove working fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1152" y="636" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Get Lat/Long of points</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1020" y="636" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add PointID</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="888" y="636" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Break Polygons into boudary points</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="756" y="636" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add SubPolygonID</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="624" y="636" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Remove holes as don't know how to handle these in Tableau</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="492" y="636" width="120" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Break Polygons into SubPolygons</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="384" y="636" width="96" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add PolygonID</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="228" y="636" width="144" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Select tool updated by the field chooser to standardise the spatial objects field name</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="636" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Macro Input
+]]></Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolySplit.PolySplit">
+        <Position x="516" y="708" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="SpatialObjMacroInternalName" />
+          <SplitTo type="Region" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObjMacroInternalName" type="SpatialObj" />
+            <Field name="Split_IsHole" source="PolySplit: IsHole Source=SpatialObjMacroInternalName" type="Bool" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolySplit" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="408" y="709.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>PolygonID</FieldName>
+          <FieldType>Int32</FieldType>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="SpatialObjMacroInternalName" size="2147483647" source="TextInput:" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="648" y="708" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>![Split_IsHole]</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>![Split_IsHole]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObjMacroInternalName" type="SpatialObj" />
+            <Field name="Split_IsHole" source="PolySplit: IsHole Source=SpatialObjMacroInternalName" type="Bool" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObjMacroInternalName" type="SpatialObj" />
+            <Field name="Split_IsHole" source="PolySplit: IsHole Source=SpatialObjMacroInternalName" type="Bool" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolySplit.PolySplit">
+        <Position x="912" y="696" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Split_SpatialObj" />
+          <SplitTo type="Point" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Split_IsHole" source="PolySplit: IsHole Source=SpatialObjMacroInternalName" type="Bool" />
+            <Field description="Formula: [Row-1:SubPolygonID]+1" name="SubPolygonID" source="Formula: [Row-1:SubPolygonID]+1" type="Int32" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=Split_SpatialObj" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=Split_SpatialObj" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolySplit" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="1044" y="696" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>SubPolygonID</UpdateField_Name>
+          <CreateField_Name>PointID</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:PointID]+1</Expression>
+          <GroupByFields>
+            <Field field="PolygonID" />
+            <Field field="SubPolygonID" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row-1:PointID]+1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Split_IsHole" source="PolySplit: IsHole Source=SpatialObjMacroInternalName" type="Bool" />
+            <Field description="Formula: [Row-1:SubPolygonID]+1" name="SubPolygonID" source="Formula: [Row-1:SubPolygonID]+1" type="Int32" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=Split_SpatialObj" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=Split_SpatialObj" type="Int32" />
+            <Field description="Formula: [Row-1:PointID]+1" name="PointID" source="Formula: [Row-1:PointID]+1" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+            <Field field="SubPolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
+        <Position x="1176" y="696" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Split_SpatialObj" />
+          <SelectedItems>
+            <Item name="CentroidXY" />
+          </SelectedItems>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Split_IsHole" source="PolySplit: IsHole Source=SpatialObjMacroInternalName" type="Bool" />
+            <Field description="Formula: [Row-1:SubPolygonID]+1" name="SubPolygonID" source="Formula: [Row-1:SubPolygonID]+1" type="Int32" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=Split_SpatialObj" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=Split_SpatialObj" type="Int32" />
+            <Field description="Formula: [Row-1:PointID]+1" name="PointID" source="Formula: [Row-1:PointID]+1" type="Int32" />
+            <Field name="CentroidX" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+            <Field name="CentroidY" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+            <Field field="SubPolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialInfo" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1308" y="696" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+            <SelectField field="PolygonID" selected="True" />
+            <SelectField field="SubPolygonID" selected="True" />
+            <SelectField field="Split_IsHole" selected="False" />
+            <SelectField field="Split_SpatialObj" selected="False" />
+            <SelectField field="Split_SequenceNum" selected="False" />
+            <SelectField field="PointID" selected="True" />
+            <SelectField field="CentroidX" selected="True" rename="Longitude" />
+            <SelectField field="CentroidY" selected="True" rename="Latitude" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field description="Formula: [Row-1:SubPolygonID]+1" name="SubPolygonID" source="Formula: [Row-1:SubPolygonID]+1" type="Int32" />
+            <Field description="Formula: [Row-1:PointID]+1" name="PointID" source="Formula: [Row-1:PointID]+1" type="Int32" />
+            <Field name="Longitude" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+            <Field name="Latitude" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+            <Field field="SubPolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1440" y="696" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev>
+          </Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="132" y="709.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="______SpatialObj" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>{ "type": "Polygon", "coordinates": [ [ [ 5.831226, 45.938460 ], [ 5.822121, 45.930136 ], [ 5.829155, 45.917237 ], [ 5.826140, 45.903274 ], [ 5.815154, 45.877201 ], [ 5.807525, 45.860640 ], [ 5.801109, 45.845796 ], [ 5.795850, 45.829798 ], [ 5.786934, 45.823224 ], [ 5.784591, 45.797224 ], [ 5.781383, 45.780841 ], [ 5.783047, 45.772465 ], [ 5.779417, 45.762247 ], [ 5.783592, 45.745204 ], [ 5.780414, 45.742922 ], [ 5.769679, 45.740816 ], [ 5.776366, 45.727920 ], [ 5.763298, 45.718465 ], [ 5.756932, 45.709214 ], [ 5.748939, 45.705463 ], [ 5.731321, 45.710153 ], [ 5.727741, 45.709267 ], [ 5.700599, 45.709948 ], [ 5.703726, 45.698150 ], [ 5.709213, 45.684945 ], [ 5.685626, 45.666994 ], [ 5.687610, 45.653585 ], [ 5.687901, 45.643964 ], [ 5.676337, 45.638059 ], [ 5.652818, 45.636679 ], [ 5.648328, 45.627405 ], [ 5.638412, 45.623025 ], [ 5.636372, 45.617397 ], [ 5.632214, 45.611494 ], [ 5.623748, 45.613268 ], [ 5.614911, 45.625412 ], [ 5.606274, 45.633424 ], [ 5.600519, 45.653640 ], [ 5.589131, 45.660380 ], [ 5.586399, 45.667074 ], [ 5.567325, 45.673079 ], [ 5.555266, 45.671605 ], [ 5.550315, 45.681853 ], [ 5.545289, 45.687715 ], [ 5.547543, 45.697845 ], [ 5.556580, 45.696433 ], [ 5.565996, 45.684893 ], [ 5.570887, 45.685304 ], [ 5.575157, 45.691162 ], [ 5.569971, 45.696858 ], [ 5.556226, 45.700450 ], [ 5.552641, 45.709703 ], [ 5.545542, 45.713593 ], [ 5.527275, 45.715464 ], [ 5.517509, 45.731188 ], [ 5.498152, 45.744385 ], [ 5.483998, 45.753284 ], [ 5.460403, 45.778306 ], [ 5.447078, 45.786191 ], [ 5.438576, 45.795438 ], [ 5.422513, 45.807127 ], [ 5.420759, 45.820606 ], [ 5.422726, 45.823717 ], [ 5.436129, 45.826383 ], [ 5.435634, 45.829773 ], [ 5.433658, 45.832302 ], [ 5.417908, 45.841118 ], [ 5.416317, 45.848044 ], [ 5.404377, 45.856875 ], [ 5.378020, 45.869658 ], [ 5.354928, 45.882781 ], [ 5.340914, 45.880514 ], [ 5.335532, 45.874040 ], [ 5.330497, 45.864784 ], [ 5.314105, 45.858265 ], [ 5.302491, 45.848133 ], [ 5.290614, 45.814186 ], [ 5.266895, 45.789369 ], [ 5.255627, 45.784307 ], [ 5.240203, 45.777371 ], [ 5.224334, 45.768839 ], [ 5.200198, 45.771420 ], [ 5.190485, 45.772204 ], [ 5.186809, 45.782094 ], [ 5.177082, 45.793390 ], [ 5.167942, 45.795764 ], [ 5.157841, 45.803218 ], [ 5.144189, 45.804568 ], [ 5.121736, 45.811181 ], [ 5.112801, 45.809637 ], [ 5.113482, 45.799823 ], [ 5.109081, 45.798572 ], [ 5.101067, 45.813378 ], [ 5.092558, 45.811834 ], [ 5.058158, 45.809926 ], [ 5.049805, 45.812195 ], [ 5.037800, 45.808349 ], [ 5.029009, 45.809580 ], [ 5.016691, 45.805612 ], [ 5.001206, 45.810121 ], [ 4.993948, 45.808178 ], [ 4.981614, 45.805449 ], [ 4.980011, 45.805631 ], [ 4.970375, 45.807385 ], [ 4.963686, 45.810879 ], [ 4.951516, 45.808766 ], [ 4.941865, 45.809014 ], [ 4.923799, 45.803999 ], [ 4.918212, 45.809625 ], [ 4.921116, 45.832743 ], [ 4.911162, 45.851170 ], [ 4.900569, 45.857600 ], [ 4.909004, 45.874113 ], [ 4.883827, 45.879994 ], [ 4.880699, 45.897169 ], [ 4.872087, 45.893538 ], [ 4.871180, 45.903326 ], [ 4.853100, 45.907020 ], [ 4.849116, 45.912868 ], [ 4.805177, 45.896329 ], [ 4.804099, 45.898066 ], [ 4.810675, 45.909752 ], [ 4.807760, 45.920805 ], [ 4.788994, 45.923553 ], [ 4.777994, 45.937841 ], [ 4.773684, 45.939098 ], [ 4.761121, 45.934998 ], [ 4.744455, 45.937427 ], [ 4.731370, 45.941320 ], [ 4.730582, 45.950727 ], [ 4.748462, 45.962413 ], [ 4.750156, 45.964495 ], [ 4.754611, 45.973811 ], [ 4.749567, 45.996371 ], [ 4.748491, 46.002783 ], [ 4.748988, 46.003757 ], [ 4.744275, 46.017367 ], [ 4.746442, 46.027809 ], [ 4.745657, 46.035243 ], [ 4.739617, 46.047487 ], [ 4.759083, 46.061202 ], [ 4.761755, 46.067438 ], [ 4.756261, 46.078971 ], [ 4.749602, 46.082416 ], [ 4.748023, 46.091357 ], [ 4.760178, 46.100645 ], [ 4.767101, 46.106527 ], [ 4.772069, 46.117627 ], [ 4.787486, 46.130888 ], [ 4.795944, 46.139158 ], [ 4.802550, 46.156437 ], [ 4.791741, 46.163607 ], [ 4.782319, 46.171636 ], [ 4.780213, 46.176677 ], [ 4.781114, 46.190039 ], [ 4.792327, 46.200968 ], [ 4.792735, 46.207510 ], [ 4.795510, 46.220139 ], [ 4.797847, 46.224543 ], [ 4.800741, 46.229658 ], [ 4.808198, 46.238151 ], [ 4.810817, 46.254547 ], [ 4.816488, 46.265400 ], [ 4.826489, 46.276328 ], [ 4.832926, 46.299436 ], [ 4.841217, 46.311805 ], [ 4.851423, 46.326078 ], [ 4.852652, 46.342793 ], [ 4.851051, 46.352340 ], [ 4.858530, 46.368017 ], [ 4.865691, 46.375763 ], [ 4.873919, 46.384987 ], [ 4.888208, 46.402982 ], [ 4.888682, 46.417448 ], [ 4.891532, 46.427525 ], [ 4.891797, 46.438555 ], [ 4.892887, 46.442572 ], [ 4.894444, 46.445374 ], [ 4.914448, 46.462163 ], [ 4.914517, 46.480114 ], [ 4.914522, 46.481374 ], [ 4.915285, 46.488234 ], [ 4.926993, 46.499251 ], [ 4.929616, 46.504080 ], [ 4.933592, 46.512453 ], [ 4.935599, 46.514229 ], [ 4.947349, 46.513723 ], [ 4.946787, 46.507113 ], [ 4.953711, 46.504112 ], [ 4.962767, 46.506749 ], [ 4.970473, 46.514210 ], [ 4.980216, 46.515203 ], [ 5.006369, 46.509703 ], [ 5.010594, 46.511070 ], [ 5.014233, 46.500450 ], [ 5.054751, 46.484281 ], [ 5.071449, 46.485817 ], [ 5.095228, 46.497508 ], [ 5.112967, 46.493137 ], [ 5.134030, 46.501447 ], [ 5.136367, 46.507808 ], [ 5.141042, 46.508585 ], [ 5.164164, 46.504745 ], [ 5.165839, 46.517675 ], [ 5.177177, 46.511434 ], [ 5.201221, 46.507821 ], [ 5.203565, 46.504803 ], [ 5.200343, 46.502568 ], [ 5.209481, 46.492105 ], [ 5.206685, 46.486177 ], [ 5.213031, 46.481541 ], [ 5.215064, 46.468359 ], [ 5.224698, 46.468352 ], [ 5.236259, 46.457785 ], [ 5.248004, 46.459374 ], [ 5.256271, 46.451879 ], [ 5.273664, 46.448588 ], [ 5.310561, 46.446775 ], [ 5.321113, 46.428590 ], [ 5.308986, 46.423115 ], [ 5.309618, 46.416805 ], [ 5.314434, 46.416402 ], [ 5.314971, 46.416183 ], [ 5.301383, 46.415810 ], [ 5.300797, 46.412723 ], [ 5.309146, 46.410257 ], [ 5.334092, 46.399723 ], [ 5.348116, 46.399417 ], [ 5.367105, 46.388692 ], [ 5.377881, 46.382324 ], [ 5.365062, 46.373077 ], [ 5.363472, 46.370020 ], [ 5.375389, 46.364844 ], [ 5.375761, 46.358431 ], [ 5.373462, 46.352236 ], [ 5.383380, 46.344876 ], [ 5.400996, 46.339291 ], [ 5.401686, 46.332799 ], [ 5.403922, 46.316499 ], [ 5.404054, 46.314767 ], [ 5.410227, 46.309105 ], [ 5.416932, 46.342873 ], [ 5.423534, 46.347732 ], [ 5.437146, 46.315127 ], [ 5.454476, 46.317998 ], [ 5.465180, 46.323542 ], [ 5.475305, 46.315385 ], [ 5.466487, 46.293135 ], [ 5.458905, 46.290713 ], [ 5.457702, 46.276937 ], [ 5.475272, 46.264971 ], [ 5.499595, 46.268205 ], [ 5.502609, 46.270211 ], [ 5.511370, 46.264360 ], [ 5.539301, 46.268903 ], [ 5.561564, 46.286576 ], [ 5.564674, 46.292767 ], [ 5.587251, 46.292509 ], [ 5.597891, 46.297898 ], [ 5.604628, 46.309438 ], [ 5.605660, 46.313640 ], [ 5.612518, 46.326556 ], [ 5.631575, 46.330695 ], [ 5.637458, 46.336442 ], [ 5.645987, 46.342803 ], [ 5.649798, 46.334192 ], [ 5.647864, 46.324344 ], [ 5.667493, 46.323904 ], [ 5.683316, 46.315874 ], [ 5.684582, 46.310934 ], [ 5.714553, 46.308070 ], [ 5.718978, 46.294287 ], [ 5.715960, 46.280375 ], [ 5.725181, 46.260693 ], [ 5.733675, 46.263769 ], [ 5.766032, 46.268330 ], [ 5.818280, 46.262868 ], [ 5.826262, 46.261715 ], [ 5.850659, 46.261701 ], [ 5.864677, 46.270891 ], [ 5.869187, 46.264984 ], [ 5.877559, 46.269025 ], [ 5.894627, 46.286614 ], [ 5.909198, 46.283945 ], [ 5.915922, 46.292811 ], [ 5.918933, 46.309296 ], [ 5.925908, 46.313766 ], [ 5.941531, 46.309264 ], [ 5.975139, 46.350293 ], [ 5.984103, 46.362647 ], [ 6.013371, 46.375989 ], [ 6.031021, 46.388110 ], [ 6.052807, 46.411409 ], [ 6.060575, 46.417509 ], [ 6.064008, 46.416227 ], [ 6.097526, 46.408284 ], [ 6.106503, 46.399839 ], [ 6.120401, 46.395955 ], [ 6.147124, 46.379828 ], [ 6.160984, 46.376552 ], [ 6.166676, 46.370744 ], [ 6.168451, 46.367459 ], [ 6.166736, 46.364145 ], [ 6.157552, 46.351864 ], [ 6.149210, 46.343074 ], [ 6.140283, 46.339896 ], [ 6.137695, 46.333119 ], [ 6.124378, 46.317263 ], [ 6.119099, 46.307711 ], [ 6.119469, 46.295283 ], [ 6.102366, 46.284846 ], [ 6.115498, 46.265959 ], [ 6.120000, 46.264691 ], [ 6.123531, 46.251663 ], [ 6.114797, 46.243602 ], [ 6.102571, 46.238250 ], [ 6.088131, 46.247042 ], [ 6.069940, 46.241604 ], [ 6.061121, 46.244852 ], [ 6.046050, 46.231235 ], [ 6.042062, 46.233315 ], [ 6.034195, 46.237328 ], [ 6.016684, 46.231819 ], [ 6.002932, 46.222577 ], [ 5.993818, 46.220438 ], [ 5.992718, 46.217169 ], [ 5.974412, 46.214748 ], [ 5.971386, 46.202274 ], [ 5.964201, 46.198029 ], [ 5.963676, 46.196970 ], [ 5.993235, 46.184823 ], [ 5.990267, 46.174881 ], [ 5.982170, 46.172210 ], [ 5.973349, 46.156167 ], [ 5.964688, 46.144660 ], [ 5.966498, 46.138341 ], [ 5.956063, 46.132089 ], [ 5.945227, 46.127983 ], [ 5.936956, 46.128648 ], [ 5.927926, 46.127998 ], [ 5.920403, 46.131039 ], [ 5.906798, 46.122539 ], [ 5.896829, 46.119767 ], [ 5.893026, 46.118917 ], [ 5.886227, 46.109620 ], [ 5.893244, 46.097241 ], [ 5.889980, 46.087150 ], [ 5.866262, 46.085536 ], [ 5.855987, 46.086669 ], [ 5.838211, 46.102550 ], [ 5.829654, 46.105665 ], [ 5.820731, 46.102932 ], [ 5.821693, 46.089897 ], [ 5.811406, 46.078429 ], [ 5.808074, 46.060860 ], [ 5.813614, 46.054298 ], [ 5.806997, 46.043830 ], [ 5.809339, 46.032950 ], [ 5.812299, 46.023803 ], [ 5.805472, 46.015736 ], [ 5.810542, 46.008150 ], [ 5.810189, 45.993390 ], [ 5.812288, 45.986652 ], [ 5.834026, 45.972027 ], [ 5.832784, 45.961713 ], [ 5.834798, 45.952400 ], [ 5.831549, 45.943227 ], [ 5.825205, 45.938898 ], [ 5.831226, 45.938460 ] ] ] }</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="______SpatialObj" size="2147483647" source="TextInput:" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MultiRowFormula.MultiRowFormula">
+        <Position x="768" y="696" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name>SubPolygonID</UpdateField_Name>
+          <CreateField_Name>SubPolygonID</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>254</CreateField_Size>
+          <OtherRows>Empty</OtherRows>
+          <NumRows value="1" />
+          <Expression>[Row-1:SubPolygonID]+1</Expression>
+          <GroupByFields>
+            <Field field="PolygonID" />
+          </GroupByFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Row-1:SubPolygonID]+1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="PolygonID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObjMacroInternalName" type="SpatialObj" />
+            <Field name="Split_IsHole" source="PolySplit: IsHole Source=SpatialObjMacroInternalName" type="Bool" />
+            <Field description="Formula: [Row-1:SubPolygonID]+1" name="SubPolygonID" source="Formula: [Row-1:SubPolygonID]+1" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="PolygonID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiRowFormula" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1488" y="744" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_14980_159cf5b3ef424014bbb9bc0e2f4d614a\Engine_14812_63c55b6976ce40eabc267de47bd869e3.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings>
+        <Position x="780" y="876" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output9">
+          <RecordInfo>
+            <Field name="Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="912" y="876" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Filter</When>
+          <Filter>[Count]&gt;0</Filter>
+          <Type>Warning</Type>
+          <Priority>Medium</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>"Discarded " + tostring([Count]) + " holes."</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="252" y="709.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+            <SelectField field="______SpatialObj" selected="True" rename="SpatialObjMacroInternalName" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="SpatialObjMacroInternalName" size="2147483647" source="TextInput:" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="168" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="336" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="168" width="636" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_TableauSpatialFormat.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="924" y="168" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="276" width="876" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+Converts a spatial object to a format suitable for use with Tableau.  Write the output to a tde file and check out http://tableaumapping.bi/help/ for how to use the file you have created in Tableau.
+
+Thanks to Craig Bloodworth for his assiatance</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="1092" y="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Version XML URL">versions.ChaosReignsWithin.com\TableauSpatialFormat.xml</Value>
+          <Value name="Version of this Macro">2.0</Value>
+          <Value name="EnableTest">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_Version.yxmc" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="973.9" width="1044" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Version History: 
+
+1.0 - Initial release
+2.0 - Updated to Alteryx 9.0 macro interface. Fixed bug with warning message for 0 discarded holes
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="240" y="469.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Spatial Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="252" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="False" />
+      <Destination ToolID="14" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="True" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Action" />
+      <Destination ToolID="16" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="41" Connection="Question" />
+      <Destination ToolID="38" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output9" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection name="Spatial Field">
+      <Origin ToolID="38" Connection="Question" />
+      <Destination ToolID="37" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Spatial Field</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[ Tableau Format]]></Name>
+      <Description>Converts a spatial object to a format suitable for use with Tableau</Description>
+      <CategoryName />
+      <SearchTags>Tableau, Spatial, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Spatial Field</Description>
+              <ToolId value="37" />
+              <Mode>Simple</Mode>
+              <Variable>Spatial Field</Variable>
+              <Replace value="False" />
+              <Destination>16/SelectFields/SelectField[@field='______SpatialObj']/@field</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (39)</Name>
+          <ToolId value="39" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Spatial Field</Description>
+              <Name>Spatial Field</Name>
+              <ToolId value="38" />
+              <Multiple value="False" />
+              <Default>Spatial</Default>
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="11" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output</Description>
+              <Name>Output</Name>
+              <ToolId value="42" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input</Description>
+          <Name>Tab (40)</Name>
+          <ToolId value="40" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input</Description>
+              <Name>Input</Name>
+              <ToolId value="41" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="True" />
+      <MacroCustomHelpLink>http://help.chaosreignswithin.com/TableauSpatialFormat.html</MacroCustomHelpLink>
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="42" Selected="True" />
+        <Tool ToolId="41" Selected="True" />
+        <Tool ToolId="13" Selected="False" />
+        <Tool ToolId="14" Selected="True" />
+        <Tool ToolId="22" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,1144 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="102" y="918" width="204" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Current Macro Version Question</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="102" y="534" width="204" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Path to XML file question</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="307.9" width="216" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Checkbox to Enable macro to run</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="223.9" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="486" y="54" width="636" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_Version.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1134" y="54" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="486" y="162" width="876" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+This macro can be embedded into other macros to allow checking of the version against an XML file stored on the web.  
+The XML file must have the format displayed below.
+The macro downloads the XML file and checks the version in against the version supplied by the parent macro.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="1303.9" width="1140" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text />
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+          <BG_Image>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</BG_Image>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="1483.9" width="1140" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version History: 
+
+1.0 - Initial release
+1.1 - Added Tool Container to Disable tools and a check box to enable them
+2.0 - Updated to Alteryx 9.0 macro interface</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Label.Label">
+        <Position x="-132" y="180" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="-132" y="180" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="354" y="331.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>EnableTest</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="366" y="415.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Enable/Disable WorkFlow</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="126" y="966" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Version of this Macro</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="150" y="594" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Version XML URL</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="162" y="690" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update URL</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="126" y="1062" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update Version Number</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="319.9999" y="758.9" width="1136" height="519" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Tool Container Disables Work Flow Until Enabled By User</Caption>
+          <Style TextColor="#2f4f4f" FillColor="#ffffff" BorderColor="#2f4f4f" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1254" y="787.9" width="84" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Warn that we are checking
+
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="834" y="787.9" width="96" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Join by Record Position
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="14">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="642" y="787.9" width="86" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Download XML file
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1146" y="787.9" width="96" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Check if Macro upto date and display message
+
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1350" y="787.9" width="96" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Browse
+
+
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="13">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="330" y="787.9001" width="204" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Path to XML file</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="1038" y="787.9" width="96" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Check if Macro out of date and display error
+
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="4">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+            <Position x="750" y="823.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <XMLField>DownloadData</XMLField>
+              <XMLElement />
+              <ChildValues value="True" />
+              <OuterXML value="False" />
+              <ParseRoot value="True" />
+              <IgnoreErrors value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="VersionXMLURL" size="42" source="TextInput:" type="String" />
+                <Field name="DownloadData" size="2147483647" source="Download" type="V_String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="root" size="3" type="V_String" />
+                <Field name="Version" size="3" type="V_String" />
+                <Field name="UpdateText" size="97" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="942" y="787.9" width="84" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Change data type.  Deselect Fields.
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="3">
+          <GuiSettings Plugin="AlteryxConnectorGui.Download.Download">
+            <Position x="654" y="823.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <URLField>VersionXMLURL</URLField>
+              <OutputMode>String</OutputMode>
+              <CodePage>28591</CodePage>
+              <EncodeURLs value="True" />
+              <Headers>
+                <NameValues />
+                <Fields orderChanged="False">
+                  <Field name="VersionXMLURL" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </Fields>
+              </Headers>
+              <Payload>
+                <HTTPAction>GET</HTTPAction>
+                <QueryStringBodyMode>Compose</QueryStringBodyMode>
+                <ComposeNameValues />
+                <ComposeFields orderChanged="False">
+                  <Field name="VersionXMLURL" selected="False" />
+                  <Field name="*Unknown" selected="False" />
+                </ComposeFields>
+              </Payload>
+              <UserName />
+              <Password />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="VersionXMLURL" size="42" source="TextInput:" type="String" />
+                <Field name="DownloadData" size="2147483647" source="Download" type="V_String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxConnectorEngine.dll" EngineDllEntryPoint="AlteryxDownload" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="738" y="787.9" width="84" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Parse XML file
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="954" y="835.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Version" selected="True" type="Float" size="4" />
+                <SelectField field="UpdateText" selected="True" />
+                <SelectField field="VersionOfThisMacro" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Version" type="Float" />
+                <Field name="UpdateText" size="97" type="V_String" />
+                <Field name="VersionOfThisMacro" source="TextInput:" type="Float" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="858" y="835.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="True">
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="VersionXMLURL" size="42" source="TextInput:" type="String" />
+                <Field name="DownloadData" size="2147483647" source="Download" type="V_String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="root" size="3" type="V_String" />
+                <Field name="Version" size="3" type="V_String" />
+                <Field name="UpdateText" size="97" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="VersionXMLURL" size="42" source="TextInput:" type="String" />
+                <Field name="DownloadData" size="2147483647" source="Download" type="V_String" />
+                <Field name="DownloadHeaders" size="2147483647" source="Download" type="V_String" />
+                <Field name="root" size="3" type="V_String" />
+                <Field name="Version" size="3" type="V_String" />
+                <Field name="UpdateText" size="97" type="V_String" />
+                <Field name="VersionOfThisMacro" source="TextInput:" type="Float" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="VersionOfThisMacro" source="TextInput:" type="Float" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="1">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="390" y="823.9001" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="VersionXMLURL" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>versions.ChaosReignsWithin.com\Version.xml</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="VersionXMLURL" size="42" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="28">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="558" y="823.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>First</When>
+              <Filter>[VersionOfThisMacro] &lt; [Version]</Filter>
+              <Type>Warning</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>"Checking Macro Version is Latest - Starting..."</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="VersionXMLURL" size="42" source="TextInput:" type="String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="1062" y="835.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Filter</When>
+              <Filter>[VersionOfThisMacro] &lt; [Version]</Filter>
+              <Type>Error</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>[UpdateText]</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Version" type="Float" />
+                <Field name="UpdateText" size="97" type="V_String" />
+                <Field name="VersionOfThisMacro" source="TextInput:" type="Float" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1374" y="835.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_4272_ced68db3016142b3a8d5b916989726db\Engine_5800_847dbcee183b4860b03ced2ad404ccd1.yxdb</TempFile>
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Table</DefaultTab>
+                  <Hints />
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="1266" y="835.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Last</When>
+              <Filter>[VersionOfThisMacro] &lt; [Version]</Filter>
+              <Type>Warning</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>"Checking Macro Version is Latest - Complete"</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Version" type="Float" />
+                <Field name="UpdateText" size="97" type="V_String" />
+                <Field name="VersionOfThisMacro" source="TextInput:" type="Float" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="2">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+            <Position x="378" y="1183.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="VersionOfThisMacro" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2.0</c>
+                </r>
+              </Data>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="VersionOfThisMacro" source="TextInput:" type="Float" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="546.0001" y="787.9" width="84" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text><![CDATA[Warn that we are checking
+
+
+]]></Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="1158" y="835.9" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Filter</When>
+              <Filter>[VersionOfThisMacro] == [Version]</Filter>
+              <Type>Message</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>"Macro is latest version available"</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Version" type="Float" />
+                <Field name="UpdateText" size="97" type="V_String" />
+                <Field name="VersionOfThisMacro" source="TextInput:" type="Float" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+            <Position x="329.9999" y="1147.9" width="204" height="120" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Text>Current Macro Version</Text>
+              <Font name="Segoe UI" size="8.25" style="0" />
+              <TextColor name="Black" />
+              <FillColor name="White" />
+              <Shape shape="0" />
+              <Justification Justification="4" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="EnableTest">
+      <Origin ToolID="37" Connection="Question" />
+      <Destination ToolID="34" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Action" />
+      <Destination ToolID="27" Connection="Action" />
+    </Connection>
+    <Connection name="Version of this Macro">
+      <Origin ToolID="36" Connection="Question" />
+      <Destination ToolID="33" Connection="Question" />
+    </Connection>
+    <Connection name="Version XML URL">
+      <Origin ToolID="35" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Action" />
+      <Destination ToolID="1" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Version XML URL</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Version of this Macro</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>EnableTest</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Version</Name>
+      <Description>Checks a module's/macro's version number against a number stored an external wbesite and throws an error if there is a newer version available.</Description>
+      <CategoryName />
+      <SearchTags>Version, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Version XML URL</Description>
+              <ToolId value="32" />
+              <Mode>Simple</Mode>
+              <Variable>Version XML URL</Variable>
+              <Replace value="False" />
+              <Destination>1/Data/r/c</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Version of this Macro</Description>
+              <ToolId value="33" />
+              <Mode>Simple</Mode>
+              <Variable>Version of this Macro</Variable>
+              <Replace value="False" />
+              <Destination>2/Data/r/c</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="34" />
+              <Expression>![EnableTest]</Expression>
+              <Destination>27/Disabled/@value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Configuration</Description>
+          <Name>Tab (39)</Name>
+          <ToolId value="39" />
+          <Questions>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Version XML URL</Description>
+              <Name>Version XML URL</Name>
+              <ToolId value="35" />
+              <Default>versions.ChaosReignsWithin.com\Example.xml</Default>
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Version of this Macro</Description>
+              <Name>Version of this Macro</Name>
+              <ToolId value="36" />
+              <Minimum value="0" />
+              <Maximum value="100" />
+              <Increment value="0.1" />
+              <Default value="1" />
+              <Decimals value="1" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Check This Box and run the module to check if you have the latest version</Description>
+              <Name>EnableTest</Name>
+              <ToolId value="37" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>Label</Type>
+              <Description>(Do not save the macro with this checked or you will slow its runtime)</Description>
+              <Name>Label (38)</Name>
+              <ToolId value="38" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="True" />
+      <MacroCustomHelpLink>http://help.chaosreignswithin.com/Version.html</MacroCustomHelpLink>
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="5" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

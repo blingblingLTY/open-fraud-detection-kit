@@ -1,0 +1,1382 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="282" width="168" height="372" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If not grouping deselect grouping field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="63">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1374" y="282" width="180" height="180" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Checkbox to Enable/Disable grouping</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1878" y="666" width="156" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1566" y="666" width="300" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Set output field names</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1470" y="666" width="84" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Convert back to Spatial Object</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1374" y="666" width="84" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join back together</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="990" y="666" width="372" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Use weighted average macro to calculated 
+weighted average of x and y co-ordinates</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="894" y="666" width="84" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Get x and y co-ordinates</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1566" y="282" width="300" height="372" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If grouping set the grouping field name
+
+If not grouping deselect grouping field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="990" y="282" width="372" height="372" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If not grouping deselect grouping 
+field from weighted average macros</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="282" width="480" height="372" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User selects Spatial Field; Weight Field and optionally a Group Field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="666" width="660" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Select to standardise incoming field names</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="666" width="156" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
+        <Position x="906" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="xxxxSpatial" />
+          <SelectedItems>
+            <Item name="CentroidXY" />
+          </SelectedItems>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="TextInput:" type="String" />
+            <Field name="xxxxWeight" source="TextInput:" type="Int16" />
+            <Field name="xxxxSpatial" size="2147483647" source="TextInput:" type="SpatialObj" />
+            <Field name="CentroidX" source="SpatialInfo: CentroidXY Source=xxxxSpatial" type="Double" />
+            <Field name="CentroidY" source="SpatialInfo: CentroidXY Source=xxxxSpatial" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialInfo" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="1014" y="750" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Value">CentroidX</Value>
+          <Value name="Weight">xxxxWeight</Value>
+          <Value name="OutputFieldName">WeightedAverageX</Value>
+          <Value name="GroupFields">xxxxGroup</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageX" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="xxxxGroup" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="WeightedAvg.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="1182" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Value">CentroidY</Value>
+          <Value name="Weight">xxxxWeight</Value>
+          <Value name="OutputFieldName">WeightedAverageY</Value>
+          <Value name="GroupFields">xxxxGroup</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageY" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="xxxxGroup" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="WeightedAvg.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1386" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_xxxxGroup" selected="True" rename="Right_xxxxGroup" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageX" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageX" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+            <Field name="Right_xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageY" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageY" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="1482" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="WeightedAverageX" fieldY="WeightedAverageY" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageX" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+            <Field name="Right_xxxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedAverageY" source="Formula: [__Sum___WeightedValue]/[__Sum_Weight]" type="Double" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=WeightedAverageX y=WeightedAverageY" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1926" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_4284_78f681b545bf47828c6a4000a8490518\Engine_9128_9f36f17e51a645edad7a989746fa7bd1.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1926" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="90" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="11" />
+              <Fields>
+                <Field name="xxxGrouping Field" />
+                <Field name="xxxWeigting Field" />
+                <Field name="xxxSpatial Field" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>A</c>
+                  <c>2950</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.851697, 39.741998 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>1752</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.861104, 39.741998 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>1344</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.870506, 39.742001 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>3505</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.879923, 39.742015 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>2142</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.870087, 39.751261 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>1090</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.877144, 39.751093 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>1426</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.869944, 39.745638 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>2396</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.879359, 39.745653 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>748</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.850258, 39.751728 ] }</c>
+                </r>
+                <r>
+                  <c>A</c>
+                  <c>1266</c>
+                  <c>{ "type": "Point", "coordinates": [ -104.850800, 39.746300 ] }</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="xxxGrouping Field" size="1" source="TextInput:" type="String" />
+            <Field name="xxxWeigting Field" source="TextInput:" type="Int16" />
+            <Field name="xxxSpatial Field" size="2147483647" source="TextInput:" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="xxxGrouping Field" selected="True" rename="xxxxGroup" />
+            <SelectField field="xxxWeigting Field" selected="True" rename="xxxxWeight" />
+            <SelectField field="xxxSpatial Field" selected="True" rename="xxxxSpatial" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="xxxxGroup" size="1" source="TextInput:" type="String" />
+            <Field name="xxxxWeight" source="TextInput:" type="Int16" />
+            <Field name="xxxxSpatial" size="2147483647" source="TextInput:" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1686" y="786" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="xxxxGroup" selected="True" rename="xxxGroup" />
+            <SelectField field="WeightedAverageX" selected="False" />
+            <SelectField field="Right_xxxxGroup" selected="False" />
+            <SelectField field="WeightedAverageY" selected="False" />
+            <SelectField field="Centroid" selected="True" rename="WeightedCentroid" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="xxxGroup" size="1" source="Summarize: GroupBy - xxxxGroup" type="String" />
+            <Field name="WeightedCentroid" size="2147483647" source="CreatePoints: x=WeightedAverageX y=WeightedAverageY" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="66" y="379.2" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="222" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Spatial</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="378" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Weight</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="534" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>GroupField</Name>
+          <AnnotationText>Group Field</AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="1410" y="318" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>GroupingFieldCheck</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="234" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Spatial Field</Name>
+          <AnnotationText><![CDATA[Update Spatial Field
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="390" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Weighting Field</Name>
+          <AnnotationText><![CDATA[Update Weighting Field
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="546" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Grouping Field</Name>
+          <AnnotationText><![CDATA[Update Grouping Field
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1566" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Output Grouping Field</Name>
+          <AnnotationText><![CDATA[Update Output Grouping Field
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="714" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Remove Group Field from input</Name>
+          <AnnotationText><![CDATA[Remove Group Field from input
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1698" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Remove Group Field from output</Name>
+          <AnnotationText><![CDATA[Remove Group Field from output
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1014" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Remove Group Field from X Weighted Average</Name>
+          <AnnotationText><![CDATA[Remove Group Field from X Weighted Average
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1182" y="546" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Remove Group Field from Y Weighted Average</Name>
+          <AnnotationText><![CDATA[Remove Group Field from Y Weighted Average
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="1674" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="54" width="660" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_SpatialWeightedAverage.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="894" y="54" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="162" width="900" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+The Spatial Weighted Average Tool will create a weighted average of the centroids of the incoming spatial objects to the tool and output it as a spatial point.  Useful for  calculcating things like population weighted centroids.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings>
+        <Position x="1062" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Version XML URL">versions.ChaosReignsWithin.com\SpatialWeightedAverage.xml</Value>
+          <Value name="Version of this Macro">2.0</Value>
+          <Value name="EnableTest">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_Version.yxmc" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="714" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="1122" y="414" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="906" width="924" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Version History: 
+
+1.0 - Initial release
+2.0 - Updated to Alteryx 9.0 macro interface.
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Action" />
+      <Destination ToolID="7" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Action" />
+      <Destination ToolID="8" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Join" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Action" />
+      <Destination ToolID="22" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Action" />
+      <Destination ToolID="22" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="49" Connection="Question" />
+      <Destination ToolID="43" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="49" Connection="Question" />
+      <Destination ToolID="42" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="49" Connection="Question" />
+      <Destination ToolID="41" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Action" />
+      <Destination ToolID="21" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="21" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Action" />
+      <Destination ToolID="21" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Action" />
+      <Destination ToolID="21" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="Spatial">
+      <Origin ToolID="41" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection name="Weight">
+      <Origin ToolID="42" Connection="Question" />
+      <Destination ToolID="33" Connection="Question" />
+    </Connection>
+    <Connection name="GroupField">
+      <Origin ToolID="43" Connection="Question" />
+      <Destination ToolID="34" Connection="Question" />
+    </Connection>
+    <Connection name="GroupField" Wireless="True">
+      <Origin ToolID="43" Connection="Question" />
+      <Destination ToolID="35" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="True Condition" />
+      <Destination ToolID="35" Connection="Condition" />
+    </Connection>
+    <Connection name="GroupingFieldCheck">
+      <Origin ToolID="44" Connection="Question" />
+      <Destination ToolID="51" Connection="Question" />
+    </Connection>
+    <Connection name="GroupingFieldCheck">
+      <Origin ToolID="44" Connection="Question" />
+      <Destination ToolID="71" Connection="Question" />
+    </Connection>
+    <Connection name="GroupingFieldCheck">
+      <Origin ToolID="44" Connection="Question" />
+      <Destination ToolID="70" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="False Condition" />
+      <Destination ToolID="37" Connection="Condition" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="False Condition" />
+      <Destination ToolID="36" Connection="Condition" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="False Condition" />
+      <Destination ToolID="39" Connection="Condition" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="71" Connection="False Condition" />
+      <Destination ToolID="38" Connection="Condition" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Spatial</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Weight</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>GroupField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>GroupingFieldCheck</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[ Weighted Average]]></Name>
+      <Description>The Spatial Weighted Average Tool will create a weighted average of the centroids of the incoming spatial objects to the tool and output it as a spatial point. Useful for calculcating things like population weighted centroids.</Description>
+      <CategoryName />
+      <SearchTags>Chaos, Chaos Reigns Within, Spatial, Average, Weighted</SearchTags>
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Spatial</Description>
+              <ToolId value="32" />
+              <Mode>Simple</Mode>
+              <Variable>Spatial</Variable>
+              <Replace value="False" />
+              <Destination>21/SelectFields/SelectField[@field='xxxSpatial Field']/@field</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Weight</Description>
+              <ToolId value="33" />
+              <Mode>Simple</Mode>
+              <Variable>Weight</Variable>
+              <Replace value="False" />
+              <Destination>21/SelectFields/SelectField[@field='xxxWeigting Field']/@field</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>GroupField</Description>
+              <ToolId value="34" />
+              <Mode>Simple</Mode>
+              <Variable>GroupField</Variable>
+              <Replace value="False" />
+              <Destination>21/SelectFields/SelectField[@field='xxxGrouping Field']/@field</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="51" />
+          <Expression>[GroupingFieldCheck]</Expression>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>GroupField</Description>
+              <ToolId value="35" />
+              <Mode>Simple</Mode>
+              <Variable>GroupField</Variable>
+              <Replace value="False" />
+              <Destination>22/SelectFields/SelectField[@field='xxxxGroup']/@rename</Destination>
+            </Action>
+          </True>
+          <False>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="37" />
+              <Expression>"False"</Expression>
+              <Destination>22/SelectFields/SelectField[@field='xxxxGroup']/@selected</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </False>
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="70" />
+          <Expression>[GroupingFieldCheck]</Expression>
+          <True />
+          <False>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="36" />
+              <Expression>"False"</Expression>
+              <Destination>21/SelectFields/SelectField[@field='xxxGrouping Field']/@selected</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </False>
+        </Condition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="71" />
+          <Expression>[GroupingFieldCheck]</Expression>
+          <True />
+          <False>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="39" />
+              <Expression>""</Expression>
+              <Destination>8/Value[@name='GroupFields']</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="38" />
+              <Expression>""</Expression>
+              <Destination>7/Value[@name='GroupFields']</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </False>
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (47)</Name>
+          <ToolId value="47" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Spatial Field (SpatialObj)</Description>
+              <Name>Spatial</Name>
+              <ToolId value="41" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="20" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Weight Field (Numeric)</Description>
+              <Name>Weight</Name>
+              <ToolId value="42" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="20" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Byte,Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Grouping Field (Optional)</Description>
+              <Name>GroupingFieldCheck</Name>
+              <ToolId value="44" />
+              <Questions>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description />
+                  <Name>GroupField</Name>
+                  <ToolId value="43" />
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="20" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime</MacroField_FilterTypes>
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output</Description>
+              <Name>Output</Name>
+              <ToolId value="50" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input</Description>
+              <Name>Input</Name>
+              <ToolId value="49" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="True" />
+      <MacroCustomHelpLink>http://help.chaosreignswithin.com/SpatialWeightedAverage.html</MacroCustomHelpLink>
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="7" Selected="True" />
+        <Tool ToolId="8" Selected="True" />
+        <Tool ToolId="11" Selected="False" />
+        <Tool ToolId="50" Selected="True" />
+        <Tool ToolId="49" Selected="True" />
+        <Tool ToolId="69" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

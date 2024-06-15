@@ -1,0 +1,1474 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input4</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="5" />
+              <Fields>
+                <Field name="ToolId" />
+                <Field name="ActualMessage" />
+                <Field name="FullPath" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>3</c>
+                  <c>Unexpected Value - Field:Field1 Row:1 Expected:2 Actual:1</c>
+                  <c>W:\Work\CrewMacros\FromGit\Tests\ExpectEqual\One cell of different integer data does error.yxmd</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>Unexpected Value - Field:Field1 Row:1 Expected:ExpectedString Actual:ActualString</c>
+                  <c>W:\Work\CrewMacros\FromGit\Tests\ExpectEqual\One cell of different string data does error.yxmd</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>A</c>
+                  <c>A</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>B</c>
+                  <c>A</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (1)</Name>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ToolId" source="TextInput:" type="Byte" />
+            <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+            <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input5</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="9" />
+              <Fields>
+                <Field name="ToolID" />
+                <Field name="ExpectErrorToolId" />
+                <Field name="ExpectedMessage" />
+                <Field name="FullPath" />
+                <Field name="InContainer" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>3</c>
+                  <c>4</c>
+                  <c>Unexpected Value - Field:Field1 Row:1 Expected:2 Actual:12</c>
+                  <c>W:\Work\CrewMacros\FromGit\Tests\ExpectEqual\One cell of different integer data does error.yxmd</c>
+                  <c>True</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>4</c>
+                  <c>Unexpected Value - Field:Field1 Row:1 Expected:ExpectedString Actual:ActualString</c>
+                  <c>W:\Work\CrewMacros\FromGit\Tests\ExpectEqual\One cell of different string data does error.yxmd</c>
+                  <c>True</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>A</c>
+                  <c>A</c>
+                  <c />
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>2</c>
+                  <c>A</c>
+                  <c>A</c>
+                  <c />
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>2</c>
+                  <c>A</c>
+                  <c>A</c>
+                  <c />
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>3</c>
+                  <c>B</c>
+                  <c>A</c>
+                  <c />
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>3</c>
+                  <c>B</c>
+                  <c>A</c>
+                  <c />
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>3</c>
+                  <c>B</c>
+                  <c>A</c>
+                  <c />
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (2)</Name>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ToolID" source="TextInput:" type="Byte" />
+            <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+            <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+            <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+            <Field name="InContainer" source="TextInput:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1674" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+            <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1962" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output28</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1866" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="FullPath" selected="True" rename="ModuleFullPath" />
+            <SelectField field="Message" selected="True" />
+            <SelectField field="MessageType" selected="True" />
+            <SelectField field="Order" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+            <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="66" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input55</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="FullPath" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>SucceedingModule</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="16" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="198" y="942" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Message" type="V_WString" size="5000" expression="'    Actual: No error thrown, module succeeded'" />
+            <FormulaField field="Order" type="Byte" size="1" expression="2" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Message='    Actual: No error thrown, module succeeded'
+Order=2</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="16" source="TextInput:" type="String" />
+            <Field name="Message" size="5000" source="Formula: '    Actual: No error thrown, module succeeded'" type="V_WString" />
+            <Field name="Order" source="Formula: 2" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="138" y="73" width="597" height="182" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Calculate Passing/Failing modules</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="148" y="107" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="ToolId" />
+                <Field field="ActualMessage" />
+                <Field field="FullPath" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="ToolID" />
+                <Field field="ExpectedMessage" />
+                <Field field="FullPath" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_ToolID" selected="False" rename="Right_ToolID" />
+                    <SelectField field="Right_FullPath" selected="False" rename="Right_FullPath" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="ToolId" source="TextInput:" type="Byte" />
+                <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="ToolId" />
+                <Field field="ActualMessage" />
+                <Field field="FullPath" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="ToolId" source="TextInput:" type="Byte" />
+                <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ToolId" order="" />
+                <Field field="ActualMessage" order="" />
+                <Field field="FullPath" order="" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="ToolID" source="TextInput:" type="Byte" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="ToolID" />
+                <Field field="ExpectedMessage" />
+                <Field field="FullPath" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="234" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ToolId" source="TextInput:" type="Byte" />
+                <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="306" y="109" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="FullPath" action="GroupBy" rename="FullPath" />
+                <SummarizeField field="ExpectErrorToolId" action="GroupBy" rename="ExpectErrorToolId" />
+                <SummarizeField field="ActualMessage" action="CountNonNull" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+                <Field name="ExpectErrorToolId" source="Summarize: GroupBy - ExpectErrorToolId" type="Byte" />
+                <Field name="Count" source="Summarize: CountNonNull - ActualMessage" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="Asc" />
+                <Field field="ExpectErrorToolId" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="366" y="109" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[Count] != 1</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[Count] != 1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+                <Field name="ExpectErrorToolId" source="Summarize: GroupBy - ExpectErrorToolId" type="Byte" />
+                <Field name="Count" source="Summarize: CountNonNull - ActualMessage" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="Asc" />
+                <Field field="ExpectErrorToolId" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+                <Field name="ExpectErrorToolId" source="Summarize: GroupBy - ExpectErrorToolId" type="Byte" />
+                <Field name="Count" source="Summarize: CountNonNull - ActualMessage" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="Asc" />
+                <Field field="ExpectErrorToolId" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="450" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="(Multiple Sources)" type="V_String" />
+                <Field name="ExpectErrorToolId" source="Summarize: GroupBy - ExpectErrorToolId" type="Byte" />
+                <Field name="Count" source="Summarize: CountNonNull - ActualMessage" type="Int64" />
+                <Field name="ToolId" source="TextInput:" type="Byte" />
+                <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="52">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="546" y="102" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="FullPath" action="GroupBy" rename="FullPath" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="666" y="162" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="FullPath" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="FullPath" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_FullPath" selected="False" rename="Right_FullPath" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="FullPath" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="FullPath" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="53">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="546" y="186" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="FullPath" action="GroupBy" rename="FullPath" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1434" y="318" width="298.2277" height="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Get Actual/Expected Messages for Failing modules</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="60" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1494" y="397" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="FullPath" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="FullPath" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_FullPath" selected="False" rename="Right_FullPath" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="FullPath" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+                <Field name="MessageType" size="1000" source="Formula: &quot;Message&quot;" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="(Multiple Sources)" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+                <Field name="MessageType" size="1000" source="Formula: &quot;Message&quot;" type="V_WString" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="FullPath" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="954" y="282" width="185.1393" height="205" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Build Failing error messages</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="964" y="311" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Message" type="V_WString" size="1000" expression="FileGetFileName([FullPath]) + &quot; - Failed&quot;" />
+                <FormulaField field="MessageType" type="V_WString" size="1000" expression="&quot;Error&quot;" />
+                <FormulaField field="Order" type="Byte" size="1" expression="0" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Message=FileGetFileName([FullPath]) + " - Failed"
+MessageType="Error"
+Order=0</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+                <Field name="Message" size="1000" source="Formula: FileGetFileName([FullPath]) + &quot; - Failed&quot;" type="V_WString" />
+                <Field name="MessageType" size="1000" source="Formula: &quot;Error&quot;" type="V_WString" />
+                <Field name="Order" source="Formula: 0" type="Byte" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="942" y="54" width="191.9391" height="205" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Build Passing error messages</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="952" y="83" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Message" type="V_WString" size="1000" expression="FileGetFileName([FullPath]) + &quot; - Passed&quot;" />
+                <FormulaField field="MessageType" type="V_WString" size="1000" expression="&quot;Message&quot;" />
+                <FormulaField field="Order" type="Byte" size="1" expression="0" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Message=FileGetFileName([FullPath]) + " - Passed"
+MessageType="Message"
+Order=0</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+                <Field name="Message" size="1000" source="Formula: FileGetFileName([FullPath]) + &quot; - Passed&quot;" type="V_WString" />
+                <Field name="MessageType" size="1000" source="Formula: &quot;Message&quot;" type="V_WString" />
+                <Field name="Order" source="Formula: 0" type="Byte" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="FullPath" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="222" y="534" width="885" height="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Build Actual/Expected Messages</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="8">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="328" y="695" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[InContainer]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[InContainer]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="ToolID" size="1000" source="TextInput:" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="ToolID" size="1000" source="TextInput:" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="9">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="520" y="671" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="FullPath" action="GroupBy" rename="FullPath" />
+                <SummarizeField field="InContainer" action="GroupBy" rename="InContainer" />
+                <SummarizeField field="ExpectedMessage" action="GroupBy" rename="ExpectedMessage" />
+                <SummarizeField field="ToolID" action="Concat" rename="ToolID">
+                  <Concat_Start />
+                  <Separator>,</Separator>
+                  <Concat_End />
+                </SummarizeField>
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="Summarize: GroupBy - FullPath" type="V_String" />
+                <Field name="InContainer" source="Summarize: GroupBy - InContainer" type="Bool" />
+                <Field name="ExpectedMessage" size="81" source="Summarize: GroupBy - ExpectedMessage" type="V_String" />
+                <Field name="ToolID" size="2147483647" source="Summarize: Concat - ToolID" type="V_String" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="FullPath" order="Asc" />
+                <Field field="InContainer" order="Asc" />
+                <Field field="ExpectedMessage" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="436" y="803" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="ToolID" type="V_String" size="1000" expression="&quot;ANY&quot;" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ToolID="ANY"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ToolID" size="1000" source="Formula: &quot;ANY&quot;" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="614" y="700" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="(Multiple Sources)" type="V_String" />
+                <Field name="InContainer" source="(Multiple Sources)" type="Bool" />
+                <Field name="ExpectedMessage" size="81" source="(Multiple Sources)" type="V_String" />
+                <Field name="ToolID" size="2147483647" source="(Multiple Sources)" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="15">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="918" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="MessageType" type="V_WString" size="1000" expression="&quot;Message&quot;" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>MessageType="Message"</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="(Multiple Sources)" type="V_String" />
+                <Field name="InContainer" source="(Multiple Sources)" type="Bool" />
+                <Field name="ExpectedMessage" size="81" source="(Multiple Sources)" type="V_String" />
+                <Field name="ToolID" size="2147483647" source="(Multiple Sources)" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+                <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="MessageType" size="1000" source="Formula: &quot;Message&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="798" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#1</Connection>
+                <Connection>#2</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="(Multiple Sources)" type="V_String" />
+                <Field name="InContainer" source="(Multiple Sources)" type="Bool" />
+                <Field name="ExpectedMessage" size="81" source="(Multiple Sources)" type="V_String" />
+                <Field name="ToolID" size="2147483647" source="(Multiple Sources)" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+                <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="18">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="698" y="700" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Message" type="V_WString" size="5000" expression="'    Expected: Tools:' + [ToolID] + ' to throw error message: &quot;' + [ExpectedMessage] + '&quot;'" />
+                <FormulaField field="Order" type="Byte" size="1" expression="1" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Message='    Expected: Tools:' + [ToolID] + ' to throw error ...
+Order=1</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="(Multiple Sources)" type="V_String" />
+                <Field name="InContainer" source="(Multiple Sources)" type="Bool" />
+                <Field name="ExpectedMessage" size="81" source="(Multiple Sources)" type="V_String" />
+                <Field name="ToolID" size="2147483647" source="(Multiple Sources)" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="Message" size="5000" source="Formula: '    Expected: Tools:' + [ToolID] + ' to throw error message: &quot;' + [ExpectedMessage] + '&quot;'" type="V_WString" />
+                <Field name="Order" source="Formula: 1" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="19">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="328" y="563" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Message" type="V_WString" size="5000" expression="'    Actual: Tool ' + tostring([ToolID]) + ' throws error message: &quot;' + [ActualMessage] + '&quot;'" />
+                <FormulaField field="Order" type="Byte" size="1" expression="2" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Message='    Actual: Tool ' + tostring([ToolID]) + ' throws e...
+Order=2</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ToolId" source="TextInput:" type="Byte" />
+                <Field name="ActualMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: '    Actual: Tool ' + tostring([ToolID]) + ' throws error message: &quot;' + [ActualMessage] + '&quot;'" type="V_WString" />
+                <Field name="Order" source="Formula: 2" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1038" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="FullPath" selected="True" />
+                <SelectField field="Message" selected="True" />
+                <SelectField field="Order" selected="True" />
+                <SelectField field="MessageType" selected="True" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="FullPath" size="95" source="(Multiple Sources)" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+                <Field name="MessageType" size="1000" source="Formula: &quot;Message&quot;" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="33">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="232" y="694.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="ToolID" selected="True" type="V_String" size="1000" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ToolID" size="1000" source="TextInput:" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+            <Position x="424" y="683" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <UniqueFields>
+                <Field field="ToolID" />
+                <Field field="ExpectedMessage" />
+                <Field field="FullPath" />
+                <Field field="InContainer" />
+              </UniqueFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Unique: ToolID, ExpectedMessage, FullPath, InContainer</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Unique">
+              <RecordInfo>
+                <Field name="ToolID" size="1000" source="TextInput:" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ToolID" order="Asc" />
+                <Field field="ExpectedMessage" order="Asc" />
+                <Field field="FullPath" order="Asc" />
+                <Field field="InContainer" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Duplicates">
+              <RecordInfo>
+                <Field name="ToolID" size="1000" source="TextInput:" type="V_String" />
+                <Field name="ExpectErrorToolId" source="TextInput:" type="Byte" />
+                <Field name="ExpectedMessage" size="81" source="TextInput:" type="V_String" />
+                <Field name="FullPath" size="95" source="TextInput:" type="V_String" />
+                <Field name="InContainer" source="TextInput:" type="Bool" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ToolID" order="Asc" />
+                <Field field="ExpectedMessage" order="Asc" />
+                <Field field="FullPath" order="Asc" />
+                <Field field="InContainer" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="6" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="6" Connection="Join" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Right" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Left" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="36" Connection="True" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="54" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Join" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Join" />
+      <Destination ToolID="43" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="43" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Right" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="43" Connection="Join" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="False" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Unique" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (4)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (5)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (28)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (55)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CReW_CompareExpectedMessagesAgainstActual</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (3)</Name>
+          <ToolId value="3" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (4)</Description>
+              <Name>Macro Input (4)</Name>
+              <ToolId value="4" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (5)</Description>
+              <Name>Macro Input (5)</Name>
+              <ToolId value="5" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (28)</Description>
+              <Name>Macro Output (28)</Name>
+              <ToolId value="28" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (55)</Description>
+              <Name>Macro Input (55)</Name>
+              <ToolId value="55" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="4" Selected="True" />
+        <Tool ToolId="5" Selected="True" />
+        <Tool ToolId="28" Selected="True" />
+        <Tool ToolId="55" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

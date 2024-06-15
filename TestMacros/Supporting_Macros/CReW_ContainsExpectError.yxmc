@@ -1,0 +1,571 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input2</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="FullPath" />
+                <Field name="ModuleXML" />
+              </Fields>
+              <Data>
+                <r>
+                  <c />
+                  <c>&lt;?xml version="1.0"?&gt;
+&lt;AlteryxDocument yxmdVer="10.0"&gt;
+  &lt;Nodes&gt;
+    &lt;Node ToolID="1"&gt;
+      &lt;GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput"&gt;
+        &lt;Position x="54" y="150" /&gt;
+      &lt;/GuiSettings&gt;
+      &lt;Properties&gt;
+        &lt;Configuration&gt;
+          &lt;NumRows value="2" /&gt;
+          &lt;Fields&gt;
+            &lt;Field name="Field1" /&gt;
+          &lt;/Fields&gt;
+          &lt;Data&gt;
+            &lt;r&gt;
+              &lt;c&gt;2&lt;/c&gt;
+            &lt;/r&gt;
+          &lt;/Data&gt;
+        &lt;/Configuration&gt;
+        &lt;Annotation DisplayMode="0"&gt;
+          &lt;Name /&gt;
+          &lt;DefaultAnnotationText /&gt;
+          &lt;Left value="False" /&gt;
+        &lt;/Annotation&gt;
+      &lt;/Properties&gt;
+      &lt;EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" /&gt;
+    &lt;/Node&gt;
+    &lt;Node ToolID="2"&gt;
+      &lt;GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput"&gt;
+        &lt;Position x="54" y="234" /&gt;
+      &lt;/GuiSettings&gt;
+      &lt;Properties&gt;
+        &lt;Configuration&gt;
+          &lt;NumRows value="2" /&gt;
+          &lt;Fields&gt;
+            &lt;Field name="Field1" /&gt;
+          &lt;/Fields&gt;
+          &lt;Data&gt;
+            &lt;r&gt;
+              &lt;c&gt;1&lt;/c&gt;
+            &lt;/r&gt;
+          &lt;/Data&gt;
+        &lt;/Configuration&gt;
+        &lt;Annotation DisplayMode="0"&gt;
+          &lt;Name /&gt;
+          &lt;DefaultAnnotationText /&gt;
+          &lt;Left value="False" /&gt;
+        &lt;/Annotation&gt;
+      &lt;/Properties&gt;
+      &lt;EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" /&gt;
+    &lt;/Node&gt;
+    &lt;Node ToolID="5"&gt;
+      &lt;GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer"&gt;
+        &lt;Position x="234" y="78" width="100.1579" height="182" /&gt;
+      &lt;/GuiSettings&gt;
+      &lt;Properties&gt;
+        &lt;Configuration&gt;
+          &lt;Caption&gt;Container 5&lt;/Caption&gt;
+          &lt;Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" /&gt;
+          &lt;Disabled value="False" /&gt;
+          &lt;Folded value="False" /&gt;
+        &lt;/Configuration&gt;
+        &lt;Annotation DisplayMode="0"&gt;
+          &lt;Name /&gt;
+          &lt;DefaultAnnotationText /&gt;
+          &lt;Left value="False" /&gt;
+        &lt;/Annotation&gt;
+      &lt;/Properties&gt;
+      &lt;ChildNodes&gt;
+        &lt;Node ToolID="3"&gt;
+          &lt;GuiSettings&gt;
+            &lt;Position x="244" y="191" /&gt;
+          &lt;/GuiSettings&gt;
+          &lt;Properties&gt;
+            &lt;Configuration /&gt;
+            &lt;Annotation DisplayMode="0"&gt;
+              &lt;Name /&gt;
+              &lt;DefaultAnnotationText /&gt;
+              &lt;Left value="False" /&gt;
+            &lt;/Annotation&gt;
+            &lt;Dependencies&gt;
+              &lt;Implicit /&gt;
+            &lt;/Dependencies&gt;
+          &lt;/Properties&gt;
+          &lt;EngineSettings Macro="CReW_ExpectEqual.yxmc" /&gt;
+        &lt;/Node&gt;
+        &lt;Node ToolID="4"&gt;
+          &lt;GuiSettings&gt;
+            &lt;Position x="244" y="107" /&gt;
+          &lt;/GuiSettings&gt;
+          &lt;Properties&gt;
+            &lt;Configuration&gt;
+              &lt;Value name="ExpectedError"&gt;Unexpected Value - Field:Field1 Row:1 Expected:2 Actual:1&lt;/Value&gt;
+            &lt;/Configuration&gt;
+            &lt;Annotation DisplayMode="0"&gt;
+              &lt;Name /&gt;
+              &lt;DefaultAnnotationText /&gt;
+              &lt;Left value="False" /&gt;
+            &lt;/Annotation&gt;
+            &lt;Dependencies&gt;
+              &lt;Implicit /&gt;
+            &lt;/Dependencies&gt;
+          &lt;/Properties&gt;
+          &lt;EngineSettings Macro="CReW_ExpectError.yxmc" /&gt;
+        &lt;/Node&gt;
+      &lt;/ChildNodes&gt;
+    &lt;/Node&gt;
+  &lt;/Nodes&gt;
+  &lt;Connections&gt;
+    &lt;Connection&gt;
+      &lt;Origin ToolID="1" Connection="Output" /&gt;
+      &lt;Destination ToolID="3" Connection="Expected" /&gt;
+    &lt;/Connection&gt;
+    &lt;Connection&gt;
+      &lt;Origin ToolID="2" Connection="Output" /&gt;
+      &lt;Destination ToolID="3" Connection="Actual" /&gt;
+    &lt;/Connection&gt;
+  &lt;/Connections&gt;
+  &lt;Properties&gt;
+    &lt;Memory default="True" /&gt;
+    &lt;GlobalRecordLimit value="0" /&gt;
+    &lt;TempFiles default="True" /&gt;
+    &lt;Annotation on="True" includeToolName="False" /&gt;
+    &lt;ConvErrorLimit value="10" /&gt;
+    &lt;ConvErrorLimit_Stop value="False" /&gt;
+    &lt;CancelOnError value="False" /&gt;
+    &lt;DisableBrowse value="False" /&gt;
+    &lt;EnablePerformanceProfiling value="False" /&gt;
+    &lt;DisableAllOutput value="False" /&gt;
+    &lt;ShowAllMacroMessages value="False" /&gt;
+    &lt;ShowConnectionStatusIsOn value="True" /&gt;
+    &lt;ShowConnectionStatusOnlyWhenRunning value="True" /&gt;
+    &lt;ZoomLevel value="0" /&gt;
+    &lt;LayoutType&gt;Horizontal&lt;/LayoutType&gt;
+    &lt;MetaInfo&gt;
+      &lt;NameIsFileName value="True" /&gt;
+      &lt;Name&gt;One cell of the different data does error&lt;/Name&gt;
+      &lt;Description /&gt;
+      &lt;RootToolName /&gt;
+      &lt;ToolVersion /&gt;
+      &lt;ToolInDb value="False" /&gt;
+      &lt;CategoryName /&gt;
+      &lt;SearchTags /&gt;
+      &lt;Author /&gt;
+      &lt;Company /&gt;
+      &lt;Copyright /&gt;
+      &lt;DescriptionLink actual="" displayed="" /&gt;
+    &lt;/MetaInfo&gt;
+    &lt;Events&gt;
+      &lt;Enabled value="True" /&gt;
+    &lt;/Events&gt;
+  &lt;/Properties&gt;
+&lt;/AlteryxDocument&gt;</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" source="TextInput:" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="738" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>True</Name>
+          <Abbrev>T</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="726" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>False</Name>
+          <Abbrev>F</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.XMLParse.XMLParse">
+        <Position x="234" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <XMLField>ModuleXML</XMLField>
+          <XMLElement>EngineSettings</XMLElement>
+          <ChildValues value="False" />
+          <OuterXML value="False" />
+          <ParseRoot value="False" />
+          <IgnoreErrors value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" source="TextInput:" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="TextInput:" type="V_String" />
+            <Field name="EngineSettings" size="1" type="V_String" />
+            <Field name="EngineDll" size="28" type="V_String" />
+            <Field name="EngineDllEntryPoint" size="16" type="V_String" />
+            <Field name="Macro" size="21" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxXMLParse" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="402" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[Macro] = "CReW_ExpectError.yxmc"
+// right([Macro], 16) == "CReW_ExpectError.yxmc"
+]]></Expression>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Macro</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>CReW_ExpectError.yxmc</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Macro] = "CReW_ExpectError.yxmc"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Macro" size="2147483647" source="(Multiple Sources)" type="V_String" />
+            <Field name="FullPath" source="TextInput:" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="TextInput:" type="V_String" />
+            <Field name="EngineSettings" size="1" type="V_String" />
+            <Field name="EngineDll" size="28" type="V_String" />
+            <Field name="EngineDllEntryPoint" size="16" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Macro" size="2147483647" source="(Multiple Sources)" type="V_String" />
+            <Field name="FullPath" source="TextInput:" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="TextInput:" type="V_String" />
+            <Field name="EngineSettings" size="1" type="V_String" />
+            <Field name="EngineDll" size="28" type="V_String" />
+            <Field name="EngineDllEntryPoint" size="16" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="FullPath" action="GroupBy" rename="FullPath" />
+            <SummarizeField field="ModuleXML" action="GroupBy" rename="ModuleXML" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" source="Summarize: GroupBy - FullPath" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="Summarize: GroupBy - ModuleXML" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="Asc" />
+            <Field field="ModuleXML" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="582" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_FullPath" selected="False" rename="Right_FullPath" />
+                <SelectField field="Right_ModuleXML" selected="False" rename="Right_ModuleXML" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" source="TextInput:" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="TextInput:" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" source="TextInput:" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="TextInput:" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" source="Summarize: GroupBy - FullPath" type="Bool" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="318" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Fields">Macro</Value>
+          <Value name="FieldType">V_String</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Macro" size="2147483647" source="(Multiple Sources)" type="V_String" />
+            <Field name="FullPath" source="TextInput:" type="Bool" />
+            <Field name="ModuleXML" size="4734" source="TextInput:" type="V_String" />
+            <Field name="EngineSettings" size="1" type="V_String" />
+            <Field name="EngineDll" size="28" type="V_String" />
+            <Field name="EngineDllEntryPoint" size="16" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_EnsureFields.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="True" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Left" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Input (2)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (3)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Macro Output (4)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CReW_ContainsExpectError</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (2)</Description>
+              <Name>Macro Input (2)</Name>
+              <ToolId value="2" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (4)</Description>
+              <Name>Macro Output (4)</Name>
+              <ToolId value="4" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (3)</Description>
+              <Name>Macro Output (3)</Name>
+              <ToolId value="3" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImageStd value="39" />
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="2" Selected="True" />
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="4" Selected="True" />
+        <Tool ToolId="12" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

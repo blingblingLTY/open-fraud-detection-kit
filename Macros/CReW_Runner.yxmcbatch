@@ -1,0 +1,439 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="330" width="168" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Control parameter for module to run and update formula value with path adjusting for relative paths</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="750" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Failure Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="582" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Success Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="582" width="168" height="324" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Runner Macro</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="78" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="File Browse (3)">Module</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output24">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath])" type="V_String" />
+            <Field name="Result" size="2147483647" source="Formula: &quot;Succeeded&quot;" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;)" type="Time" />
+            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;W:\Work\CrewMacros\FromGit\Macros\Module&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output25">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: FileGetFileName([ModuleFullPath])" type="V_String" />
+            <Field name="Result" size="2147483647" source="Formula: &quot;Failed&quot;" type="V_String" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;)" type="Time" />
+            <Field name="Log" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="Formula: &quot;W:\Work\CrewMacros\FromGit\Macros\Module&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro=".\CReW_Runner.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="246" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output3</Name>
+          <Abbrev>S</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="246" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output4</Name>
+          <Abbrev>F</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="66" y="498" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.ControlParam.ControlParam">
+        <Position x="54" y="402" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="78" width="168" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="246" width="168" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="78" width="546" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_Runner.yxmcbacth
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="786" y="78" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 1.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="186" width="786" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: Batch macro wrapper for Runner macro</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output24" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output25" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="6" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Question" />
+      <Destination ToolID="6" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ControlParam.Control Parameter (7)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CReW_Runner</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="6" />
+              <Expression>Replace([Destination], 
+"Module",
+IF REGEX_Match([#1], "^[a-zA-Z]{1}:.*$") //Rooted Path
+|| left([#1], 2) == "\\" //UNC Path
+THEN
+[#1]
+ELSE
+FileAddPaths([Engine.ModuleDirectory], [#1])
+ENDIF
+)</Expression>
+              <Destination>2/Value</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (3)</Description>
+              <Name>Macro Output (3)</Name>
+              <ToolId value="3" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (4)</Description>
+              <Name>Macro Output (4)</Name>
+              <ToolId value="4" />
+            </Question>
+            <Question>
+              <Type>ControlParam</Type>
+              <Description>Module Path</Description>
+              <Name>Control Parameter (7)</Name>
+              <ToolId value="7" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <BatchMacro>
+        <OutputMode>AllSame</OutputMode>
+        <ControlParams>
+          <ControlParam>
+            <Name>Control Parameter (7)</Name>
+            <Description>Module Path</Description>
+          </ControlParam>
+        </ControlParams>
+      </BatchMacro>
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="2" Selected="True" />
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="4" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

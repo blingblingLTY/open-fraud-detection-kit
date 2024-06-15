@@ -1,0 +1,710 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="978" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="582" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Extract file names</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="714" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Set Message type.  Arrange fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="846" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>De-select working fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="450" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Extract Tool Ids</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="318" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Parse log to rows on new lines</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="186" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Select Module and Log fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="258" width="120" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="342" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Log</Field>
+          <NumFields value="1" />
+          <Delimeters value="\n" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="12" source="TextInput:" type="String" />
+            <Field description="TextToColumns: Parsed from Log" name="Log" size="472" source="TextToColumns: Parsed from Log" type="V_WString" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="222" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Module" selected="True" />
+            <SelectField field="Log" selected="True" />
+            <SelectField field="ModuleFullPath" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="12" source="TextInput:" type="String" />
+            <Field name="Log" size="472" source="TextInput:" type="V_WString" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RegEx.RegEx">
+        <Position x="462" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Log</Field>
+          <RegExExpression value="(.*?)(?:\s-\s)?ToolId\s(\d*):\s(.*)" />
+          <CaseInsensitve value="True" />
+          <Method>ParseComplex</Method>
+          <Replace expression="">
+            <CopyUnmatched value="True" />
+          </Replace>
+          <ParseSimple>
+            <SplitToRows value="False" />
+            <RootName>Log</RootName>
+            <NumFields value="3" />
+            <ErrorHandling>Warn</ErrorHandling>
+          </ParseSimple>
+          <ParseComplex>
+            <Field field="MessageType" type="V_String" size="2147483647" />
+            <Field field="ToolId" type="Int32" size="4" />
+            <Field field="Message" type="V_WString" size="2147483647" />
+          </ParseComplex>
+          <Match>
+            <Field>Log_Matched</Field>
+            <ErrorUnmatched value="False" />
+          </Match>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Parse:
+(.*?)(?:\s-\s)?ToolId\s(\d*...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="12" source="TextInput:" type="String" />
+            <Field description="TextToColumns: Parsed from Log" name="Log" size="472" source="TextToColumns: Parsed from Log" type="V_WString" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="RegEx: Parsed from Log" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="RegEx: Parsed from Log" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRegEx" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="726" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="MessageType" type="V_String" size="2147483647" expression="iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" />
+            <FormulaField field="Message" type="V_String" size="2147483647" expression="iif(isnull([Message]), [Log], [Message])" />
+            <FormulaField field="Message" type="V_String" size="2147483647" expression="iif(!isempty([Message2]), [Message2], [Message])" />
+            <FormulaField field="File" type="V_String" size="2147483647" expression="iif(!isempty([Message2]), [Message1], NULL())" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>MessageType=iif(isempty([Message2])&amp;&amp;isempty([MessageType]), ...
+Message=iif(isnull([Message]), [Log], [Message])
+Message=iif(!isempty([Message2]), [Message2], [Message])
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="12" source="TextInput:" type="String" />
+            <Field description="TextToColumns: Parsed from Log" name="Log" size="472" source="TextToColumns: Parsed from Log" type="V_WString" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Message" name="Message1" size="1073741823" source="TextToColumns: Parsed from Message" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Message" name="Message2" size="1073741823" source="TextToColumns: Parsed from Message" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="606" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Message</Field>
+          <NumFields value="2" />
+          <ErrorHandling>Last</ErrorHandling>
+          <RootName>Message</RootName>
+          <Delimeters value="|" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="12" source="TextInput:" type="String" />
+            <Field description="TextToColumns: Parsed from Log" name="Log" size="472" source="TextToColumns: Parsed from Log" type="V_WString" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="RegEx: Parsed from Log" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="RegEx: Parsed from Log" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Message" name="Message1" size="1073741823" source="TextToColumns: Parsed from Message" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Message" name="Message2" size="1073741823" source="TextToColumns: Parsed from Message" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="870" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Module" selected="True" />
+            <SelectField field="Log" selected="False" />
+            <SelectField field="ToolId" selected="True" />
+            <SelectField field="MessageType" selected="True" />
+            <SelectField field="Message" selected="True" />
+            <SelectField field="Message1" selected="False" />
+            <SelectField field="Message2" selected="False" />
+            <SelectField field="File" selected="True" />
+            <SelectField field="ModuleFullPath" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="12" source="TextInput:" type="String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="90" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input6</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <Optional value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Module" />
+                <Field name="Result" />
+                <Field name="Errors" />
+                <Field name="FieldConversionErrors" />
+                <Field name="Warnings" />
+                <Field name="Time" />
+                <Field name="Log" />
+                <Field name="ModuleFullPath" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>WarningError</c>
+                  <c>Failed</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>1</c>
+                  <c>00:00:00</c>
+                  <c>Alteryx Version: 9.0.5.48255
+Started running C:\Users\ariley\Desktop\WarningError.yxmd
+Error - ToolId 5: The format "" is not valid.
+ToolId 1: 4 records were output
+FieldConversionError - ToolId 2: Field1: ™f is not a number.
+Warning - ToolId 4: Divide by 0 error on record #1 in field cdxc
+ToolId 6: C:\Users\ariley\Desktop\out.txt|4 records were written to "C:\Users\ariley\Desktop\out.txt"
+Finished in 0.1 seconds with 1 error and 1 field conversion error and 1 warning</c>
+                  <c>C:\Users\ariley\Desktop\WarningError.yxmd</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="12" source="TextInput:" type="String" />
+            <Field name="Result" size="6" source="TextInput:" type="String" />
+            <Field name="Errors" source="TextInput:" type="Byte" />
+            <Field name="FieldConversionErrors" source="TextInput:" type="Byte" />
+            <Field name="Warnings" source="TextInput:" type="Byte" />
+            <Field name="Time" source="TextInput:" type="Time" />
+            <Field name="Log" size="472" source="TextInput:" type="V_WString" />
+            <Field name="ModuleFullPath" size="41" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="990" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output15</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="162" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="162" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="54" width="624" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_LogParser.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="870" y="54" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 1.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="162" width="864" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: Parses Alteryx logs from the Runner macros into tables</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="582" width="648" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Version History: 
+
+1.0 - Initial release
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[ Log Parser]]></Name>
+      <Description>Parses an Alteryx log into an Alteryx data table. Works well in combintation with the Runner, Conditional Runner and List Runner tools.</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (6)</Description>
+              <Name>Macro Input (14)</Name>
+              <ToolId value="14" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (15)</Description>
+              <Name>Macro Output (15)</Name>
+              <ToolId value="15" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="14" Selected="True" />
+        <Tool ToolId="15" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

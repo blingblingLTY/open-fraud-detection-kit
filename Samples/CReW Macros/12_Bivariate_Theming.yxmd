@@ -1,0 +1,389 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="294" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_5508_3be3d0c4fe554fd495fcb6c5e0aa4252\Engine_8244_06cb626f125d419c895585469463dd80.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="210" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Value 1">Value1</Value>
+          <Value name="Value 2">Value2</Value>
+          <Value name="Point">Point</Value>
+          <Value name="Number of bands">4</Value>
+          <Value name="High Colour">F70057</Value>
+          <Value name="Low Colour">2100F7</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_BivariateTheming.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="30" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="51" />
+          <Fields>
+            <Field name="Point" />
+            <Field name="Value1" />
+            <Field name="Value2" />
+          </Fields>
+          <Data>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.959977, 53.306016 ] }</c>
+              <c>200</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.932406, 53.415781 ] }</c>
+              <c>200</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.790331, 53.099610 ] }</c>
+              <c>400</c>
+              <c>12</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.924455, 53.137770 ] }</c>
+              <c>500</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.288095, 53.084301 ] }</c>
+              <c>100</c>
+              <c>24</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.033151, 53.191766 ] }</c>
+              <c>400</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.159290, 52.921885 ] }</c>
+              <c>300</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.871362, 53.247556 ] }</c>
+              <c>300</c>
+              <c>17</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.789250, 53.359302 ] }</c>
+              <c>200</c>
+              <c>32</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.137103, 52.896602 ] }</c>
+              <c>100</c>
+              <c>9</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.829292, 53.308500 ] }</c>
+              <c>0</c>
+              <c>3</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.092297, 53.328565 ] }</c>
+              <c>200</c>
+              <c>39</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.949737, 53.206203 ] }</c>
+              <c>0</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.052305, 53.266464 ] }</c>
+              <c>300</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.078961, 53.187879 ] }</c>
+              <c>100</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.240384, 53.105972 ] }</c>
+              <c>300</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.082182, 53.142390 ] }</c>
+              <c>200</c>
+              <c>22</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.945795, 53.190005 ] }</c>
+              <c>500</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.188373, 53.043913 ] }</c>
+              <c>0</c>
+              <c>35</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.082641, 53.396581 ] }</c>
+              <c>300</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.868886, 53.361175 ] }</c>
+              <c>500</c>
+              <c>6</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.181527, 52.922863 ] }</c>
+              <c>300</c>
+              <c>46</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.001578, 53.132667 ] }</c>
+              <c>0</c>
+              <c>40</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.131557, 53.276787 ] }</c>
+              <c>300</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.022383, 53.004107 ] }</c>
+              <c>100</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.183986, 52.848922 ] }</c>
+              <c>300</c>
+              <c>25</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.196050, 52.940621 ] }</c>
+              <c>300</c>
+              <c>30</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.246087, 53.142521 ] }</c>
+              <c>200</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.904699, 53.016894 ] }</c>
+              <c>400</c>
+              <c>20</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.990348, 53.415593 ] }</c>
+              <c>700</c>
+              <c>50</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.006780, 52.979811 ] }</c>
+              <c>200</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.303414, 53.156491 ] }</c>
+              <c>300</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.840322, 53.141256 ] }</c>
+              <c>300</c>
+              <c>23</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.146806, 53.331927 ] }</c>
+              <c>400</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.061931, 53.029361 ] }</c>
+              <c>700</c>
+              <c>37</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.748932, 53.284050 ] }</c>
+              <c>400</c>
+              <c>13</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.117462, 53.151412 ] }</c>
+              <c>300</c>
+              <c>34</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.864338, 53.253050 ] }</c>
+              <c>300</c>
+              <c>19</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.165949, 53.227798 ] }</c>
+              <c>300</c>
+              <c>8</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.105612, 53.292902 ] }</c>
+              <c>400</c>
+              <c>11</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.974455, 53.262187 ] }</c>
+              <c>500</c>
+              <c>14</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.764107, 53.232994 ] }</c>
+              <c>0</c>
+              <c>21</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.136983, 53.048537 ] }</c>
+              <c>300</c>
+              <c>46</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.876455, 52.997148 ] }</c>
+              <c>300</c>
+              <c>47</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.975441, 53.133738 ] }</c>
+              <c>200</c>
+              <c>31</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.015548, 53.145181 ] }</c>
+              <c>400</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -1.114751, 53.256748 ] }</c>
+              <c>0</c>
+              <c>44</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.718424, 53.203852 ] }</c>
+              <c>200</c>
+              <c>16</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.860874, 53.173766 ] }</c>
+              <c>200</c>
+              <c>45</c>
+            </r>
+            <r>
+              <c>{ "type": "Point", "coordinates": [ -0.944197, 52.930592 ] }</c>
+              <c>300</c>
+              <c>28</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="114" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Value1" selected="True" type="Double" size="8" />
+            <SelectField field="Value2" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Bivariate Test Module</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

@@ -1,0 +1,1305 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="132" y="323.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="Code" />
+          </Fields>
+          <Data>
+            <r>
+              <c><![CDATA[
+<!DOCTYPE html>
+<meta charset="utf-8">
+
+<link href="./nv.d3.css" rel="stylesheet" type="text/css">
+
+    <script>
+        if (!Function.prototype.bind) {
+            Function.prototype.bind = function (oThis) {
+                if (typeof this !== "function") {
+                    // closest thing possible to the ECMAScript 5 internal IsCallable function
+                    throw new TypeError("Function.prototype.bind - what is trying to be bound is not callable");
+                }
+
+                var aArgs = Array.prototype.slice.call(arguments, 1),
+                    fToBind = this,
+                    fNOP = function () { },
+                    fBound = function () {
+                        return fToBind.apply(this instanceof fNOP && oThis
+                                               ? this
+                                               : oThis,
+                                             aArgs.concat(Array.prototype.slice.call(arguments)));
+                    };
+
+                fNOP.prototype = this.prototype;
+                fBound.prototype = new fNOP();
+
+                return fBound;
+            };
+        }
+    </script>
+
+<body style="background-color: white;">
+
+    <div id="chart1" style="width:100%; height:100%;">
+        <svg ></svg>
+    </div>
+
+    <script src="./d3.v3.js"></script>
+    <script src="./nv.d3.js"></script>
+    <script src="alteryxData.js"></script>
+
+    <script>
+        var chart;
+
+        nv.addGraph(function () {
+
+            chart = nv.models.lineChart()
+                .options({
+                    x: function (d, i) { return i },
+                    showXAxis: true,
+                    showYAxis: true,
+                    forceY: 0
+                });
+            chart.margin({ left: 80 });
+
+            chart.xAxis
+                  .axisLabel('Year')
+                .tickFormat(function (d) { return alteryxData()["Name"][d]; });
+            chart.yAxis
+              .axisLabel('Billions of Dollars ($)')
+              .tickFormat(function (d) { return d3.format('0,000')(Math.round(d / 1000000000)); })
+            ;
+
+            d3.select('#chart1 svg')
+              .datum(theData())
+              .call(chart);
+
+            return chart;
+        });
+
+        function theData() {
+            var ret = [];
+            var data = alteryxData();
+            var names = data["Name"];
+            for (var name in data) {
+                if (name != "Name") {
+                    var v = data[name];
+                    var out = [];
+                    for (var i = 0; i < names.length; ++i) {
+                        out.push({ x: names[i], y: v[i] });
+                    }
+                    ret.push({ values: out, key: name });
+                }
+            }
+            return ret;
+        }
+
+</script>
+]]></c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" size="2789" source="TextInput:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RunCommand.RunCommand">
+        <Position x="726" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OutputConfiguration>
+            <Configuration>
+              <File MaxRecords="" FileFormat="0">%temp%\alteryxData.js</File>
+              <Passwords />
+              <FormatSpecificOptions>
+                <LineEndStyle>CRLF</LineEndStyle>
+                <Delimeter>\0</Delimeter>
+                <ForceQuotes>False</ForceQuotes>
+                <HeaderRow>False</HeaderRow>
+                <CodePage>28591</CodePage>
+              </FormatSpecificOptions>
+              <MultiFile value="False" />
+            </Configuration>
+          </OutputConfiguration>
+          <InputConfiguration>
+            <Configuration>
+              <Passwords />
+              <File OutputFileName="" RecordLimit="1" SearchSubDirs="False" FileFormat="0">%temp%\output.txt</File>
+              <FormatSpecificOptions>
+                <CodePage>28591</CodePage>
+                <Delimeter>\0</Delimeter>
+                <IgnoreErrors>False</IgnoreErrors>
+                <FieldLen>254</FieldLen>
+                <AllowShareWrite>False</AllowShareWrite>
+                <HeaderRow>False</HeaderRow>
+                <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+              </FormatSpecificOptions>
+            </Configuration>
+          </InputConfiguration>
+          <ProgramName>cmd.exe</ProgramName>
+          <Arguments>/c ..\3rdParty\PhantomJS\phantomjs SupportingScripts\html5_rasterize.js file:///%temp%\RunJS_Script.html %temp%\test.png 600 400 1.001 &gt;%temp%\output.txt</Arguments>
+          <WorkingDir />
+          <RunMinimized value="False" />
+          <RunSilent value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Run cmd.exe</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_13612_14c2e66615034f45b16262e1809e5e44\output.txt" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRunCommand" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerImage.PortfolioComposerImage">
+        <Position x="984" y="623.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ImageMode>File</ImageMode>
+          <Filename>test.png</Filename>
+          <ModifyFilename value="True" />
+          <ModifyMode>ReplacePath</ModifyMode>
+          <ModifyField>Field_1</ModifyField>
+          <StopIfNotFound value="True" />
+          <ImageStyle FixedWidth="true" ImageWidth="600" ShowBorder="false" BorderWidth="1" BorderColor="#000000" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_13612_14c2e66615034f45b16262e1809e5e44\output.txt" type="V_String" />
+            <Field name="Image" size="2147483647" source="Report:Image:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerImagePlugin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="216" y="635.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Column">True</Value>
+          <Value name="Row">False</Value>
+          <Value name="2Dim">False</Value>
+          <Value name="WriteFile">False</Value>
+          <Value name="File Browse" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="JSON" size="2147483647" source="Formula: &quot;{&quot; + [Concat_JSON_Field] + &quot;}&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_JSONCreate.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="312" y="635.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="JSON" type="V_String" size="536870911" expression="&quot;function alteryxData() {&#xA;    return &quot; + [JSON] + &quot;;&#xA;}&quot;" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>JSON="function alteryxData() {
+    return " + [JSON] + ";
+}"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="JSON" size="2147483647" source="Formula: &quot;function alteryxData() {&#xA;    return &quot; + [JSON] + &quot;;&#xA;}&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="108" y="635.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input22</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="54" />
+              <Fields>
+                <Field name="Name" />
+                <Field name="United_Kingdom" />
+                <Field name="United_States" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1960</c>
+                  <c>72328047042.1588</c>
+                  <c>520531181568</c>
+                </r>
+                <r>
+                  <c>1961</c>
+                  <c>76694360635.9159</c>
+                  <c>539050934272</c>
+                </r>
+                <r>
+                  <c>1962</c>
+                  <c>80601939635.2483</c>
+                  <c>579748429824</c>
+                </r>
+                <r>
+                  <c>1963</c>
+                  <c>85443766670.4279</c>
+                  <c>611669508096</c>
+                </r>
+                <r>
+                  <c>1964</c>
+                  <c>93387598813.9269</c>
+                  <c>656912089088</c>
+                </r>
+                <r>
+                  <c>1965</c>
+                  <c>100595782309.165</c>
+                  <c>712081997824</c>
+                </r>
+                <r>
+                  <c>1966</c>
+                  <c>107090721447.057</c>
+                  <c>780760514560</c>
+                </r>
+                <r>
+                  <c>1967</c>
+                  <c>111185383409.521</c>
+                  <c>825056165888</c>
+                </r>
+                <r>
+                  <c>1968</c>
+                  <c>104702736248.084</c>
+                  <c>901455806464</c>
+                </r>
+                <r>
+                  <c>1969</c>
+                  <c>112676874821.987</c>
+                  <c>973385170944</c>
+                </r>
+                <r>
+                  <c>1970</c>
+                  <c>124795414233.403</c>
+                  <c>1024800000000</c>
+                </r>
+                <r>
+                  <c>1971</c>
+                  <c>141173077753.817</c>
+                  <c>1113100000000</c>
+                </r>
+                <r>
+                  <c>1972</c>
+                  <c>162199828773.059</c>
+                  <c>1225000000000</c>
+                </r>
+                <r>
+                  <c>1973</c>
+                  <c>183042760577.565</c>
+                  <c>1369300000000</c>
+                </r>
+                <r>
+                  <c>1974</c>
+                  <c>197728221109.711</c>
+                  <c>1485900000000</c>
+                </r>
+                <r>
+                  <c>1975</c>
+                  <c>236425105833.394</c>
+                  <c>1623400000000</c>
+                </r>
+                <r>
+                  <c>1976</c>
+                  <c>227154794942.501</c>
+                  <c>1809100000000</c>
+                </r>
+                <r>
+                  <c>1977</c>
+                  <c>256549448457.881</c>
+                  <c>2013600000000</c>
+                </r>
+                <r>
+                  <c>1978</c>
+                  <c>325122723735.856</c>
+                  <c>2276000000000</c>
+                </r>
+                <r>
+                  <c>1979</c>
+                  <c>422476906755.023</c>
+                  <c>2543500000000</c>
+                </r>
+                <r>
+                  <c>1980</c>
+                  <c>541910295142.924</c>
+                  <c>2767500000000</c>
+                </r>
+                <r>
+                  <c>1981</c>
+                  <c>515030144694.534</c>
+                  <c>3103800000000</c>
+                </r>
+                <r>
+                  <c>1982</c>
+                  <c>490957372466.806</c>
+                  <c>3227700000000</c>
+                </r>
+                <r>
+                  <c>1983</c>
+                  <c>465676822798.242</c>
+                  <c>3506900000000</c>
+                </r>
+                <r>
+                  <c>1984</c>
+                  <c>438830806065.443</c>
+                  <c>3900400000000</c>
+                </r>
+                <r>
+                  <c>1985</c>
+                  <c>464268480492.813</c>
+                  <c>4184800000000</c>
+                </r>
+                <r>
+                  <c>1986</c>
+                  <c>570432424508.942</c>
+                  <c>4425000000000</c>
+                </r>
+                <r>
+                  <c>1987</c>
+                  <c>700547475077.627</c>
+                  <c>4698900000000</c>
+                </r>
+                <r>
+                  <c>1988</c>
+                  <c>851138384916.4</c>
+                  <c>5061900000000</c>
+                </r>
+                <r>
+                  <c>1989</c>
+                  <c>859414267015.707</c>
+                  <c>5439700000000</c>
+                </r>
+                <r>
+                  <c>1990</c>
+                  <c>1019307528409.09</c>
+                  <c>5750800000000</c>
+                </r>
+                <r>
+                  <c>1991</c>
+                  <c>1064201058201.06</c>
+                  <c>5930700000000</c>
+                </r>
+                <r>
+                  <c>1992</c>
+                  <c>1101730431730.43</c>
+                  <c>6261800000000</c>
+                </r>
+                <r>
+                  <c>1993</c>
+                  <c>991046790641.872</c>
+                  <c>6582900000000</c>
+                </r>
+                <r>
+                  <c>1994</c>
+                  <c>1072190082644.63</c>
+                  <c>6993300000000</c>
+                </r>
+                <r>
+                  <c>1995</c>
+                  <c>1170658040082.06</c>
+                  <c>7338400000000</c>
+                </r>
+                <r>
+                  <c>1996</c>
+                  <c>1229931357254.29</c>
+                  <c>7751100000000</c>
+                </r>
+                <r>
+                  <c>1997</c>
+                  <c>1368099214145.38</c>
+                  <c>8256500000000</c>
+                </r>
+                <r>
+                  <c>1998</c>
+                  <c>1461937727724.41</c>
+                  <c>8741000000000</c>
+                </r>
+                <r>
+                  <c>1999</c>
+                  <c>1503751820093.84</c>
+                  <c>9301000000000</c>
+                </r>
+                <r>
+                  <c>2000</c>
+                  <c>1475705855651.38</c>
+                  <c>9898800000000</c>
+                </r>
+                <r>
+                  <c>2001</c>
+                  <c>1468026486253.06</c>
+                  <c>10233900000000</c>
+                </r>
+                <r>
+                  <c>2002</c>
+                  <c>1601617206235.01</c>
+                  <c>10590200000000</c>
+                </r>
+                <r>
+                  <c>2003</c>
+                  <c>1855666938775.51</c>
+                  <c>11089300000000</c>
+                </r>
+                <r>
+                  <c>2004</c>
+                  <c>2196860009520.67</c>
+                  <c>11797800000000</c>
+                </r>
+                <r>
+                  <c>2005</c>
+                  <c>2295844712162.59</c>
+                  <c>12564300000000</c>
+                </r>
+                <r>
+                  <c>2006</c>
+                  <c>2452969436251.46</c>
+                  <c>13314500000000</c>
+                </r>
+                <r>
+                  <c>2007</c>
+                  <c>2825526440056.67</c>
+                  <c>13961800000000</c>
+                </r>
+                <r>
+                  <c>2008</c>
+                  <c>2648935779074.43</c>
+                  <c>14219300000000</c>
+                </r>
+                <r>
+                  <c>2009</c>
+                  <c>2183862761501.06</c>
+                  <c>13898300000000</c>
+                </r>
+                <r>
+                  <c>2010</c>
+                  <c>2256260000000</c>
+                  <c>14419400000000</c>
+                </r>
+                <r>
+                  <c>2011</c>
+                  <c>2444883870967.74</c>
+                  <c>14991300000000</c>
+                </r>
+                <r>
+                  <c>2012</c>
+                  <c>2435173775671.41</c>
+                  <c>15684800000000</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input22</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" source="TextInput:" type="Int16" />
+            <Field name="United_Kingdom" source="TextInput:" type="Double" />
+            <Field name="United_States" source="TextInput:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="708" y="539.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">%temp%\RunJS_Script.html</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>\0</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>False</HeaderRow>
+            <CodePage>65001</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RunJS_Script.html</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="324" y="323.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Code" type="V_WString" size="999999" expression="Replace([Code], &quot;./&quot;, [Engine.ModuleDirectory])" />
+            <FormulaField field="Code" type="V_WString" size="999999" expression="Replace([Code], '&quot;alteryxData', '&quot;' + [Engine.TempFilePath]+&quot;alteryxData&quot;)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Code=Replace([Code], "./", [Engine.ModuleDirectory])
+Code=Replace([Code], '"alteryxData', '"' + [Engine.TempFilePa...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" size="999999" source="Formula: Replace([Code], '&quot;alteryxData', '&quot;' + [Engine.TempFilePath]+&quot;alteryxData&quot;)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="228" y="323.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Code" selected="True" type="V_WString" size="999999" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" size="999999" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1176" y="623.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output26</Name>
+          <Abbrev>
+          </Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output26</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1176" y="695.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_13612_14c2e66615034f45b16262e1809e5e44\Engine_13304_6d6ee449cacd48e0b2eefde57ff3b53e.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1080" y="623.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field_1" size="254" source="File: C:\Users\ariley\AppData\Local\Temp\Engine_13612_14c2e66615034f45b16262e1809e5e44\output.txt" type="V_String" />
+            <Field name="Image" size="2147483647" source="Report:Image:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BlockUntilDone.BlockUntilDone">
+        <Position x="492" y="623.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" size="999999" source="Formula: Replace([Code], '&quot;alteryxData', '&quot;' + [Engine.TempFilePath]+&quot;alteryxData&quot;)" type="V_WString" />
+            <Field name="JSON" size="2147483647" source="Formula: &quot;function alteryxData() {&#xA;    return &quot; + [JSON] + &quot;;&#xA;}&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlockUntilDone" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="612" y="539.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="JSON" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Code" size="999999" source="Formula: Replace([Code], '&quot;alteryxData', '&quot;' + [Engine.TempFilePath]+&quot;alteryxData&quot;)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="612" y="623.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Code" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="JSON" size="2147483647" source="Formula: &quot;function alteryxData() {&#xA;    return &quot; + [JSON] + &quot;;&#xA;}&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="420" y="623.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Code" size="999999" source="Formula: Replace([Code], '&quot;alteryxData', '&quot;' + [Engine.TempFilePath]+&quot;alteryxData&quot;)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Code" size="999999" source="Formula: Replace([Code], '&quot;alteryxData', '&quot;' + [Engine.TempFilePath]+&quot;alteryxData&quot;)" type="V_WString" />
+            <Field name="JSON" size="2147483647" source="Formula: &quot;function alteryxData() {&#xA;    return &quot; + [JSON] + &quot;;&#xA;}&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="JSON" size="2147483647" source="Formula: &quot;function alteryxData() {&#xA;    return &quot; + [JSON] + &quot;;&#xA;}&quot;" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="269.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="269.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="113" y="54" width="448.25" height="240.1" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Interface Tools</Caption>
+          <Folded value="False">False</Folded>
+          <Style Transparency="1" Margin="25" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="138" y="98" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Width</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+            <Position x="273.7" y="98" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Height</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+            <Position x="341.55" y="98" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Resolution</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+            <Position x="409.4" y="98" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>HTML</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="409.4" y="210.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="138" y="210.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="36">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="273.7" y="210.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="37">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="341.55" y="210.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Res</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="38">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="205.85" y="210.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+            <Position x="477.25" y="210.1" width="59" height="59" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name>Random FileName</Name>
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="38" Connection="Action" />
+      <Destination ToolID="16" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="35" Connection="Action" />
+      <Destination ToolID="14" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="36" Connection="Action" />
+      <Destination ToolID="14" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="37" Connection="Action" />
+      <Destination ToolID="14" Connection="Action" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="39" Connection="Action" />
+      <Destination ToolID="14" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection name="Width" Wireless="True">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="35" Connection="Question" />
+    </Connection>
+    <Connection name="Width" Wireless="True">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="38" Connection="Question" />
+    </Connection>
+    <Connection name="Height" Wireless="True">
+      <Origin ToolID="41" Connection="Question" />
+      <Destination ToolID="36" Connection="Question" />
+    </Connection>
+    <Connection name="Resolution" Wireless="True">
+      <Origin ToolID="42" Connection="Question" />
+      <Destination ToolID="37" Connection="Question" />
+    </Connection>
+    <Connection name="HTML" Wireless="True">
+      <Origin ToolID="43" Connection="Question" />
+      <Destination ToolID="34" Connection="Question" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="34" Connection="Action" />
+      <Destination ToolID="12" Connection="Action" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="False" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Width</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Height</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Resolution</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>HTML</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[ html5 render]]></Name>
+      <Description>Renders HTML 5 + JavaScript/SVG etc to a report snippet</Description>
+      <CategoryName />
+      <SearchTags>HTML
+SVG
+JavaScript
+Report</SearchTags>
+      <Author>Ned Harding</Author>
+      <Company>Alteryx</Company>
+      <Copyright>This macro is in the public domain</Copyright>
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>HTML</Description>
+              <ToolId value="34" />
+              <Mode>Simple</Mode>
+              <Variable>HTML</Variable>
+              <Replace value="False" />
+              <Destination>12/Data/r/c</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="35" />
+              <Expression>Replace([Destination], "600", ToString(96*ToNumber([Width])))</Expression>
+              <Destination>14/Arguments</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="36" />
+              <Expression>Replace([Destination], "400", ToString(96*ToNumber([Height])))</Expression>
+              <Destination>14/Arguments</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Resolution</Description>
+              <ToolId value="37" />
+              <Mode>Simple</Mode>
+              <Variable>Resolution</Variable>
+              <Replace value="True" />
+              <ReplaceText>1.001</ReplaceText>
+              <Destination>14/Arguments</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="38" />
+              <Expression>ToString(ToNumber([Width])*96)</Expression>
+              <Destination>16/ImageStyle/@ImageWidth</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="39" />
+              <Expression>replace([Destination], "test.png", "ImageOut"+ToString(RandInt(100000))+".png")</Expression>
+              <Destination>14/Arguments</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (44)</Name>
+          <ToolId value="44" />
+          <Questions>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Width (Inches)</Description>
+              <Name>Width</Name>
+              <ToolId value="40" />
+              <Minimum value="4" />
+              <Maximum value="100" />
+              <Increment value="1" />
+              <Default value="8" />
+              <Decimals value="0" />
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Height (Inches)</Description>
+              <Name>Height</Name>
+              <ToolId value="41" />
+              <Minimum value="4" />
+              <Maximum value="100" />
+              <Increment value="1" />
+              <Default value="6" />
+              <Decimals value="0" />
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Resolution</Description>
+              <Name>Resolution</Name>
+              <ToolId value="42" />
+              <Multiple value="False" />
+              <Default>96</Default>
+              <Mode>Manual</Mode>
+              <Manual_Values><![CDATA[96 DPI:1
+192 DPI:2
+288 DPI:3
+]]></Manual_Values>
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>HTML/Javascript Code</Description>
+              <Name>HTML</Name>
+              <ToolId value="43" />
+              <Default />
+              <Password value="False" />
+              <Multiline value="True" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output26</Description>
+              <Name>Output26</Name>
+              <ToolId value="47" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input22</Description>
+          <Name>Tab (45)</Name>
+          <ToolId value="45" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input22</Description>
+              <Name>Input22</Name>
+              <ToolId value="46" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOvAAADrwBlbxySQAAABp0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuMTFH80I3AAAWUElEQVR4Xu2d2ZPcxn3H/R/kJW95zHOucuKqxJUqPyWPeUhV8pCHvKXKoWSVKVlWbCWhI7tUli3HVvmqxJdSqZS05K6oi5QsHpJJiqIk0hIVS2Qkcu+Dy+Ve5C65szOD9K8PoNHzBaYbAwzQM/2t+tRgGo0G8MMXP/Tgmk9FURQIeAEsDASaCCwMBJoILAwEmggsDIwMv8X4HcZva2XeAgstCfJLG4zPMdC29AJYaEmQf/qI8ScMtD0bDyy0JMhPvcv4Qwbapo0GFloS5JO6HTnAdZ7x+wy0XRsLLLQkyCPtbS5G3bRhzzF+j4G2bSOBhZYEeaTta2ej3RtXWIbtyhKuswy0bRsJLLQE6vqzBwI1cuu9Kbkl0tq88lo0f+xQtLcxz76lDPtnDLR9GwcstARKBO0fAzWRZ1Yav/DKY9H+zros5VpieHGGABZaAhXMWi/9zHp94kC0dPLbUad1V47h+pDxaQbazo0BFloCFcxaL33Nypg+fH+0/PpTUbfdkmO56JRWozMsLLQEKpi1XmzMSkwf/kJ0482fRN3OvqzBRYb9Ywba3rUDCy2BCmatF1uzEpRh198/ambYdxh/wEDbvFZgoSVQwaz14mJWYvrIA9Hm1ROmYd9koG1eK7DQEqhg1npxNSsxM3Uwuj193rzKdT8DbffagIWWQAWz1ksRsxKzRx+Odpb+V9aO9Q8MtO1rARZaAhXMWi9FzUrMvvCV6O6Nq3IKLkq1f8dA23/owEJLoIJZ62UQsxLzx74W3b15TU7Ftc34awbywFCBhZZABbPWy6BmJZZOPhntbSzIKblWGX/JQD4YGrDQEqhgVsG1Z9gnY5rFgw+zMj5s1CubMsxK23DlzI+j1vaKnJrrOqPWq1yw0BKosTfrM2z9J5gxJ7LjMC259uzn4fhBKMesbPkO3x+tvvWLqL1LT8PEepuBvDAUYKElUONqVsqelDlF9vw8/+TlRj1RppmUGVsfNyhlmZWgc7BrlybMq1xPM5AfKgcWWgI1rmZVJiVzKqNmIeqyT2lU+lRdhUEp06zEzOTBaP2DF2QrsZ5kIE9UCiy0BGrczCrMmWRLnlXzsqXsy9Kwnn15GyUYtmyzEjOTX+TTG/pnBvJFZcBCS6DGvs9aM1WYlZiZejDavk5XYVP6IgN5oxJgoSVQwaz1UpVZidnnH4l2Ft6TLcb6ewbyR+nAQkugglnrpUqzEnMvPhrtrtDrB2LtMv6WgTxSKrDQEqhg1nqp2qwEXeW6tz4rW+ai52T+ioF8Uhqw0BKoJpgVyaxz5/oFOSaRGtde/FiWOKjbjadHUuNMkNS47Q97ftSkpkUMw6zE0qnvRHub9PhWLPryFwzklVKAhZZAeWPWq2fkmERqXHv2N7LEQd1OPD3SzuLleHxePZIav3X5ZVmSSJ8eMSyzEitnfxy1bt+Uc+Cimwr+nIH8MjCw0BKoYNb+JiRmJh+Upb1SdZpuVmL1wtNRe3dTzoWL7jP8LAN5ZiBgoSVQwazZZu3u7/WtQ1J1fDArsfbrw1Fnb0fOiesy4zMM5JvCwEJLoIJZ84249dqPorvvn5DfsFQ7vpiVWL/8fNRp0YmBWBcZpT58CAstgWqqWW2E2iLmXviqrJFo9vkvw7pErtKv74FS7fhkVoLm0W3vyTly0cOHf8RA/nEGFloCFcxafP5Kqh3fzMqvcl07Zz58+BajlBfAwUJLoIJZwfzzsikYp9rxzawEXTS4M3eR9Yracs5cpbwADhZaAhXM2jv/7U/YtgKm7GytseLRMitB79PaXbnC5ppat4HPwcJCS6CCWbFZZycekN8SUd1RNCuxeOKJqLW1LOfOdYMx0A8uWGgJVFPNatbJOxtgUoZZqXzzveS+UFXX1axZUtM0xawEvQDOOAdLNxUUfuM2LLQEKpg126xqXHtnI/5etlnpFBLSxkevxnWGyfLp75k/uOgV8YV+cMFCS6CCWfPNOjv5YKpu2WalJ1OR6NEUOg9aB3QxxBA9J4M8lQsstAQqmDXfrCZlm5XwRH/DQL7KBBZaAtUEs7aXrvVg1rn19v/0raOYfe7hnrozUw/BuoRZd+vS87AeYdYl1LibZ38KxyP0Nrc++ZXcGo3WUwzkq0xgoSVQTTDruDP/8iGzn9hEhcwaEKxe+K+mGxZ5KhdYaAlUMGtzoAy7efVkdO/WjNw6jRLyVC6w0BKoYNZmQi+smHnuoaGTI+SpXGChJVDBrIGEA9IVUMhTucBCS6CCWQMJwayczuqcnGOQjVAMqyeYlbP/Mf0LTpCtUAyrJ5iVs35pUs4xyEYohtUTzMpZO/kDOcegfuq27sEYVk8wa0yQnTqbN2H8qieYNSbITq3Lb8D4VU8wa0yQneieUhS/6glmjQmy09Irj8P4VU8wa0yQnej5LxS/6glmjQmyE4rdcAhmjTGeTQ/KEIrdcAhmjencTP0LXlCGUOyGQzBrzK338ZOcQWmh2A2HYNaYWxcn5FyD8oRiNxyCWWPWTv9IzjUoU93k9fHDJ5g1has627eizvqKt7iKpkFxGw7BrClcNX/8MdiOL7hq/zfZ7yyonmDWFK7a/+AMbMcXXLX42hOwndSfHVfG2JoVt+uqzsYN2I4f3CfXwl4Lx78B2hF/bqz+Q7Y6xtCs6G/QFUWE2vGBm6e+L9fAXgtTj8C2qksqOmNmVvW36PS//Mi0RWS24Qs3L/y3XAN7oXYUIrZVdgfGyazsMKX/JTr6H/8iMtvwhbVLh+Ua2Au1o4iNWll3YKzMeoAZ9UDu3t+5k3pZrZVQOz5Q5PIyaoeYlvDvMhmUzxiZdZr2eCInmPv/R/9e4ybUjg90ux25BvZC7RBkVNGtYl0BOoJVkl3HxKw8eDKAqhuAWLv4rJyzvVA7PlBEqB0TinWcZUtlTMyqgscDmWPW1dM/lHO219zhg7Atk1EQWq8Eua1kUrj2TNk/tsasz6rOBPDvwLSzRw7KOdtr4djXe9pB+K7uvR24XoQ67FNXi2IcJwf5WQ5jYFYVMDOAWYcqVy2e+BZsx8R37X/0FlwvhR7XaywRkIH5j1lp5MEZA7OiU1R5uKp1ye5vdnxX3/sg2JFLfLKYq6MYnYHR6wzEiJuVjKr2+GTPz2/TVZ1Nu0uuvmv+pX+B60X0ZFDqYmnZ1TVhYMbmB5Zohx+iJGYdhatsX6fju+amsv9RhuKbIMvkbwI6ty3Ob6encWfEzWoGyGYPLyLUjonvz3ihdcqDzCouwKisO+jZgRE1q/p1yvtPLGhqbyfzquya1fGPOuWdLNdpXX5d1vZTaJ3yiOMsP/mwzLbFGEGzin6SGFaHJv17XDfDrN17u3Lu9kLtmCyd+ndZ20+hdVJQzMmcKt6C9HYQ9QY5OzBqZuVGTQKiAiiCaddWe47+v9ZNqB2TxWNfj7p7dxsBPUvlKrROirwLLbQNUttRnTVwZgTNyvdq1qHXy2gPV3t7qj5g9cLTcu72Qu00mSJC7ShE31TF2CTJsLwuJRKZTNwYIbOqvTvur9IwCyK/gYUPCyiAajxi9fzP5NzthdppMkWE2tGhWPN4S5NSWY9h5e+HftsAM0pmlUFJvovPdJCSYVXPZOWFf5Nzt9fSS1+DbTWVIkLtKPK6ATF0hKPEoZKKOb4vI9YN4IZlweCHJc2U6jClsq4eNISrlk8/BdtpKq5qz1+B7Sgo7qnMKuPcA13ZItPamLuHETCrfthXCMOKcfxTmlUYWGRg+jSnU7hq+Y3vw3aaiqtmX3wUttNDnATwVSt1ZKOzAtzcTndmjUpm1QzLzSn3XP1wrw47ZrZFuKq99Alsp6m4avbFr8J2FHFseTJIyjITAk8iZFj2CZINxnOz9gREmpSPo2Hai9U4KpMGLTuz1vtaHTfWXv6WXGh7zU49BNtSUFy5SaUJVYYVSQMnBX5nFn0SVob13axshXXT0XAqaDTM64ig8GnkZ96PgiJC7TSRjcsvyiW2F2pHx4ytiL8cNuIstpfYNryOXjcXn82qVtLYK/leSgZlqCCITGoblBE360e/lEtsL9ROCu32QHOcyLqURMSPMCrjCYWQiUSU5Scmb81KpoPGA8EiqK7en1Jleh2d7u5tuQT26u636qW1B9fFpLN8XS6xvVA7JnQPq244NRwnCZ48kqOdGkeffPtQ/YztJ/A4s+rBMMdRUJQZ9U9RLg9BOYFpF9igdYsMi9bFpLtX/r0PtA0EYpso88XfZaxjs0rUtuFHSQY3dublWA/NqlaYAsFXNiNjimCJ+npQeF3ay3PM2nr3VbkE/qjT2oXrYhIV+O8E1I4JxVjBTUrZk0yoJQhCbSu1TfRxNMynhdvGy8zKVo4CQYYzxqk9WTev/kOKl8tA6HVMVt7w779cW1cvwHUxKSLUDoJiKki2mzKvXpaME0bVDcsZHbMyaGU0E0L08WDl1blYxPIr35RLYK/tq6/zV/L0oyrdeO5f4bqYOKt1F7ajkzIixZUwYk6G1E2pkoWecISpe8sFPppV9mn4irGg0Mr1rlgaHkwWPD0QeaeuCFetnLL7m8iqhOaFcJXtHwuLPqfYNhRfBYyzLEPmFeVJWwk+mpWtqOqMp7InIzmsJGV6EFJmlcNZuGrl3H/CdkyqEpoXwlV7b70E29HR450JyLTmMG+HbdPY4KlpvPyBJT/JtHKYG0+uWGqPNMys0y/Artr/5BJsx6QqoXkhXDXT5+qVTtqACXpiUGXquw43qb7NfDerib7iahjttfp33oXo07ar6JQQasekyF36NkLzMpk/8iVZ214zk3avRzJRMdbjrI6I+hFOjeuBjJpKNh6aVa0s3YZGgaAVzjKeWa6Cp9DHmRQRaseEP1ZSgdC8TDbedH+B8PTEfbCtXFIZURB33TRS/Vk1jTZtur6vfVb2KUwqyqDxtED0MyaiiFA7Ju35q7J2ibK8kWbr4zfkBPZC7SBUjJ1+aGno4+noR+14n1nFyicn+tUnkZg3KeOBKmLWkh+qU9w58VNZuzzRu1bRvEzasx/KKeyF2oEoY+lmZcOK9DZJn8bSx/P6vI653Tzts/KVYCtFw7RyalgPCP/eZ2/Oo70yLZfCXqgdk9mpL0XdO1tyisFFb4TZufwqnJdJd2dbTmUv1E4RdOMpA+vfY7PKT3PYW7PGmZWZUa1QesUYFAzj0JIMJ+VZtN45LpfCXqidfuyeeZZf17cVZdH9W/OwrX4UEWqnBz3Wugk1cjMrw0w0qjz57qlZFfHhxlh5jgqgFjxC36PzWD79XbkU9kLtuNKavswMme6CdO7ehnVdKSLUDkI/9OtZMjZrn6Oc2n7Ujp6FEzw3q3jWRwyrvZCCIgImpy1o1qXjj8ulsNfKUbtLnnXhLJcnIEBm1eGGNbYn+i4ST1KW4L1ZGfw+SjWcfJqHGX28Cooaj1g88rBcCnvdeP2HsK2m4KrO2iJspy99DKtMypOKlnFTJu1pw3OzcsNpK6VWVs+sZGQVIL1fZPPjy1Wr538O22kKrtp/7xRsJ5OU8UTXzEwKtI1SptS+i/pseAIlEo/NqlaMr5w0rDKpePNycqVKoQfTBlftX30bttMUXHXd8oKA3rUyjaiI469tAz15EHybaW2l8dmstFJyxcVKyxt3aZysY5JVnoWrOltrsJ2m4CpbsxJ6bGlYobaJXq6+c9h2NLMvxvNuADepvreSgeWeqfeH7ILRS1Hxc59XfgXbHCa3jj0ZtbdW5VK5q1/8FXqXSnS7CDatVp7aThJl3B4DQ0bhB5ZE7MXJdxFA1lXgey5DmtiFstRZX47Wjj8J51E2d2be7jn1VVSo/Txio2qmVEkjSRwCPaOOnVl7YYEgg0qT1mnWlJiRbl8/D+dXhK13p6Lu3R3ZeLlC88uEzChJH/rTP7Lo9wT/dN62I23WwekW+ONhV9HVq413DsP5I+aPfqXQpeAiQvNHkPGU+XhS4IYV8LKYYt0xQTBrLq33T8slGZ7ouf65o4+klmPn6lk2wv2/DgaVvgx5xL/gKWtyaFga16hbnGDWXOjfA8dVXbZzoJjYEv9+KM2wway5LBx7TC7J+KnTtntpxvAIZs1lYfLLcknGT53dLRgTG1T/1f1HVB7BrH0ZV9H/dqF41McImPXxT38mevlPfxeC6rsyrkKxsEH1VeM+a2l4aFZkSlvMtmwYV6FY1ItHZkXmK0o6CPmMq1As+hJfpRrkfGoWHpgVma0scFDSjKtQLPIo/7Bv0nCzIoOVDQ5ML3ffnIy67X25ZKMnup9g/3axu8ZS1/ZLvRCg01Sz/uTn0FhVggOUTXvzRmk3jNQl2vnQuhWmMqMSTTTrN74JzTQMcJAsmLiPzqLLFWi29i/9ki1z+acEx64b0D3wwDlkomGCA2XP9MT90f4HZ+Qa1a/u9lrh91U1iwaZ9QPWHUTmqQMcrGLMHn2k0B9qDKKFlw7BZfGbBpkVmcaG6MhUFF0z/rDitZNR9B8/g/VtwMEqh+VX3d+q3U/33j0WzR2xfzWlnzTErMgweUSPHoqi9Q02qYWYcVEb/cABK5eF5/4pan14Ti6ovTq3FvlNNqjN0aUBZnU9/EcXf80mcxdqqx84aNWxdOLbrI+5Lpc4UbfdipZP270GfnRpgFmRSbKwzqYZQm3mgYM2PGYnH4Tl40nNZnXJqrwfaorM+8R3eut+4SA2NuvbmnX7gQMXGD41mxWZI4sese4AqqeDugyoXh44cIHh44lZe37ts6yJ6iF65PiDCwcuMHxqNKtTF8AQqpMFncIyherlgYOXwzN0RUe9EU++v4l98jvnJ4xr6YDkGXs2jXy0WYcexOPtysubvF1t+hQWl0DRg325bdZCjWZFpkDw01S6CvQ7eWYe4nlXZVD6VN+5aaQJkRF4HTm+B2lOvSz3ydGsdnTY9Gg5qr9sWhQfzEon/XUNYLqi4ODlo4zAsygZi5tDlBOZZmPlyriqrm6g2PhaGaePQfny5NTJNX8j8MGsZn+V/dJH9aoEB68/3GRkAm5A/RNkVjaOG8ooJ6groAycV88FWjYzWzcbH8xqCNWpGhy8/pAZyFh6dlUZLPVqRy3j6X1U+i7akNPp0yioTbMMYFOn2QSzWoGDZ4cyW8pUmuni7MbKhCmTrKnGZRp1rAhmtQIHzw2eMSmDctNKE3IjM3PKcXFGpXp8OlZv7E2qCGa1AgevGJQ9yZDcqFoWFeVsmBtajNenCwSzWoGDNwCUXfWMqR/6QybNwAezenw2IFAmPpjVvIGlwHlWfhWL2nn0EBzfDxy8wHCp0ay2l1tLu4KlC9yplQcOXmC41GhWAhkDYQrVycMUqpMFDlxg+PhiVjMzOmTXQW8TxIELDB9PzEr0yOZ+VnDHlWufFwcuMHxqNiuBDILIfFIg40dTTzYmOdwHS+CgBerBI7MS0IAOQm3mgYMWqIcGmJVARsmi0NOtjhmVwAEL1EdDzMqAhsmi53RWnhwfYyFwsAL14qlZFfwp1qw3sjieS9WhwASaR46Qp3KBhZZwIeMMmyAvhTyVCyy0JBYy0LAI8lbIU7nAQktSQkaqmiCvhTyVCyy0BAqZqmyCRkLIU7nAQksyhQxWFkEjI+SpXGChJX2FzFaUoJET8lQusLBskPlsMdsKjC+wsGqQKRVm3UBAAQsDgeYRfer/AfYYMMLe3t0OAAAAAElFTkSuQmCC</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="18" Selected="True" />
+        <Tool ToolId="46" Selected="True" />
+        <Tool ToolId="23" Selected="True" />
+        <Tool ToolId="47" Selected="True" />
+        <Tool ToolId="27" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

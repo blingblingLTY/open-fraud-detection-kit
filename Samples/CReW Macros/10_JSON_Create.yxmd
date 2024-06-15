@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="162" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Column">False</Value>
+          <Value name="Row">True</Value>
+          <Value name="2Dim">False</Value>
+          <Value name="WriteFile">False</Value>
+          <Value name="File Browse">.\temp.json</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="JSON" size="536870911" source="Formula: &quot;[&quot; + [Concat_Concat_JSON_Field] + &quot;]&quot;" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_JSONCreate.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>w:\temp\alteryxtemp\Engine_5044_1223a684829b42598a2c673205865331\Engine_4772_5bbf271d38e841d6bc9244c197d6ffa3.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="42" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="53" />
+          <Fields>
+            <Field name="Name" />
+            <Field name="AreaSqMi" />
+            <Field name="P0120002_PCT" />
+            <Field name="P0010001" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Alabama</c>
+              <c>52418.76</c>
+              <c>48.54</c>
+              <c>4779736</c>
+            </r>
+            <r>
+              <c>Alaska</c>
+              <c>665368.10</c>
+              <c>52.04</c>
+              <c>710231</c>
+            </r>
+            <r>
+              <c>Arizona</c>
+              <c>113987.60</c>
+              <c>49.68</c>
+              <c>6392017</c>
+            </r>
+            <r>
+              <c>Arkansas</c>
+              <c>53177.19</c>
+              <c>49.10</c>
+              <c>2915918</c>
+            </r>
+            <r>
+              <c>California</c>
+              <c>163690.44</c>
+              <c>49.71</c>
+              <c>37253956</c>
+            </r>
+            <r>
+              <c>Colorado</c>
+              <c>104091.33</c>
+              <c>50.12</c>
+              <c>5029196</c>
+            </r>
+            <r>
+              <c>Connecticut</c>
+              <c>5543.40</c>
+              <c>48.67</c>
+              <c>3574097</c>
+            </r>
+            <r>
+              <c>Delaware</c>
+              <c>2488.66</c>
+              <c>48.44</c>
+              <c>897934</c>
+            </r>
+            <r>
+              <c>District of Columbia</c>
+              <c>68.34</c>
+              <c>47.23</c>
+              <c>601723</c>
+            </r>
+            <r>
+              <c>Florida</c>
+              <c>65755.49</c>
+              <c>48.88</c>
+              <c>18801310</c>
+            </r>
+            <r>
+              <c>Georgia</c>
+              <c>59423.70</c>
+              <c>48.82</c>
+              <c>9687653</c>
+            </r>
+            <r>
+              <c>Hawaii</c>
+              <c>10931.44</c>
+              <c>50.08</c>
+              <c>1360301</c>
+            </r>
+            <r>
+              <c>Idaho</c>
+              <c>83566.65</c>
+              <c>50.10</c>
+              <c>1567582</c>
+            </r>
+            <r>
+              <c>Illinois</c>
+              <c>57912.05</c>
+              <c>49.04</c>
+              <c>12830632</c>
+            </r>
+            <r>
+              <c>Indiana</c>
+              <c>36418.64</c>
+              <c>49.20</c>
+              <c>6483802</c>
+            </r>
+            <r>
+              <c>Iowa</c>
+              <c>56271.38</c>
+              <c>49.51</c>
+              <c>3046355</c>
+            </r>
+            <r>
+              <c>Kansas</c>
+              <c>82276.25</c>
+              <c>49.61</c>
+              <c>2853118</c>
+            </r>
+            <r>
+              <c>Kentucky</c>
+              <c>40406.79</c>
+              <c>49.20</c>
+              <c>4339367</c>
+            </r>
+            <r>
+              <c>Louisiana</c>
+              <c>52376.77</c>
+              <c>48.95</c>
+              <c>4533372</c>
+            </r>
+            <r>
+              <c>Maine</c>
+              <c>35379.20</c>
+              <c>48.94</c>
+              <c>1328361</c>
+            </r>
+            <r>
+              <c>Maryland</c>
+              <c>12405.60</c>
+              <c>48.35</c>
+              <c>5773552</c>
+            </r>
+            <r>
+              <c>Massachusetts</c>
+              <c>10554.12</c>
+              <c>48.36</c>
+              <c>6547629</c>
+            </r>
+            <r>
+              <c>Michigan</c>
+              <c>96710.71</c>
+              <c>49.05</c>
+              <c>9883640</c>
+            </r>
+            <r>
+              <c>Minnesota</c>
+              <c>86933.19</c>
+              <c>49.63</c>
+              <c>5303925</c>
+            </r>
+            <r>
+              <c>Mississippi</c>
+              <c>48430.54</c>
+              <c>48.57</c>
+              <c>2967297</c>
+            </r>
+            <r>
+              <c>Missouri</c>
+              <c>69705.23</c>
+              <c>48.98</c>
+              <c>5988927</c>
+            </r>
+            <r>
+              <c>Montana</c>
+              <c>147035.81</c>
+              <c>50.20</c>
+              <c>989415</c>
+            </r>
+            <r>
+              <c>Nebraska</c>
+              <c>77345.50</c>
+              <c>49.62</c>
+              <c>1826341</c>
+            </r>
+            <r>
+              <c>Nevada</c>
+              <c>110569.23</c>
+              <c>50.49</c>
+              <c>2700551</c>
+            </r>
+            <r>
+              <c>New Hampshire</c>
+              <c>9348.93</c>
+              <c>49.33</c>
+              <c>1316470</c>
+            </r>
+            <r>
+              <c>New Jersey</c>
+              <c>8722.36</c>
+              <c>48.68</c>
+              <c>8791894</c>
+            </r>
+            <r>
+              <c>New Mexico</c>
+              <c>121587.47</c>
+              <c>49.41</c>
+              <c>2059179</c>
+            </r>
+            <r>
+              <c>New York</c>
+              <c>54553.55</c>
+              <c>48.39</c>
+              <c>19378102</c>
+            </r>
+            <r>
+              <c>North Carolina</c>
+              <c>53817.72</c>
+              <c>48.72</c>
+              <c>9535483</c>
+            </r>
+            <r>
+              <c>North Dakota</c>
+              <c>70696.52</c>
+              <c>50.53</c>
+              <c>672591</c>
+            </r>
+            <r>
+              <c>Ohio</c>
+              <c>44824.39</c>
+              <c>48.82</c>
+              <c>11536504</c>
+            </r>
+            <r>
+              <c>Oklahoma</c>
+              <c>69897.14</c>
+              <c>49.50</c>
+              <c>3751351</c>
+            </r>
+            <r>
+              <c>Oregon</c>
+              <c>98376.33</c>
+              <c>49.49</c>
+              <c>3831074</c>
+            </r>
+            <r>
+              <c>Pennsylvania</c>
+              <c>46053.07</c>
+              <c>48.73</c>
+              <c>12702379</c>
+            </r>
+            <r>
+              <c>Rhode Island</c>
+              <c>1544.86</c>
+              <c>48.30</c>
+              <c>1052567</c>
+            </r>
+            <r>
+              <c>South Carolina</c>
+              <c>32019.68</c>
+              <c>48.65</c>
+              <c>4625364</c>
+            </r>
+            <r>
+              <c>South Dakota</c>
+              <c>77113.86</c>
+              <c>50.04</c>
+              <c>814180</c>
+            </r>
+            <r>
+              <c>Tennessee</c>
+              <c>42143.24</c>
+              <c>48.75</c>
+              <c>6346105</c>
+            </r>
+            <r>
+              <c>Texas</c>
+              <c>268589.58</c>
+              <c>49.60</c>
+              <c>25145561</c>
+            </r>
+            <r>
+              <c>Utah</c>
+              <c>84895.68</c>
+              <c>50.23</c>
+              <c>2763885</c>
+            </r>
+            <r>
+              <c>Vermont</c>
+              <c>9616.12</c>
+              <c>49.25</c>
+              <c>625741</c>
+            </r>
+            <r>
+              <c>Virginia</c>
+              <c>42773.85</c>
+              <c>49.07</c>
+              <c>8001024</c>
+            </r>
+            <r>
+              <c>Washington</c>
+              <c>71296.25</c>
+              <c>49.81</c>
+              <c>6724540</c>
+            </r>
+            <r>
+              <c>West Virginia</c>
+              <c>24229.41</c>
+              <c>49.30</c>
+              <c>1852994</c>
+            </r>
+            <r>
+              <c>Wisconsin</c>
+              <c>65494.74</c>
+              <c>49.63</c>
+              <c>5686986</c>
+            </r>
+            <r>
+              <c>Wyoming</c>
+              <c>97810.19</c>
+              <c>51.00</c>
+              <c>563626</c>
+            </r>
+            <r>
+              <c>Puerto Rico</c>
+              <c>5324.71</c>
+              <c>47.91</c>
+              <c>3725789</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>JSONCreate</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

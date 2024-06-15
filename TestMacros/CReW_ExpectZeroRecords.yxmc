@@ -1,0 +1,179 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="150" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output9">
+          <RecordInfo>
+            <Field name="Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CountRecords.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="246" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Filter</When>
+          <Filter>[Count]!=0</Filter>
+          <Type>Error</Type>
+          <Priority>High</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>'Expected: 0 records. Actual: ' + tostring([Count]) + ' record(s)'</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input6</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="1" />
+              <Fields>
+                <Field name="Field1" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (2)</Name>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output9" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input8" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Expect Zero Records (BETA)</Name>
+      <Description>Test that a data stream pushes zero records</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags>Test, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (5)</Name>
+          <ToolId value="5" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (6)</Description>
+              <Name>Macro Input (6)</Name>
+              <ToolId value="6" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="3" Selected="True" />
+        <Tool ToolId="6" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

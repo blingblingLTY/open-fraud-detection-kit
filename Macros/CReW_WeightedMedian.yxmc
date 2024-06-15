@@ -1,0 +1,1028 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1134" y="654" width="156" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="942" y="654" width="180" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Bacth macro to calculate weighted Median for each group</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="942" y="438" width="180" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User chooses Percentile Value.  Pass this to the batch macro.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="774" y="654" width="156" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Summarize to get unique list of group field values</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="438" width="528" height="204" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User chooses Value, Weight and Grouping Fields</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="654" width="528" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="654" width="156" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="245.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="245.1" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="222" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="45">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="54" width="636" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Module: CReW_WeightedMedian.yxmc
+Author: Ned Harding
+Layout and Annotation: Adam Riley</Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="882" y="54" width="240" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="318" width="888" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+A weighted median of a sample is the 50% weighted percentile. It allows for non-uniform statistical weights related to, e.g., varying precision measurements in the sample.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings>
+        <Position x="1050" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Version XML URL">versions.ChaosReignsWithin.com\WeightedMedian.xml</Value>
+          <Value name="Version of this Macro">2.0</Value>
+          <Value name="EnableTest">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_Version.yxmc" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="234" y="210" width="888" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Originally featured on
+http://inspiringingenuity.net/2013/09/06/alteryx-weighted-median/
+http://inspiringingenuity.net/2013/09/18/alteryx-processing-groups-of-records-in-a-macro/
+]]></Text>
+          <Font name="Segoe UI" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="Yellow" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="66" y="906" width="1056" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version History: 
+
+1.0 - As featured on http://inspiringingenuity.net
+2.0 - Adopted by CRW. Updated to CRW styling.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="246" y="486" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>ValueField</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="402" y="486" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>WeightField</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="558" y="486" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>GroupingField</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="954" y="486" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Percentile</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="414" y="582" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Weight</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="258" y="582" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Value</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="570" y="582" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Group</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="966" y="582" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="102" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input11</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="26" />
+              <Fields>
+                <Field name="__In_Macro_Weight" />
+                <Field name="__In_Macro_InValue" />
+                <Field name="_In_Macro_Group" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>2</c>
+                  <c>2</c>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>0.6</c>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.3</c>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.3</c>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>0.3</c>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.7</c>
+                  <c>a</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.7</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>6</c>
+                  <c>1.7</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>0.4</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>0.5</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.5</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.2</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>4</c>
+                  <c>1.1</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.6</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>1.4</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>0.2</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>5</c>
+                  <c>1.6</c>
+                  <c>b</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.6</c>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>1.3</c>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>1.1</c>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>3</c>
+                  <c>1.1</c>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>1</c>
+                  <c>0.2</c>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.1</c>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>2</c>
+                  <c>1.4</c>
+                  <c>c</c>
+                </r>
+                <r>
+                  <c>0</c>
+                  <c>0.9</c>
+                  <c>c</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input11</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__In_Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__In_Macro_InValue" source="TextInput:" type="Float" />
+            <Field name="_In_Macro_Group" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="402" y="738" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="__Macro_Value" type="Double" size="8" expression="[__In_Macro_InValue]" />
+            <FormulaField field="__Macro_Weight" type="Double" size="8" expression="[__In_Macro_Weight]" />
+            <FormulaField field="__Macro_Group" type="V_WString" size="99999" expression="[_In_Macro_Group]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>__Macro_Value=[__In_Macro_InValue]
+__Macro_Weight=[__In_Macro_Weight]
+__Macro_Group=[_In_Macro_Group]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__In_Macro_Weight" source="TextInput:" type="Byte" />
+            <Field name="__In_Macro_InValue" source="TextInput:" type="Float" />
+            <Field name="_In_Macro_Group" size="1" source="TextInput:" type="String" />
+            <Field name="__Macro_Value" source="Formula: [__In_Macro_InValue]" type="Double" />
+            <Field name="__Macro_Weight" source="Formula: [__In_Macro_Weight]" type="Double" />
+            <Field name="__Macro_Group" size="99999" source="Formula: [_In_Macro_Group]" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="822" y="702" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="__Macro_Group" action="GroupBy" rename="__Macro_Group" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="__Macro_Group" size="99999" source="Summarize: GroupBy - __Macro_Group" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="__Macro_Group" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings>
+        <Position x="966" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="BatchMacroGroupBy"><![CDATA[Control=__Macro_Group
+Input11=__Macro_Group
+]]></Value>
+          <Value name="Percentile">0.50</Value>
+          <Value name="ControlParams" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output25">
+          <RecordInfo>
+            <Field description="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.50&#xA;endif" name="WeigtedPercentile" source="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*0.50&#xA;endif (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_WeightedMedian.yxmcbatch" />
+    </Node>
+    <Node ToolID="41">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="1170" y="726" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output29</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output29</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1170" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_11840_3821952631fa4273bf5ac3e43e738cba\Engine_15732_7a48427608c341358af35befa8d5dd94.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="162" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_11840_3821952631fa4273bf5ac3e43e738cba\Engine_15732_a634a2b4aabc479793a1f17a4eb7af6c.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection name="ValueField">
+      <Origin ToolID="34" Connection="Question" />
+      <Destination ToolID="31" Connection="Question" />
+    </Connection>
+    <Connection name="WeightField">
+      <Origin ToolID="35" Connection="Question" />
+      <Destination ToolID="30" Connection="Question" />
+    </Connection>
+    <Connection name="GroupingField">
+      <Origin ToolID="36" Connection="Question" />
+      <Destination ToolID="32" Connection="Question" />
+    </Connection>
+    <Connection name="Percentile">
+      <Origin ToolID="37" Connection="Question" />
+      <Destination ToolID="33" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Action" />
+      <Destination ToolID="26" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Action" />
+      <Destination ToolID="28" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="28" Connection="Input11" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Control" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="34" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="35" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="40" Connection="Question" />
+      <Destination ToolID="36" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output25" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output25" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ValueField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>WeightField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>GroupingField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Percentile</Name>
+        <Value>0.5</Value>
+        <IsNumeric value="True" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[  Weighted Median]]></Name>
+      <Description>A weighted median of a sample is the 50% weighted percentile. It allows for non-uniform statistical weights related to, e.g., varying precision measurements in the sample.</Description>
+      <CategoryName />
+      <SearchTags>Median, Weighted, Average, Transform, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Ned Harding</Author>
+      <Company />
+      <Copyright>This module in in the public domain</Copyright>
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="False" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="30" />
+              <Expression>"[" + [WeightField] + "]"</Expression>
+              <Destination>26/FormulaFields/FormulaField[@field='__Macro_Weight']/@expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="31" />
+              <Expression>"[" + [ValueField] + "]"</Expression>
+              <Destination>26/FormulaFields/FormulaField[@field='__Macro_Value']/@expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="32" />
+              <Expression>if IsEmpty([GroupingField]) then "''" else "[" + [GroupingField] + "]" endif</Expression>
+              <Destination>26/FormulaFields/FormulaField[@field='__Macro_Group']/@expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Percentile</Description>
+              <ToolId value="33" />
+              <Mode>Simple</Mode>
+              <Variable>Percentile</Variable>
+              <Replace value="False" />
+              <Destination>28/Value[@name='Percentile']</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (38)</Name>
+          <ToolId value="38" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Value Field</Description>
+              <Name>ValueField</Name>
+              <ToolId value="34" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="11" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Byte,Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Weight Field</Description>
+              <Name>WeightField</Name>
+              <ToolId value="35" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="11" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Byte,Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Grouping Field</Description>
+              <Name>GroupingField</Name>
+              <ToolId value="36" />
+              <Multiple value="False" />
+              <Default />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="11" />
+              <Field_IncludeNone value="True" />
+              <MacroField_FilterTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,Blob,SpatialObj</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Percentile (Set to 0.5 for Median)</Description>
+              <Name>Percentile</Name>
+              <ToolId value="37" />
+              <Minimum value="0" />
+              <Maximum value="1" />
+              <Increment value="0.1" />
+              <Default value="0.5" />
+              <Decimals value="2" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output29</Description>
+              <Name>Output29</Name>
+              <ToolId value="41" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input11</Description>
+          <Name>Tab (39)</Name>
+          <ToolId value="39" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input11</Description>
+              <Name>Input11</Name>
+              <ToolId value="40" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="48" Selected="True" />
+        <Tool ToolId="40" Selected="True" />
+        <Tool ToolId="28" Selected="True" />
+        <Tool ToolId="41" Selected="True" />
+        <Tool ToolId="58" Selected="False" />
+        <Tool ToolId="59" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

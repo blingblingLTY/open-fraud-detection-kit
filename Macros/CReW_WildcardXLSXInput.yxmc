@@ -1,0 +1,3439 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="134">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3798" y="654" width="300" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>RecordID is to ensure correct order of fields in crosstab, and then rename step ensures correct field name</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="133">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2826" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Inner join generated Names to Names from data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2622" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Generate a record for each field, based on the number of fields in data source, and name it to match</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="4110" y="654" width="240" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Union field names with data, keeping only the field names that should be retained</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3594" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Text Input with standard field names, unioned together in order</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3378" y="654" width="204" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Make list of headers unique and sort properly with dictionary order</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3174" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Keep only Data and Headers for sheets that had the most frequent header pattern</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3174" y="1002" width="444" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join raw data with list FullPaths that do not have the most frequent header pattern.
+ Union that with the excluded headers rows in the imported data. Sort and output to 'N'</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3174" y="1182" width="240" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output message that lists the sheets that did not match the most frequent header pattern</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2622" y="1002" width="540" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>1. Summary to generate header pattern
+2. Summary to count number of header patterns
+3. Sort by count
+4. Sample to keep the first, the header pattern that appears the most
+5. Join single pattern with highest count with list from 1
+J Output: FullPaths that have the most frequent header pattern
+R Output: FullPaths of all other header patterns</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="6" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="4662" y="654" width="420" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Close field names in header detour, ensure proper sort of data, and output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="4362" y="654" width="288" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Detour if user selects to auto configure field types</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2010" y="1002" width="396" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Output message with the number of sheets that were blank</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1398" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Number of sheets to keep</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1074" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Option for keeping just a sample of sheets</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1074" y="654" width="516" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Detour to keep N random sheets if option is selected</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2418" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Filter to selected header row, and transpose so there is one row per header</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2010" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Detour if user selects to get field names from data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2214" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Split data into two streams, field names and data, based on what row user specified for header</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2010" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Option to get field names from a header row in the sheets</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2214" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User enters header row number</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="4362" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Option to auto configure field types if user selected to get field names from header</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="72">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1602" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Concat file path and name with extracted sheet names</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1806" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Batch macro to read in XLSX data, in this case to pull in all data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="870" y="654" width="192" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Perform right join to exclude sheet names entered by user</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="68">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="774" width="192" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add special sheet name to get list of sheets</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="666" y="774" width="192" height="216" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Batch macro to read in XLSX data, in this case to get list of sheet names</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="67">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="654" width="396" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Parse list of sheet names to exclude into records</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="654" width="396" height="336" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Directory tool to input all FullPath to files</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="7" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="462" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User enters any sheets they would like excluded from the Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User selects directory to search for .XLSX files</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="258" y="330" width="192" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User selects if they want to search subdirectories and update Directory tool.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="186" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>C:\Users\Joe\Desktop\test</Directory>
+          <FileSpec>*.xlsx</FileSpec>
+          <IncludeSubDirs value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Directory</Name>
+          <AnnotationText />
+          <DefaultAnnotationText>dir C:\Users\Joe\Desktop\test\*.xlsx</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings>
+        <Position x="738" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ControlParams"><![CDATA[Control Parameter (5)=FullPath
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output17">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Data Out">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Field Count">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_WildcardXLSXInput.yxmcbatch" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1662" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="FullPath" type="V_WString" size="2048" expression="Replace([FullPath], '&lt;List of Sheet Names&gt;', [Sheet Names])" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FullPath=Replace([FullPath], '&lt;List of Sheet Names&gt;', [Sheet ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Formula: Replace([FullPath], '&lt;List of Sheet Names&gt;', [Sheet Names])" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Random" source="Formula: RAND()" type="Double" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Random" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="1866" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ControlParams"><![CDATA[Control Parameter (5)=FullPath
+]]></Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output17">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Data Out">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Field Count">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_WildcardXLSXInput.yxmcbatch" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.FolderBrowse.FolderBrowse">
+        <Position x="66" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="78" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="270" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="282" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="474" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="486" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="2" />
+          <Fields>
+            <Field name="Sheet Names" />
+          </Fields>
+          <Data>
+            <r>
+              <c>______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Sheet Names" size="254" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="486" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="618" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>Sheet Names</Field>
+          <NumFields value="1" />
+          <Delimeters value="\n" />
+          <Flags value="16" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Sheet Names" name="Sheet Names" size="254" source="TextToColumns: Parsed from Sheet Names" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="942" y="798" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Sheet Names" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Sheet Names" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Sheet Names" selected="True" rename="Right_Sheet Names" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Sheet Names" name="Sheet Names" size="254" source="TextToColumns: Parsed from Sheet Names" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Sheet Names" name="Sheet Names" size="254" source="TextToColumns: Parsed from Sheet Names" type="V_String" />
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Right_Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Sheet Names" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="522" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="FullPath" type="V_WString" size="32767" expression="[FullPath]+'|&lt;List of Sheet Names&gt;'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Add Sheet Name</Name>
+          <DefaultAnnotationText>FullPath=[FullPath]+'|&lt;List of Sheet Names&gt;'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Formula: [FullPath]+'|&lt;List of Sheet Names&gt;'" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="2022" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="4374" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="4482" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="FullPath" selected="True" />
+            <Field field="Date" selected="True" />
+            <Field field="Price" selected="True" />
+            <Field field="Field_6" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="43" source="(Multiple Sources)" type="String" />
+            <Field name="RecordID" source="(Multiple Sources)" type="Byte" />
+            <Field name="Date" source="(Multiple Sources)" type="Date" />
+            <Field name="Price" source="(Multiple Sources)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+        <Position x="4386" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DetourRight value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Date" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Price" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Date" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Price" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="4566" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="43" source="(Multiple Sources)" type="String" />
+            <Field name="RecordID" source="(Multiple Sources)" type="Byte" />
+            <Field name="Date" source="(Multiple Sources)" type="Date" />
+            <Field name="Price" source="(Multiple Sources)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="4386" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+        <Position x="2082" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DetourRight value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2034" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2274" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RecordID] &gt;= 1</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RecordID] &gt;= 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="2526" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="FullPath" />
+            <Field field="RecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="FullPath" selected="False" />
+            <Field field="RecordID" selected="False" />
+            <Field field="F1" selected="True" />
+            <Field field="F2" selected="True" />
+            <Field field="F3" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Name" size="2" source="Transpose:" type="String" />
+            <Field name="Value" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="2226" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="4722" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="43" source="(Multiple Sources)" type="String" />
+            <Field name="RecordID" source="(Multiple Sources)" type="Byte" />
+            <Field name="Date" source="(Multiple Sources)" type="Date" />
+            <Field name="Price" source="(Multiple Sources)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2238" y="486" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="3606" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="3" />
+          <Fields>
+            <Field name="Value" />
+          </Fields>
+          <Data>
+            <r>
+              <c>FullPath</c>
+            </r>
+            <r>
+              <c>RecordID</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Value" size="8" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="3690" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+          <ByName_OutputMode>Subset</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Value" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.LabelGroup.LabelGroup">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="4950" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="60">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="61">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="62">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="54" width="888" height="144" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Module: CReW_WildcardXLSXInput.yxmc
+Author: Joe Mako</Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="210" width="888" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: Reads in multiple sheets from multiple Excel files from a directory. Optionally can filter out sheets, can pull field names from a header row, can auto configure field types, can sample N random sheets, and if the headers do not match then raw data for the sheets that did not match will be in the 'N' output.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2670" y="1026" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="FullPath" action="GroupBy" rename="FullPath" />
+            <SummarizeField field="Value" action="Concat" rename="Concat_Value">
+              <Concat_Start />
+              <Separator>|</Separator>
+              <Concat_End />
+            </SummarizeField>
+            <SummarizeField field="Value" action="CountBlank" rename="CountBlank_Value" />
+            <SummarizeField field="Value" action="CountNonBlank" rename="CountNonBlank_Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Summarize: GroupBy - FullPath" type="V_WString" />
+            <Field name="Concat_Value" size="1073741823" source="Summarize: Concat - Value" type="V_WString" />
+            <Field name="CountBlank_Value" source="Summarize: CountBlank - Value" type="Int64" />
+            <Field name="CountNonBlank_Value" source="Summarize: CountNonBlank - Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2754" y="1026" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Concat_Value" action="GroupBy" rename="Concat_Value" />
+            <SummarizeField field="CountBlank_Value" action="GroupBy" rename="CountBlank_Value" />
+            <SummarizeField field="CountNonBlank_Value" action="GroupBy" rename="CountNonBlank_Value" />
+            <SummarizeField field="FullPath" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_Value" size="1073741823" source="Summarize: GroupBy - Concat_Value" type="V_WString" />
+            <Field name="CountBlank_Value" source="Summarize: GroupBy - CountBlank_Value" type="Int64" />
+            <Field name="CountNonBlank_Value" source="Summarize: GroupBy - CountNonBlank_Value" type="Int64" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Concat_Value" order="Asc" />
+            <Field field="CountBlank_Value" order="Asc" />
+            <Field field="CountNonBlank_Value" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3030" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Concat_Value" />
+            <Field field="CountBlank_Value" />
+            <Field field="CountNonBlank_Value" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Concat_Value" />
+            <Field field="CountBlank_Value" />
+            <Field field="CountNonBlank_Value" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_FullPath" selected="True" />
+                <SelectField field="Right_Concat_Value" selected="False" rename="Right_Concat_Value" />
+                <SelectField field="Right_CountBlank_Value" selected="False" rename="Right_CountBlank_Value" />
+                <SelectField field="Right_CountNonBlank_Value" selected="False" rename="Right_CountNonBlank_Value" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Concat_Value" size="1073741823" source="Summarize: GroupBy - Concat_Value" type="V_WString" />
+            <Field name="CountBlank_Value" source="Summarize: GroupBy - CountBlank_Value" type="Int64" />
+            <Field name="CountNonBlank_Value" source="Summarize: GroupBy - CountNonBlank_Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Concat_Value" />
+            <Field field="CountBlank_Value" />
+            <Field field="CountNonBlank_Value" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Summarize: GroupBy - FullPath" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Summarize: GroupBy - FullPath" type="V_WString" />
+            <Field name="Concat_Value" size="1073741823" source="Summarize: Concat - Value" type="V_WString" />
+            <Field name="CountBlank_Value" source="Summarize: CountBlank - Value" type="Int64" />
+            <Field name="CountNonBlank_Value" source="Summarize: CountNonBlank - Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Concat_Value" />
+            <Field field="CountBlank_Value" />
+            <Field field="CountNonBlank_Value" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="2838" y="1026" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_Value" size="1073741823" source="Summarize: GroupBy - Concat_Value" type="V_WString" />
+            <Field name="CountBlank_Value" source="Summarize: GroupBy - CountBlank_Value" type="Int64" />
+            <Field name="CountNonBlank_Value" source="Summarize: GroupBy - CountNonBlank_Value" type="Int64" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Count" order="Descending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="2922" y="1026" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>First</Mode>
+          <N>1</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_Value" size="1073741823" source="Summarize: GroupBy - Concat_Value" type="V_WString" />
+            <Field name="CountBlank_Value" source="Summarize: GroupBy - CountBlank_Value" type="Int64" />
+            <Field name="CountNonBlank_Value" source="Summarize: GroupBy - CountNonBlank_Value" type="Int64" />
+            <Field name="Count" source="Summarize: Count" type="Int64" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Count" order="Descending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="3222" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="FullPath" action="Concat" rename="Concat_FullPath">
+              <Concat_Start />
+              <Separator><![CDATA[, ]]></Separator>
+              <Concat_End />
+            </SummarizeField>
+            <SummarizeField field="FullPath" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_FullPath" size="1073741823" source="Summarize: Concat - FullPath" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - FullPath" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="3306" y="1230" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Last</When>
+          <Filter />
+          <Type>Warning</Type>
+          <Priority>Medium</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>"The following "+ToString([Count])+" sheet"+
+IF [Count]&gt;1 THEN "s" ELSE "" ENDIF
++" did not match the others: "+
+[Concat_FullPath]</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_FullPath" size="1073741823" source="Summarize: Concat - FullPath" type="V_WString" />
+            <Field name="Count" source="Summarize: Count - FullPath" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3222" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_FullPath" selected="False" />
+                <SelectField field="Left_Concat_Value" selected="False" />
+                <SelectField field="Left_CountBlank_Value" selected="False" />
+                <SelectField field="Left_CountNonBlank_Value" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Summarize: GroupBy - FullPath" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="3510" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Non-Matched</Name>
+          <Abbrev>N</Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3246" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_FullPath" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Name" size="2" source="Transpose:" type="String" />
+            <Field name="Value" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Name" size="2" source="Transpose:" type="String" />
+            <Field name="Value" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Summarize: GroupBy - FullPath" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="3402" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="Value" action="GroupBy" rename="Value" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="2" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Value" size="2048" source="Summarize: GroupBy - Value" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Name" order="Asc" />
+            <Field field="Value" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="3486" y="858" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Name" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="2" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Value" size="2048" source="Summarize: GroupBy - Value" type="V_WString" />
+          </RecordInfo>
+          <SortInfo locale="1033">
+            <Field field="Name" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3246" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_FullPath" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Summarize: GroupBy - FullPath" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="4842" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="FullPath" order="Ascending" />
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FullPath - Ascending
+RecordID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="43" source="(Multiple Sources)" type="String" />
+            <Field name="RecordID" source="(Multiple Sources)" type="Byte" />
+            <Field name="Date" source="(Multiple Sources)" type="Date" />
+            <Field name="Price" source="(Multiple Sources)" type="Byte" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="FullPath" order="Ascending" />
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="3414" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="FullPath" order="Ascending" />
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FullPath - Ascending
+RecordID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="FullPath" order="Ascending" />
+            <Field field="RecordID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="738" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Sheet Names" selected="True" type="V_String" size="254" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="TextToColumns: Parsed from Sheet Names" name="Sheet Names" size="254" source="TextToColumns: Parsed from Sheet Names" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="1098" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+        <Position x="1110" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DetourRight value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="1518" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Random" source="Formula: RAND()" type="Double" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Random" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sample.Sample">
+        <Position x="1410" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields orderChanged="False" />
+          <Mode>First</Mode>
+          <N>20</N>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>First 20</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Random" source="Formula: RAND()" type="Double" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Random" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSample" />
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1110" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1218" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Random" type="Double" size="8" expression="RAND()" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Random=RAND()</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Random" source="Formula: RAND()" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Sheet Names" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1314" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="Random" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Random - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Random" source="Formula: RAND()" type="Double" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="Random" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="1410" y="390" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1422" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2142" y="1062" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_FullPath" selected="True" rename="Right_FullPath" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+            <Field name="Right_FullPath" size="2048" source="Formula: Replace([FullPath], '&lt;List of Sheet Names&gt;', [Sheet Names])" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Random" source="Formula: RAND()" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Formula: Replace([FullPath], '&lt;List of Sheet Names&gt;', [Sheet Names])" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Sheet Names" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Random" source="Formula: RAND()" type="Double" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2226" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="FullPath" action="Count" rename="Count" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Count" source="Summarize: Count - FullPath" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="2310" y="1074" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Last</When>
+          <Filter />
+          <Type>Message</Type>
+          <Priority>Medium</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>IF [Count]&gt;1
+THEN ToString([Count])+' sheets were blank'
+ELSE '1 sheet was blank'
+ENDIF</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Count" source="Summarize: Count - FullPath" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="2442" y="870" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[RecordID] = 0</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[RecordID] = 0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2334" y="522" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.GenerateRows.GenerateRows">
+        <Position x="2646" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UpdateField value="False" />
+          <UpdateField_Name />
+          <CreateField_Name>Field Number</CreateField_Name>
+          <CreateField_Type>Int32</CreateField_Type>
+          <CreateField_Size>4</CreateField_Size>
+          <Expression_Init>1</Expression_Init>
+          <Expression_Cond>[Field Number] &lt;= [Fields]</Expression_Cond>
+          <Expression_Loop>[Field Number] + 1</Expression_Loop>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+            <Field name="Field Number" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxGenerateRows" />
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2730" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Name" type="V_String" size="64" expression="'F'+ToString([Field Number])" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name='F'+ToString([Field Number])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Fields" source="Formula: [Fields]-1" type="Int64" />
+            <Field name="Field Number" type="Int32" />
+            <Field name="Name" size="64" source="Formula: 'F'+ToString([Field Number])" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="2898" y="846" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+            <Field field="Name" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+            <Field field="Name" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_FullPath" selected="False" />
+                <SelectField field="Left_Fields" selected="False" />
+                <SelectField field="Left_Field Number" selected="False" />
+                <SelectField field="Left_Name" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="254" source="File: FileName" type="V_WString" />
+            <Field name="Name" size="64" source="Formula: 'F'+ToString([Field Number])" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+            <Field field="Name" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Name" size="2" source="Transpose:" type="String" />
+            <Field name="Value" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="Name" size="2" source="Transpose:" type="String" />
+            <Field name="Value" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+            <Field field="Name" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="135">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="3810" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>RecordID</FieldName>
+          <FieldType>Int32</FieldType>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Value" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="RecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="136">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="3894" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields />
+          <HeaderField field="RecordID" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="Concat" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="1" size="2048" source="CrossTab:Header:RecordID:1:Concat:" type="V_WString" />
+            <Field name="2" size="2048" source="CrossTab:Header:RecordID:2:Concat:" type="V_WString" />
+            <Field name="3" size="2048" source="CrossTab:Header:RecordID:3:Concat:" type="V_WString" />
+            <Field name="4" size="2048" source="CrossTab:Header:RecordID:4:Concat:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="137">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="3978" y="834" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>FirstRow</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="1" />
+            <Field name="2" />
+            <Field name="3" />
+            <Field name="4" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression />
+          <FirstRow>
+            <OnError>Ignore</OnError>
+          </FirstRow>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="CrossTab:Header:RecordID:1:Concat:" type="V_WString" />
+            <Field name="RecordID" size="2048" source="CrossTab:Header:RecordID:2:Concat:" type="V_WString" />
+            <Field name="Date" size="2048" source="CrossTab:Header:RecordID:3:Concat:" type="V_WString" />
+            <Field name="Price" size="2048" source="CrossTab:Header:RecordID:4:Concat:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="138">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="4206" y="774" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+          <ByName_OutputMode>Subset</ByName_OutputMode>
+          <Mode>ByPos</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Date" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Price" size="2048" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3222" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_FullPath" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="Summarize: GroupBy - FullPath" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="141">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="3330" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="RecordID" source="RecordID: (Multiple Sources)" type="Int32" />
+            <Field name="F1" size="2048" source="(Multiple Sources)" type="V_WString" />
+            <Field name="F2" size="2048" source="(Multiple Sources)" type="V_String" />
+            <Field name="F3" size="2048" source="(Multiple Sources)" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Data Out" />
+      <Destination ToolID="21" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Output" />
+      <Destination ToolID="21" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Control" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="110" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Field Count" />
+      <Destination ToolID="110" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Data Out" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="34" Connection="Action" />
+      <Destination ToolID="32" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Field Count" />
+      <Destination ToolID="129" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="11" Connection="Question" />
+      <Destination ToolID="12" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="14" Connection="Action" />
+      <Destination ToolID="2" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="13" Connection="Question" />
+      <Destination ToolID="14" Connection="Question" />
+    </Connection>
+    <Connection name="Sheets">
+      <Origin ToolID="16" Connection="Question" />
+      <Destination ToolID="18" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="18" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="99" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Right" />
+      <Destination ToolID="101" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="104" Connection="Action" />
+      <Destination ToolID="101" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Control" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="24" Connection="Question" />
+      <Destination ToolID="34" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="26" Connection="Question" />
+      <Destination ToolID="31" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="30" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Left" />
+      <Destination ToolID="30" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Right" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="33" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Left" />
+      <Destination ToolID="33" Connection="Left" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="31" Connection="Action" />
+      <Destination ToolID="29" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="138" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Right" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="46" Connection="Action" />
+      <Destination ToolID="35" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Right" />
+      <Destination ToolID="91" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Right" />
+      <Destination ToolID="91" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="True" />
+      <Destination ToolID="96" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Join" />
+      <Destination ToolID="96" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="False" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="128" Connection="Action" />
+      <Destination ToolID="127" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="132" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="132" Connection="Left" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="44" Connection="Question" />
+      <Destination ToolID="46" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="44" Connection="Question" />
+      <Destination ToolID="128" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="Output" />
+      <Destination ToolID="97" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="95" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="135" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="82" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="84" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="86" Connection="Output" />
+      <Destination ToolID="84" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="82" Connection="Output" />
+      <Destination ToolID="85" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Join" />
+      <Destination ToolID="93" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="132" Connection="Join" />
+      <Destination ToolID="93" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Right" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="84" Connection="Join" />
+      <Destination ToolID="140" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="False" />
+      <Destination ToolID="140" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="90" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="91" Connection="Join" />
+      <Destination ToolID="141" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="140" Connection="Join" />
+      <Destination ToolID="141" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Join" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="95" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="96" Connection="Join" />
+      <Destination ToolID="138" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="137" Connection="Output" />
+      <Destination ToolID="138" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="100" Connection="Question" />
+      <Destination ToolID="104" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Left" />
+      <Destination ToolID="102" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Output" />
+      <Destination ToolID="102" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Right" />
+      <Destination ToolID="105" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="105" Connection="Output" />
+      <Destination ToolID="106" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="106" Connection="Output" />
+      <Destination ToolID="103" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="108" Connection="Action" />
+      <Destination ToolID="103" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="107" Connection="Question" />
+      <Destination ToolID="108" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="110" Connection="Right" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="111" Connection="Output" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="127" Connection="True" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="129" Connection="Output" />
+      <Destination ToolID="130" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="135" Connection="Output" />
+      <Destination ToolID="136" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="136" Connection="Output" />
+      <Destination ToolID="137" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="141" Connection="Output" />
+      <Destination ToolID="98" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Folder Browse (11)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (13)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Numeric Up Down (44)</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (26)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (24)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Numeric Up Down (107)</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (100)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Text Box (16)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[   Wildcard XLSX Input]]></Name>
+      <Description>Reads in multiple sheets from multiple Excel files from a directory. Optionally can filter out sheets, can pull field names from a header row, can auto configure field types, can sample N random sheets, and if the headers do not match then raw data for the sheets that did not match will be in the 'N' output.</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags>Input, Input Data, Chaos, Chaos Reigns Within, XLSX, Excel, Wildcard</SearchTags>
+      <Author>Joe Mako</Author>
+      <Company />
+      <Copyright>Public Domain</Copyright>
+      <DescriptionLink actual="http://joemako.com" displayed="http://joemako.com" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="12" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>2/Directory</Destination>
+              <Mapping>Update Directory with Folder Browse</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="14" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>2/IncludeSubDirs/@value</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="18" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>17/Data/r/c</Destination>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="31" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>29/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="34" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>32/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="46" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="True" />
+              <ReplaceText>1</ReplaceText>
+              <Destination>35/Expression</Destination>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="104" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>101/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="108" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>103/N</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="128" />
+              <Expression>"[RecordID] = "+ToString(ToNumber([#1])-1)</Expression>
+              <Destination>127/Expression</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (10)</Name>
+          <ToolId value="10" />
+          <Questions>
+            <Question>
+              <Type>LabelGroup</Type>
+              <Description>Select Folder</Description>
+              <Name>LabelGroup (52)</Name>
+              <ToolId value="52" />
+              <Questions>
+                <Question>
+                  <Type>FolderBrowse</Type>
+                  <Description>Directory</Description>
+                  <Name>Folder Browse (11)</Name>
+                  <ToolId value="11" />
+                </Question>
+                <Question>
+                  <Type>BooleanGroup</Type>
+                  <Description>Include SubDirectories</Description>
+                  <Name>Check Box (13)</Name>
+                  <ToolId value="13" />
+                  <Questions />
+                  <Default value="False" />
+                  <Collapsable value="False" />
+                </Question>
+              </Questions>
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Field names in data</Description>
+              <Name>Check Box (24)</Name>
+              <ToolId value="24" />
+              <Questions>
+                <Question>
+                  <Type>NumericUpDown</Type>
+                  <Description>Field names in row</Description>
+                  <Name>Numeric Up Down (44)</Name>
+                  <ToolId value="44" />
+                  <Minimum value="0" />
+                  <Maximum value="100" />
+                  <Increment value="1" />
+                  <Default value="1" />
+                  <Decimals value="0" />
+                </Question>
+                <Question>
+                  <Type>BooleanGroup</Type>
+                  <Description>Auto configure field types</Description>
+                  <Name>Check Box (26)</Name>
+                  <ToolId value="26" />
+                  <Questions />
+                  <Default value="True" />
+                  <Collapsable value="False" />
+                </Question>
+              </Questions>
+              <Default value="True" />
+              <Collapsable value="True" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (53)</Description>
+              <Name>Macro Output (53)</Name>
+              <ToolId value="53" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Macro Output (92)</Description>
+              <Name>Macro Output (92)</Name>
+              <ToolId value="92" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Input N random sheets</Description>
+              <Name>Check Box (100)</Name>
+              <ToolId value="100" />
+              <Questions>
+                <Question>
+                  <Type>NumericUpDown</Type>
+                  <Description>Number of sheets to input</Description>
+                  <Name>Numeric Up Down (107)</Name>
+                  <ToolId value="107" />
+                  <Minimum value="0" />
+                  <Maximum value="100" />
+                  <Increment value="1" />
+                  <Default value="10" />
+                  <Decimals value="0" />
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Enter sheets names to exclude, one per line</Description>
+              <Name>Text Box (16)</Name>
+              <ToolId value="16" />
+              <Default />
+              <Password value="False" />
+              <Multiline value="True" />
+              <Hidden value="False" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="True" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="6" Selected="True" />
+        <Tool ToolId="8" Selected="True" />
+        <Tool ToolId="53" Selected="True" />
+        <Tool ToolId="92" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

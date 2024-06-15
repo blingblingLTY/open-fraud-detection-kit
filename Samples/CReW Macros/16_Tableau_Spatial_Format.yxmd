@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="12">..\Data\ARRONDISSEMENT.SHP</File>
+          <FormatSpecificOptions>
+            <Projection />
+            <AllStrings>False</AllStrings>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ARRONDISSEMENT.SHP</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID_GEOFLA" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="Int32" />
+            <Field name="CODE_ARR" size="1" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="String" />
+            <Field name="CODE_CHF" size="3" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="String" />
+            <Field name="NOM_CHF" size="50" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="V_String" />
+            <Field name="X_CHF_LIEU" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="Int32" />
+            <Field name="Y_CHF_LIEU" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="Int32" />
+            <Field name="X_CENTROID" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="Int32" />
+            <Field name="Y_CENTROID" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="Int32" />
+            <Field name="CODE_DEPT" size="2" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="String" />
+            <Field name="NOM_DEPT" size="30" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="V_String" />
+            <Field name="CODE_REG" size="2" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="String" />
+            <Field name="NOM_REGION" size="30" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="V_String" />
+            <Field name="SpatialObj" size="2147483647" source="File: W:\Work\CrewMacros\FromGit\Samples\Data\ARRONDISSEMENT.SHP" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="174" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="ID_GEOFLA" selected="False" />
+            <SelectField field="CODE_ARR" selected="True" rename="Arrondissement Code" />
+            <SelectField field="CODE_CHF" selected="True" rename="Chef-Lieu Code" />
+            <SelectField field="NOM_CHF" selected="True" rename="Chef-Lieu Name" />
+            <SelectField field="X_CHF_LIEU" selected="False" />
+            <SelectField field="Y_CHF_LIEU" selected="False" />
+            <SelectField field="X_CENTROID" selected="False" />
+            <SelectField field="Y_CENTROID" selected="False" />
+            <SelectField field="CODE_DEPT" selected="False" rename="Department Code" />
+            <SelectField field="NOM_DEPT" selected="False" rename="Department Name" />
+            <SelectField field="CODE_REG" selected="False" rename="Region Code" />
+            <SelectField field="NOM_REGION" selected="False" rename="Region Name" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_8376_bda042d0572d451eb5924ff01c1cbefb\Engine_8308_0c1bbd7ebced4ecc8143cff9eb3a76bc.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="270" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Spatial Field">SpatialObj</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_TableauSpatialFormat.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="42" MaxRecords="">%temp%\ARRONDISSEMENT.tde</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>ARRONDISSEMENT.tde</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>16_Tableau_Spatial_Format</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

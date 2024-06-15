@@ -1,0 +1,3967 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="594" width="671" height="417" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Or better still create Group Level Totals!</Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (20)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="414" y="726" width="392" height="232" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This time we create multiple formulas based on the first 8 letters of the field names</Text>
+          <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (39)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="306" y="186" width="672" height="400" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Create a total column
+]]></Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (10)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="770" y="378" width="120" height="160" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This is what you would normally type into the properties window of the standard formula field</Text>
+          <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (33)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="410" y="322" width="304" height="152" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Dynamically create a formula to sum all fields which begin MOSCYAP</Text>
+          <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (30)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="186" width="240" height="828" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Input data with multiple numeric columns we wish to total</Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (12)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="126" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="52" />
+          <Fields>
+            <Field name="Name" />
+            <Field name="Key" />
+            <Field name="MOSCYAPA01" />
+            <Field name="MOSCYAPA02" />
+            <Field name="MOSCYAPA03" />
+            <Field name="MOSCYAPA04" />
+            <Field name="MOSCYAPA05" />
+            <Field name="MOSCYAPA06" />
+            <Field name="MOSCYAPA07" />
+            <Field name="MOSCYAPB01" />
+            <Field name="MOSCYAPB02" />
+            <Field name="MOSCYAPB03" />
+            <Field name="MOSCYAPB04" />
+            <Field name="MOSCYAPB05" />
+            <Field name="MOSCYAPB06" />
+            <Field name="MOSCYAPC01" />
+            <Field name="MOSCYAPC02" />
+            <Field name="MOSCYAPC03" />
+            <Field name="MOSCYAPC04" />
+            <Field name="MOSCYAPC05" />
+            <Field name="MOSCYAPD01" />
+            <Field name="MOSCYAPD02" />
+            <Field name="MOSCYAPD03" />
+            <Field name="MOSCYAPD04" />
+            <Field name="MOSCYAPE01" />
+            <Field name="MOSCYAPE02" />
+            <Field name="MOSCYAPE03" />
+            <Field name="MOSCYAPE04" />
+            <Field name="MOSCYAPE05" />
+            <Field name="MOSCYAPE06" />
+            <Field name="MOSCYAPF01" />
+            <Field name="MOSCYAPF02" />
+            <Field name="MOSCYAPF03" />
+            <Field name="MOSCYAPF04" />
+            <Field name="MOSCYAPF05" />
+            <Field name="MOSCYAPG01" />
+            <Field name="MOSCYAPG02" />
+            <Field name="MOSCYAPG03" />
+            <Field name="MOSCYAPG04" />
+            <Field name="MOSCYAPH01" />
+            <Field name="MOSCYAPH02" />
+            <Field name="MOSCYAPH03" />
+            <Field name="MOSCYAPH04" />
+            <Field name="MOSCYAPI01" />
+            <Field name="MOSCYAPI02" />
+            <Field name="MOSCYAPI03" />
+            <Field name="MOSCYAPI04" />
+            <Field name="MOSCYAPI05" />
+            <Field name="MOSCYAPJ01" />
+            <Field name="MOSCYAPJ02" />
+            <Field name="MOSCYAPJ03" />
+            <Field name="MOSCYAPJ04" />
+            <Field name="MOSCYAPJ05" />
+            <Field name="MOSCYAPK01" />
+            <Field name="MOSCYAPK02" />
+            <Field name="MOSCYAPK03" />
+            <Field name="MOSCYAPK04" />
+            <Field name="MOSCYAPK05" />
+            <Field name="MOSCYAPK06" />
+            <Field name="MOSCYAPL01" />
+            <Field name="MOSCYAPL02" />
+            <Field name="MOSCYAPL03" />
+            <Field name="MOSCYAPU00" />
+          </Fields>
+          <Data>
+            <r>
+              <c>Alabama</c>
+              <c>01</c>
+              <c>5490</c>
+              <c>26144</c>
+              <c>418</c>
+              <c>6284</c>
+              <c>121906</c>
+              <c>36491</c>
+              <c>69050</c>
+              <c>7363</c>
+              <c>15075</c>
+              <c>11356</c>
+              <c>7813</c>
+              <c>0</c>
+              <c>10641</c>
+              <c>49883</c>
+              <c>301036</c>
+              <c>35477</c>
+              <c>7008</c>
+              <c>21172</c>
+              <c>0</c>
+              <c>25222</c>
+              <c>16507</c>
+              <c>66139</c>
+              <c>0</c>
+              <c>6104</c>
+              <c>9926</c>
+              <c>39445</c>
+              <c>4218</c>
+              <c>9428</c>
+              <c>47951</c>
+              <c>39800</c>
+              <c>60604</c>
+              <c>54052</c>
+              <c>154006</c>
+              <c>73336</c>
+              <c>253220</c>
+              <c>295377</c>
+              <c>3230</c>
+              <c>111445</c>
+              <c>18122</c>
+              <c>25371</c>
+              <c>0</c>
+              <c>65504</c>
+              <c>1668</c>
+              <c>136102</c>
+              <c>74361</c>
+              <c>570793</c>
+              <c>8881</c>
+              <c>0</c>
+              <c>193913</c>
+              <c>26655</c>
+              <c>9285</c>
+              <c>43357</c>
+              <c>8133</c>
+              <c>144986</c>
+              <c>47068</c>
+              <c>42221</c>
+              <c>77264</c>
+              <c>10737</c>
+              <c>16722</c>
+              <c>21948</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Alaska</c>
+              <c>02</c>
+              <c>0</c>
+              <c>13577</c>
+              <c>9512</c>
+              <c>0</c>
+              <c>21182</c>
+              <c>24940</c>
+              <c>15901</c>
+              <c>14289</c>
+              <c>596</c>
+              <c>653</c>
+              <c>8064</c>
+              <c>8277</c>
+              <c>20894</c>
+              <c>4281</c>
+              <c>57127</c>
+              <c>30385</c>
+              <c>9608</c>
+              <c>87916</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9291</c>
+              <c>677</c>
+              <c>755</c>
+              <c>448</c>
+              <c>2183</c>
+              <c>3880</c>
+              <c>0</c>
+              <c>0</c>
+              <c>26112</c>
+              <c>0</c>
+              <c>9553</c>
+              <c>0</c>
+              <c>4929</c>
+              <c>823</c>
+              <c>0</c>
+              <c>50998</c>
+              <c>5917</c>
+              <c>0</c>
+              <c>9675</c>
+              <c>0</c>
+              <c>9588</c>
+              <c>0</c>
+              <c>3730</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1482</c>
+              <c>340</c>
+              <c>0</c>
+              <c>0</c>
+              <c>958</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7452</c>
+              <c>1424</c>
+              <c>0</c>
+              <c>19286</c>
+              <c>1101</c>
+              <c>3492</c>
+              <c>403</c>
+            </r>
+            <r>
+              <c>Arizona</c>
+              <c>04</c>
+              <c>30683</c>
+              <c>75803</c>
+              <c>17917</c>
+              <c>10896</c>
+              <c>19299</c>
+              <c>82227</c>
+              <c>555963</c>
+              <c>265760</c>
+              <c>6159</c>
+              <c>128626</c>
+              <c>99184</c>
+              <c>239641</c>
+              <c>6710</c>
+              <c>55040</c>
+              <c>78133</c>
+              <c>115435</c>
+              <c>2833</c>
+              <c>26580</c>
+              <c>46419</c>
+              <c>14984</c>
+              <c>12153</c>
+              <c>94494</c>
+              <c>176</c>
+              <c>137011</c>
+              <c>180398</c>
+              <c>29877</c>
+              <c>470251</c>
+              <c>182979</c>
+              <c>90675</c>
+              <c>57441</c>
+              <c>22428</c>
+              <c>70796</c>
+              <c>4089</c>
+              <c>124780</c>
+              <c>27744</c>
+              <c>10523</c>
+              <c>128067</c>
+              <c>46819</c>
+              <c>522</c>
+              <c>163052</c>
+              <c>230349</c>
+              <c>40116</c>
+              <c>13172</c>
+              <c>25967</c>
+              <c>2741</c>
+              <c>1027</c>
+              <c>35622</c>
+              <c>300661</c>
+              <c>0</c>
+              <c>86437</c>
+              <c>5882</c>
+              <c>11684</c>
+              <c>6531</c>
+              <c>724</c>
+              <c>232223</c>
+              <c>9774</c>
+              <c>5562</c>
+              <c>14882</c>
+              <c>6888</c>
+              <c>48970</c>
+              <c>541</c>
+            </r>
+            <r>
+              <c>Arkansas</c>
+              <c>05</c>
+              <c>0</c>
+              <c>10294</c>
+              <c>0</c>
+              <c>508</c>
+              <c>20060</c>
+              <c>18228</c>
+              <c>14421</c>
+              <c>3895</c>
+              <c>3049</c>
+              <c>11771</c>
+              <c>4552</c>
+              <c>0</c>
+              <c>46410</c>
+              <c>5435</c>
+              <c>30446</c>
+              <c>1773</c>
+              <c>3986</c>
+              <c>4142</c>
+              <c>0</c>
+              <c>61456</c>
+              <c>57854</c>
+              <c>95698</c>
+              <c>0</c>
+              <c>12289</c>
+              <c>27332</c>
+              <c>47309</c>
+              <c>38480</c>
+              <c>10502</c>
+              <c>29370</c>
+              <c>111970</c>
+              <c>30409</c>
+              <c>26170</c>
+              <c>109272</c>
+              <c>50226</c>
+              <c>29427</c>
+              <c>382546</c>
+              <c>0</c>
+              <c>41177</c>
+              <c>1229</c>
+              <c>9428</c>
+              <c>11445</c>
+              <c>349203</c>
+              <c>6380</c>
+              <c>18059</c>
+              <c>37833</c>
+              <c>42435</c>
+              <c>21135</c>
+              <c>6703</c>
+              <c>112039</c>
+              <c>12412</c>
+              <c>12149</c>
+              <c>37350</c>
+              <c>2643</c>
+              <c>25681</c>
+              <c>32287</c>
+              <c>27515</c>
+              <c>18955</c>
+              <c>3364</c>
+              <c>11487</c>
+              <c>15324</c>
+              <c>840</c>
+            </r>
+            <r>
+              <c>California</c>
+              <c>06</c>
+              <c>913229</c>
+              <c>210627</c>
+              <c>1530117</c>
+              <c>920484</c>
+              <c>104903</c>
+              <c>193593</c>
+              <c>818111</c>
+              <c>812584</c>
+              <c>820445</c>
+              <c>168117</c>
+              <c>525586</c>
+              <c>2651332</c>
+              <c>8409</c>
+              <c>1187471</c>
+              <c>63304</c>
+              <c>1090275</c>
+              <c>40061</c>
+              <c>76398</c>
+              <c>1757607</c>
+              <c>36716</c>
+              <c>15559</c>
+              <c>186031</c>
+              <c>179818</c>
+              <c>770391</c>
+              <c>1066070</c>
+              <c>30392</c>
+              <c>902094</c>
+              <c>157467</c>
+              <c>143780</c>
+              <c>245061</c>
+              <c>18704</c>
+              <c>1207510</c>
+              <c>11523</c>
+              <c>45986</c>
+              <c>6001</c>
+              <c>3316</c>
+              <c>11951</c>
+              <c>825223</c>
+              <c>63622</c>
+              <c>1272069</c>
+              <c>2094724</c>
+              <c>148699</c>
+              <c>78409</c>
+              <c>422087</c>
+              <c>18521</c>
+              <c>4781</c>
+              <c>137555</c>
+              <c>2065479</c>
+              <c>15424</c>
+              <c>180070</c>
+              <c>131750</c>
+              <c>39360</c>
+              <c>26824</c>
+              <c>24915</c>
+              <c>680709</c>
+              <c>62066</c>
+              <c>22204</c>
+              <c>101788</c>
+              <c>93390</c>
+              <c>243478</c>
+              <c>56929</c>
+            </r>
+            <r>
+              <c>Colorado</c>
+              <c>08</c>
+              <c>44801</c>
+              <c>162144</c>
+              <c>44267</c>
+              <c>19677</c>
+              <c>39082</c>
+              <c>194203</c>
+              <c>388456</c>
+              <c>317674</c>
+              <c>20909</c>
+              <c>164433</c>
+              <c>64912</c>
+              <c>99560</c>
+              <c>21204</c>
+              <c>66302</c>
+              <c>55000</c>
+              <c>46181</c>
+              <c>31436</c>
+              <c>18199</c>
+              <c>21116</c>
+              <c>83638</c>
+              <c>12251</c>
+              <c>77946</c>
+              <c>0</c>
+              <c>54037</c>
+              <c>20938</c>
+              <c>26722</c>
+              <c>54946</c>
+              <c>15758</c>
+              <c>124852</c>
+              <c>118158</c>
+              <c>12018</c>
+              <c>47022</c>
+              <c>4574</c>
+              <c>27503</c>
+              <c>8932</c>
+              <c>2596</c>
+              <c>1094</c>
+              <c>194135</c>
+              <c>4116</c>
+              <c>162320</c>
+              <c>128359</c>
+              <c>115112</c>
+              <c>100631</c>
+              <c>116374</c>
+              <c>6408</c>
+              <c>0</c>
+              <c>24155</c>
+              <c>47004</c>
+              <c>373</c>
+              <c>80286</c>
+              <c>24130</c>
+              <c>6744</c>
+              <c>2891</c>
+              <c>1380</c>
+              <c>110237</c>
+              <c>5136</c>
+              <c>2927</c>
+              <c>14786</c>
+              <c>16562</c>
+              <c>26307</c>
+              <c>4182</c>
+            </r>
+            <r>
+              <c>Connecticut</c>
+              <c>09</c>
+              <c>134576</c>
+              <c>84063</c>
+              <c>126805</c>
+              <c>67744</c>
+              <c>114792</c>
+              <c>81010</c>
+              <c>1874</c>
+              <c>76896</c>
+              <c>12768</c>
+              <c>205130</c>
+              <c>54449</c>
+              <c>22806</c>
+              <c>227506</c>
+              <c>13678</c>
+              <c>0</c>
+              <c>83083</c>
+              <c>40439</c>
+              <c>320603</c>
+              <c>1182</c>
+              <c>2664</c>
+              <c>1399</c>
+              <c>18812</c>
+              <c>2884</c>
+              <c>8384</c>
+              <c>81926</c>
+              <c>70562</c>
+              <c>56694</c>
+              <c>26654</c>
+              <c>33830</c>
+              <c>216037</c>
+              <c>20106</c>
+              <c>49856</c>
+              <c>1289</c>
+              <c>1198</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>44029</c>
+              <c>16709</c>
+              <c>54967</c>
+              <c>35945</c>
+              <c>769</c>
+              <c>0</c>
+              <c>11130</c>
+              <c>3949</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8294</c>
+              <c>4033</c>
+              <c>6383</c>
+              <c>36522</c>
+              <c>17324</c>
+              <c>3197</c>
+              <c>12152</c>
+              <c>20173</c>
+              <c>130776</c>
+              <c>28367</c>
+              <c>4064</c>
+              <c>26353</c>
+              <c>5736</c>
+              <c>833</c>
+            </r>
+            <r>
+              <c>Delaware</c>
+              <c>10</c>
+              <c>2334</c>
+              <c>12327</c>
+              <c>5093</c>
+              <c>8660</c>
+              <c>13050</c>
+              <c>17916</c>
+              <c>30076</c>
+              <c>14976</c>
+              <c>1023</c>
+              <c>37094</c>
+              <c>2137</c>
+              <c>4265</c>
+              <c>2205</c>
+              <c>3754</c>
+              <c>13292</c>
+              <c>13202</c>
+              <c>9248</c>
+              <c>49092</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1533</c>
+              <c>8420</c>
+              <c>15515</c>
+              <c>4735</c>
+              <c>24026</c>
+              <c>18399</c>
+              <c>16701</c>
+              <c>0</c>
+              <c>25685</c>
+              <c>64220</c>
+              <c>7344</c>
+              <c>15770</c>
+              <c>5321</c>
+              <c>24078</c>
+              <c>36887</c>
+              <c>1368</c>
+              <c>0</c>
+              <c>15034</c>
+              <c>12196</c>
+              <c>3116</c>
+              <c>0</c>
+              <c>37942</c>
+              <c>0</c>
+              <c>24710</c>
+              <c>13015</c>
+              <c>921</c>
+              <c>0</c>
+              <c>2802</c>
+              <c>5811</c>
+              <c>7639</c>
+              <c>3207</c>
+              <c>4202</c>
+              <c>0</c>
+              <c>3527</c>
+              <c>656</c>
+              <c>6856</c>
+              <c>2258</c>
+              <c>1380</c>
+              <c>6272</c>
+              <c>2983</c>
+              <c>1608</c>
+            </r>
+            <r>
+              <c>District of Columbia</c>
+              <c>11</c>
+              <c>14495</c>
+              <c>0</c>
+              <c>0</c>
+              <c>43951</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>72938</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3750</c>
+              <c>22533</c>
+              <c>0</c>
+              <c>2230</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1768</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1032</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>20684</c>
+              <c>108195</c>
+              <c>1212</c>
+              <c>7911</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>62103</c>
+              <c>45</c>
+              <c>13437</c>
+              <c>12973</c>
+              <c>3535</c>
+              <c>3570</c>
+              <c>24708</c>
+              <c>0</c>
+              <c>26561</c>
+              <c>2474</c>
+              <c>12604</c>
+              <c>3046</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Florida</c>
+              <c>12</c>
+              <c>56179</c>
+              <c>125261</c>
+              <c>33022</c>
+              <c>77981</c>
+              <c>544652</c>
+              <c>90299</c>
+              <c>543597</c>
+              <c>70314</c>
+              <c>31935</c>
+              <c>49144</c>
+              <c>12944</c>
+              <c>52616</c>
+              <c>8198</c>
+              <c>949058</c>
+              <c>292157</c>
+              <c>403381</c>
+              <c>7130</c>
+              <c>565812</c>
+              <c>808016</c>
+              <c>5240</c>
+              <c>137085</c>
+              <c>55409</c>
+              <c>6008</c>
+              <c>88368</c>
+              <c>744616</c>
+              <c>806637</c>
+              <c>1784923</c>
+              <c>479509</c>
+              <c>46839</c>
+              <c>47647</c>
+              <c>2535966</c>
+              <c>126455</c>
+              <c>110746</c>
+              <c>69976</c>
+              <c>445184</c>
+              <c>111632</c>
+              <c>627</c>
+              <c>263876</c>
+              <c>33258</c>
+              <c>157800</c>
+              <c>366700</c>
+              <c>25070</c>
+              <c>2427</c>
+              <c>163040</c>
+              <c>15727</c>
+              <c>47221</c>
+              <c>20007</c>
+              <c>70566</c>
+              <c>149916</c>
+              <c>53471</c>
+              <c>76541</c>
+              <c>84141</c>
+              <c>28793</c>
+              <c>233236</c>
+              <c>139501</c>
+              <c>82572</c>
+              <c>162349</c>
+              <c>28766</c>
+              <c>29264</c>
+              <c>97016</c>
+              <c>4647</c>
+            </r>
+            <r>
+              <c>Georgia</c>
+              <c>13</c>
+              <c>29372</c>
+              <c>211807</c>
+              <c>24969</c>
+              <c>46840</c>
+              <c>277373</c>
+              <c>100332</c>
+              <c>514457</c>
+              <c>74372</c>
+              <c>35946</c>
+              <c>64440</c>
+              <c>28364</c>
+              <c>93573</c>
+              <c>36477</c>
+              <c>63578</c>
+              <c>795253</c>
+              <c>213444</c>
+              <c>24735</c>
+              <c>228172</c>
+              <c>22553</c>
+              <c>8031</c>
+              <c>46459</c>
+              <c>42044</c>
+              <c>1529</c>
+              <c>33235</c>
+              <c>33629</c>
+              <c>38043</c>
+              <c>7063</c>
+              <c>4957</c>
+              <c>67077</c>
+              <c>52160</c>
+              <c>233878</c>
+              <c>275005</c>
+              <c>223651</c>
+              <c>76665</c>
+              <c>614769</c>
+              <c>281592</c>
+              <c>0</c>
+              <c>321215</c>
+              <c>186954</c>
+              <c>87641</c>
+              <c>52603</c>
+              <c>53549</c>
+              <c>0</c>
+              <c>179937</c>
+              <c>97715</c>
+              <c>294902</c>
+              <c>6435</c>
+              <c>30001</c>
+              <c>277767</c>
+              <c>45197</c>
+              <c>17439</c>
+              <c>26524</c>
+              <c>24186</c>
+              <c>202858</c>
+              <c>61937</c>
+              <c>46782</c>
+              <c>158332</c>
+              <c>32061</c>
+              <c>32653</c>
+              <c>57832</c>
+              <c>1104</c>
+            </r>
+            <r>
+              <c>Hawaii</c>
+              <c>15</c>
+              <c>6693</c>
+              <c>0</c>
+              <c>36747</c>
+              <c>14741</c>
+              <c>0</c>
+              <c>0</c>
+              <c>28788</c>
+              <c>3173</c>
+              <c>291</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7026</c>
+              <c>0</c>
+              <c>4827</c>
+              <c>0</c>
+              <c>770214</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1095</c>
+              <c>19230</c>
+              <c>241</c>
+              <c>20162</c>
+              <c>10544</c>
+              <c>779</c>
+              <c>430</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1749</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9637</c>
+              <c>1499</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10782</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9899</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>46792</c>
+              <c>1816</c>
+              <c>1733</c>
+              <c>18</c>
+            </r>
+            <r>
+              <c>Idaho</c>
+              <c>16</c>
+              <c>0</c>
+              <c>1614</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1095</c>
+              <c>28717</c>
+              <c>72684</c>
+              <c>21026</c>
+              <c>0</c>
+              <c>24273</c>
+              <c>1743</c>
+              <c>0</c>
+              <c>1151</c>
+              <c>5302</c>
+              <c>123765</c>
+              <c>0</c>
+              <c>19808</c>
+              <c>82965</c>
+              <c>0</c>
+              <c>51162</c>
+              <c>7794</c>
+              <c>29826</c>
+              <c>0</c>
+              <c>25050</c>
+              <c>1807</c>
+              <c>5927</c>
+              <c>143686</c>
+              <c>1256</c>
+              <c>10014</c>
+              <c>40645</c>
+              <c>4814</c>
+              <c>5348</c>
+              <c>4837</c>
+              <c>6008</c>
+              <c>5581</c>
+              <c>2633</c>
+              <c>5817</c>
+              <c>7288</c>
+              <c>0</c>
+              <c>5078</c>
+              <c>0</c>
+              <c>39557</c>
+              <c>125598</c>
+              <c>62861</c>
+              <c>6912</c>
+              <c>1391</c>
+              <c>70976</c>
+              <c>1951</c>
+              <c>0</c>
+              <c>10410</c>
+              <c>1307</c>
+              <c>3552</c>
+              <c>2435</c>
+              <c>0</c>
+              <c>13035</c>
+              <c>6351</c>
+              <c>0</c>
+              <c>5492</c>
+              <c>8389</c>
+              <c>6144</c>
+              <c>120</c>
+            </r>
+            <r>
+              <c>Illinois</c>
+              <c>17</c>
+              <c>97134</c>
+              <c>413998</c>
+              <c>104712</c>
+              <c>86199</c>
+              <c>252868</c>
+              <c>379328</c>
+              <c>416256</c>
+              <c>153498</c>
+              <c>270450</c>
+              <c>187422</c>
+              <c>272602</c>
+              <c>100374</c>
+              <c>380103</c>
+              <c>28896</c>
+              <c>25714</c>
+              <c>709827</c>
+              <c>274645</c>
+              <c>186889</c>
+              <c>476575</c>
+              <c>330733</c>
+              <c>121104</c>
+              <c>203055</c>
+              <c>126704</c>
+              <c>27830</c>
+              <c>95547</c>
+              <c>45224</c>
+              <c>14753</c>
+              <c>32735</c>
+              <c>350935</c>
+              <c>237859</c>
+              <c>257699</c>
+              <c>47050</c>
+              <c>105747</c>
+              <c>20129</c>
+              <c>9655</c>
+              <c>26195</c>
+              <c>0</c>
+              <c>371285</c>
+              <c>237469</c>
+              <c>77297</c>
+              <c>144627</c>
+              <c>311661</c>
+              <c>233407</c>
+              <c>129952</c>
+              <c>83661</c>
+              <c>63727</c>
+              <c>128360</c>
+              <c>59459</c>
+              <c>162563</c>
+              <c>54217</c>
+              <c>68989</c>
+              <c>30386</c>
+              <c>28347</c>
+              <c>308578</c>
+              <c>72132</c>
+              <c>51502</c>
+              <c>137669</c>
+              <c>14018</c>
+              <c>54589</c>
+              <c>64610</c>
+              <c>509</c>
+            </r>
+            <r>
+              <c>Indiana</c>
+              <c>18</c>
+              <c>1025</c>
+              <c>77132</c>
+              <c>2089</c>
+              <c>422</c>
+              <c>78868</c>
+              <c>198901</c>
+              <c>155404</c>
+              <c>18840</c>
+              <c>10286</c>
+              <c>54812</c>
+              <c>97340</c>
+              <c>516</c>
+              <c>265344</c>
+              <c>6987</c>
+              <c>34604</c>
+              <c>20884</c>
+              <c>444475</c>
+              <c>94915</c>
+              <c>4331</c>
+              <c>251302</c>
+              <c>35532</c>
+              <c>257474</c>
+              <c>0</c>
+              <c>25041</c>
+              <c>7911</c>
+              <c>29390</c>
+              <c>6341</c>
+              <c>13033</c>
+              <c>309322</c>
+              <c>266042</c>
+              <c>173210</c>
+              <c>52602</c>
+              <c>144895</c>
+              <c>26871</c>
+              <c>37486</c>
+              <c>10861</c>
+              <c>0</c>
+              <c>123619</c>
+              <c>25031</c>
+              <c>30642</c>
+              <c>2018</c>
+              <c>608579</c>
+              <c>115653</c>
+              <c>29939</c>
+              <c>106400</c>
+              <c>62010</c>
+              <c>9565</c>
+              <c>2081</c>
+              <c>83148</c>
+              <c>37828</c>
+              <c>24764</c>
+              <c>17582</c>
+              <c>18888</c>
+              <c>43011</c>
+              <c>65758</c>
+              <c>102895</c>
+              <c>31655</c>
+              <c>0</c>
+              <c>49062</c>
+              <c>17895</c>
+              <c>1339</c>
+            </r>
+            <r>
+              <c>Iowa</c>
+              <c>19</c>
+              <c>0</c>
+              <c>17931</c>
+              <c>0</c>
+              <c>3</c>
+              <c>32499</c>
+              <c>48572</c>
+              <c>47424</c>
+              <c>4550</c>
+              <c>15378</c>
+              <c>20535</c>
+              <c>26168</c>
+              <c>0</c>
+              <c>81111</c>
+              <c>612</c>
+              <c>5661</c>
+              <c>2729</c>
+              <c>67893</c>
+              <c>16443</c>
+              <c>0</c>
+              <c>280106</c>
+              <c>20447</c>
+              <c>99617</c>
+              <c>0</c>
+              <c>10681</c>
+              <c>5295</c>
+              <c>43235</c>
+              <c>5338</c>
+              <c>8944</c>
+              <c>187660</c>
+              <c>71043</c>
+              <c>53902</c>
+              <c>13748</c>
+              <c>18788</c>
+              <c>5873</c>
+              <c>338</c>
+              <c>1791</c>
+              <c>2206</c>
+              <c>51094</c>
+              <c>0</c>
+              <c>7468</c>
+              <c>1165</c>
+              <c>93479</c>
+              <c>412383</c>
+              <c>19096</c>
+              <c>78056</c>
+              <c>682</c>
+              <c>237731</c>
+              <c>689</c>
+              <c>6215</c>
+              <c>35938</c>
+              <c>10172</c>
+              <c>4992</c>
+              <c>25472</c>
+              <c>1734</c>
+              <c>10246</c>
+              <c>37167</c>
+              <c>2325</c>
+              <c>0</c>
+              <c>23863</c>
+              <c>6762</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Kansas</c>
+              <c>20</c>
+              <c>4023</c>
+              <c>74865</c>
+              <c>0</c>
+              <c>0</c>
+              <c>29922</c>
+              <c>87521</c>
+              <c>111277</c>
+              <c>5827</c>
+              <c>19184</c>
+              <c>31428</c>
+              <c>11756</c>
+              <c>6124</c>
+              <c>48930</c>
+              <c>16900</c>
+              <c>19763</c>
+              <c>648</c>
+              <c>84435</c>
+              <c>11434</c>
+              <c>728</c>
+              <c>172773</c>
+              <c>82710</c>
+              <c>109490</c>
+              <c>0</c>
+              <c>40359</c>
+              <c>3111</c>
+              <c>53321</c>
+              <c>1066</c>
+              <c>1320</c>
+              <c>112597</c>
+              <c>53862</c>
+              <c>25058</c>
+              <c>25746</c>
+              <c>22176</c>
+              <c>4449</c>
+              <c>9850</c>
+              <c>18691</c>
+              <c>2328</c>
+              <c>72362</c>
+              <c>2979</c>
+              <c>28105</c>
+              <c>7222</c>
+              <c>82406</c>
+              <c>202577</c>
+              <c>14617</c>
+              <c>33783</c>
+              <c>934</c>
+              <c>149955</c>
+              <c>16740</c>
+              <c>24441</c>
+              <c>39671</c>
+              <c>4596</c>
+              <c>6969</c>
+              <c>14001</c>
+              <c>3720</c>
+              <c>21237</c>
+              <c>24525</c>
+              <c>5290</c>
+              <c>12569</c>
+              <c>9538</c>
+              <c>8390</c>
+              <c>1458</c>
+            </r>
+            <r>
+              <c>Kentucky</c>
+              <c>21</c>
+              <c>3758</c>
+              <c>39637</c>
+              <c>0</c>
+              <c>2454</c>
+              <c>42297</c>
+              <c>65261</c>
+              <c>59828</c>
+              <c>15747</c>
+              <c>19132</c>
+              <c>30433</c>
+              <c>26787</c>
+              <c>0</c>
+              <c>75958</c>
+              <c>21359</c>
+              <c>111934</c>
+              <c>9798</c>
+              <c>66176</c>
+              <c>29893</c>
+              <c>0</c>
+              <c>53578</c>
+              <c>11226</c>
+              <c>167016</c>
+              <c>0</c>
+              <c>1867</c>
+              <c>6304</c>
+              <c>28962</c>
+              <c>2022</c>
+              <c>2720</c>
+              <c>108456</c>
+              <c>144017</c>
+              <c>107721</c>
+              <c>37123</c>
+              <c>207345</c>
+              <c>30748</c>
+              <c>46408</c>
+              <c>530782</c>
+              <c>0</c>
+              <c>84337</c>
+              <c>3189</c>
+              <c>19846</c>
+              <c>0</c>
+              <c>230767</c>
+              <c>64460</c>
+              <c>62446</c>
+              <c>67367</c>
+              <c>291027</c>
+              <c>7974</c>
+              <c>0</c>
+              <c>35266</c>
+              <c>16904</c>
+              <c>18046</c>
+              <c>57535</c>
+              <c>14628</c>
+              <c>17445</c>
+              <c>38333</c>
+              <c>47507</c>
+              <c>33342</c>
+              <c>16335</c>
+              <c>14475</c>
+              <c>15202</c>
+              <c>426</c>
+            </r>
+            <r>
+              <c>Louisiana</c>
+              <c>22</c>
+              <c>7551</c>
+              <c>24159</c>
+              <c>0</c>
+              <c>6709</c>
+              <c>75019</c>
+              <c>50571</c>
+              <c>40929</c>
+              <c>4013</c>
+              <c>28971</c>
+              <c>58170</c>
+              <c>28902</c>
+              <c>5988</c>
+              <c>24240</c>
+              <c>35746</c>
+              <c>177863</c>
+              <c>57947</c>
+              <c>22053</c>
+              <c>23855</c>
+              <c>0</c>
+              <c>21785</c>
+              <c>45353</c>
+              <c>52218</c>
+              <c>4021</c>
+              <c>1824</c>
+              <c>8772</c>
+              <c>89278</c>
+              <c>2352</c>
+              <c>3184</c>
+              <c>81691</c>
+              <c>67287</c>
+              <c>57063</c>
+              <c>96031</c>
+              <c>95098</c>
+              <c>189522</c>
+              <c>212933</c>
+              <c>356314</c>
+              <c>4052</c>
+              <c>65300</c>
+              <c>28529</c>
+              <c>36319</c>
+              <c>15950</c>
+              <c>86908</c>
+              <c>978</c>
+              <c>45012</c>
+              <c>42848</c>
+              <c>92679</c>
+              <c>11525</c>
+              <c>0</c>
+              <c>303648</c>
+              <c>30090</c>
+              <c>16843</c>
+              <c>33869</c>
+              <c>889</c>
+              <c>136897</c>
+              <c>37366</c>
+              <c>43083</c>
+              <c>99567</c>
+              <c>12365</c>
+              <c>11042</c>
+              <c>29062</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Maine</c>
+              <c>23</c>
+              <c>62</c>
+              <c>1363</c>
+              <c>6804</c>
+              <c>1833</c>
+              <c>1669</c>
+              <c>3753</c>
+              <c>0</c>
+              <c>2069</c>
+              <c>1572</c>
+              <c>6278</c>
+              <c>0</c>
+              <c>0</c>
+              <c>172102</c>
+              <c>791</c>
+              <c>2082</c>
+              <c>0</c>
+              <c>18582</c>
+              <c>203298</c>
+              <c>0</c>
+              <c>6597</c>
+              <c>6031</c>
+              <c>15452</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9956</c>
+              <c>28216</c>
+              <c>101765</c>
+              <c>133</c>
+              <c>4383</c>
+              <c>13413</c>
+              <c>9499</c>
+              <c>6518</c>
+              <c>1632</c>
+              <c>237936</c>
+              <c>1160</c>
+              <c>941</c>
+              <c>1515</c>
+              <c>12079</c>
+              <c>0</c>
+              <c>4470</c>
+              <c>0</c>
+              <c>66257</c>
+              <c>68</c>
+              <c>5039</c>
+              <c>36126</c>
+              <c>1192</c>
+              <c>9317</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3541</c>
+              <c>9904</c>
+              <c>0</c>
+              <c>7658</c>
+              <c>0</c>
+              <c>8834</c>
+              <c>18796</c>
+              <c>1079</c>
+              <c>1621</c>
+              <c>5467</c>
+              <c>998</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Maryland</c>
+              <c>24</c>
+              <c>89096</c>
+              <c>137661</c>
+              <c>186135</c>
+              <c>119437</c>
+              <c>356960</c>
+              <c>58849</c>
+              <c>101207</c>
+              <c>206682</c>
+              <c>23015</c>
+              <c>204129</c>
+              <c>97310</c>
+              <c>55427</c>
+              <c>145009</c>
+              <c>88019</c>
+              <c>41470</c>
+              <c>102550</c>
+              <c>142994</c>
+              <c>267042</c>
+              <c>4408</c>
+              <c>4403</c>
+              <c>18594</c>
+              <c>25222</c>
+              <c>151874</c>
+              <c>1359</c>
+              <c>69240</c>
+              <c>53731</c>
+              <c>14119</c>
+              <c>32916</c>
+              <c>55586</c>
+              <c>176258</c>
+              <c>67278</c>
+              <c>69099</c>
+              <c>17726</c>
+              <c>29366</c>
+              <c>15067</c>
+              <c>3751</c>
+              <c>0</c>
+              <c>131899</c>
+              <c>205912</c>
+              <c>54209</c>
+              <c>29735</c>
+              <c>68089</c>
+              <c>5387</c>
+              <c>52977</c>
+              <c>47322</c>
+              <c>2584</c>
+              <c>6989</c>
+              <c>8113</c>
+              <c>186669</c>
+              <c>13150</c>
+              <c>15883</c>
+              <c>5065</c>
+              <c>10026</c>
+              <c>76920</c>
+              <c>25906</c>
+              <c>27631</c>
+              <c>54881</c>
+              <c>17671</c>
+              <c>26631</c>
+              <c>21588</c>
+              <c>13367</c>
+            </r>
+            <r>
+              <c>Massachusetts</c>
+              <c>25</c>
+              <c>103820</c>
+              <c>119304</c>
+              <c>222604</c>
+              <c>260146</c>
+              <c>107896</c>
+              <c>65036</c>
+              <c>532</c>
+              <c>96988</c>
+              <c>128920</c>
+              <c>232849</c>
+              <c>91257</c>
+              <c>46163</c>
+              <c>459120</c>
+              <c>16932</c>
+              <c>1496</c>
+              <c>365565</c>
+              <c>3716</c>
+              <c>702965</c>
+              <c>6521</c>
+              <c>4113</c>
+              <c>1612</c>
+              <c>16057</c>
+              <c>67213</c>
+              <c>12138</c>
+              <c>151061</c>
+              <c>121174</c>
+              <c>290606</c>
+              <c>31767</c>
+              <c>33215</c>
+              <c>240697</c>
+              <c>10109</c>
+              <c>38347</c>
+              <c>3</c>
+              <c>5011</c>
+              <c>0</c>
+              <c>0</c>
+              <c>301</c>
+              <c>202074</c>
+              <c>11871</c>
+              <c>98013</c>
+              <c>88443</c>
+              <c>0</c>
+              <c>0</c>
+              <c>24955</c>
+              <c>8082</c>
+              <c>630</c>
+              <c>0</c>
+              <c>22265</c>
+              <c>767</c>
+              <c>32487</c>
+              <c>75332</c>
+              <c>27462</c>
+              <c>21776</c>
+              <c>33458</c>
+              <c>49123</c>
+              <c>150267</c>
+              <c>37772</c>
+              <c>2389</c>
+              <c>79032</c>
+              <c>8652</c>
+              <c>578</c>
+            </r>
+            <r>
+              <c>Michigan</c>
+              <c>26</c>
+              <c>39076</c>
+              <c>222754</c>
+              <c>72517</c>
+              <c>18613</c>
+              <c>120225</c>
+              <c>437398</c>
+              <c>103258</c>
+              <c>67976</c>
+              <c>84984</c>
+              <c>177708</c>
+              <c>98959</c>
+              <c>4201</c>
+              <c>300413</c>
+              <c>7837</c>
+              <c>13569</c>
+              <c>209655</c>
+              <c>592953</c>
+              <c>228647</c>
+              <c>11018</c>
+              <c>144523</c>
+              <c>50906</c>
+              <c>177450</c>
+              <c>6829</c>
+              <c>29152</c>
+              <c>37598</c>
+              <c>42493</c>
+              <c>24344</c>
+              <c>28897</c>
+              <c>619797</c>
+              <c>450809</c>
+              <c>223313</c>
+              <c>62960</c>
+              <c>43063</c>
+              <c>366447</c>
+              <c>33835</c>
+              <c>3771</c>
+              <c>3626</c>
+              <c>229453</c>
+              <c>119488</c>
+              <c>58899</c>
+              <c>8701</c>
+              <c>635970</c>
+              <c>74898</c>
+              <c>156292</c>
+              <c>172721</c>
+              <c>47774</c>
+              <c>31241</c>
+              <c>13642</c>
+              <c>268601</c>
+              <c>76546</c>
+              <c>59230</c>
+              <c>19282</c>
+              <c>32817</c>
+              <c>179637</c>
+              <c>48632</c>
+              <c>111428</c>
+              <c>105012</c>
+              <c>83</c>
+              <c>52872</c>
+              <c>50531</c>
+              <c>5041</c>
+            </r>
+            <r>
+              <c>Minnesota</c>
+              <c>27</c>
+              <c>10371</c>
+              <c>150826</c>
+              <c>7581</c>
+              <c>11130</c>
+              <c>64462</c>
+              <c>233379</c>
+              <c>238569</c>
+              <c>84024</c>
+              <c>55573</c>
+              <c>67676</c>
+              <c>81374</c>
+              <c>6236</c>
+              <c>236567</c>
+              <c>2982</c>
+              <c>15690</c>
+              <c>47388</c>
+              <c>244955</c>
+              <c>42061</c>
+              <c>2064</c>
+              <c>196106</c>
+              <c>10828</c>
+              <c>54593</c>
+              <c>0</c>
+              <c>1564</c>
+              <c>7702</c>
+              <c>38540</c>
+              <c>3886</c>
+              <c>21968</c>
+              <c>144997</c>
+              <c>158379</c>
+              <c>108112</c>
+              <c>54221</c>
+              <c>4659</c>
+              <c>78623</c>
+              <c>4693</c>
+              <c>1482</c>
+              <c>21949</c>
+              <c>161659</c>
+              <c>512</c>
+              <c>59853</c>
+              <c>17750</c>
+              <c>230590</c>
+              <c>320769</c>
+              <c>51758</c>
+              <c>177580</c>
+              <c>0</c>
+              <c>183757</c>
+              <c>2666</c>
+              <c>2598</c>
+              <c>52057</c>
+              <c>36155</c>
+              <c>5336</c>
+              <c>17731</c>
+              <c>9430</c>
+              <c>43125</c>
+              <c>35767</c>
+              <c>8786</c>
+              <c>0</c>
+              <c>32868</c>
+              <c>10352</c>
+              <c>2955</c>
+            </r>
+            <r>
+              <c>Mississippi</c>
+              <c>28</c>
+              <c>0</c>
+              <c>10338</c>
+              <c>0</c>
+              <c>2011</c>
+              <c>15198</c>
+              <c>23587</c>
+              <c>23916</c>
+              <c>0</c>
+              <c>1025</c>
+              <c>28729</c>
+              <c>10418</c>
+              <c>538</c>
+              <c>18626</c>
+              <c>9483</c>
+              <c>121790</c>
+              <c>19121</c>
+              <c>12842</c>
+              <c>27958</c>
+              <c>0</c>
+              <c>40884</c>
+              <c>12552</c>
+              <c>51237</c>
+              <c>0</c>
+              <c>1690</c>
+              <c>8101</c>
+              <c>27571</c>
+              <c>0</c>
+              <c>872</c>
+              <c>24986</c>
+              <c>29104</c>
+              <c>17337</c>
+              <c>30651</c>
+              <c>72941</c>
+              <c>34036</c>
+              <c>137628</c>
+              <c>443898</c>
+              <c>3730</c>
+              <c>24395</c>
+              <c>12551</c>
+              <c>3282</c>
+              <c>121</c>
+              <c>74808</c>
+              <c>431</c>
+              <c>34217</c>
+              <c>45908</c>
+              <c>212893</c>
+              <c>3230</c>
+              <c>0</c>
+              <c>263225</c>
+              <c>22853</c>
+              <c>2267</c>
+              <c>23271</c>
+              <c>7202</c>
+              <c>44096</c>
+              <c>23408</c>
+              <c>19227</c>
+              <c>53371</c>
+              <c>6918</c>
+              <c>15080</c>
+              <c>19946</c>
+              <c>1</c>
+            </r>
+            <r>
+              <c>Missouri</c>
+              <c>29</c>
+              <c>18333</c>
+              <c>73589</c>
+              <c>2246</c>
+              <c>9309</c>
+              <c>69604</c>
+              <c>187429</c>
+              <c>131726</c>
+              <c>11239</c>
+              <c>50847</c>
+              <c>25468</c>
+              <c>110514</c>
+              <c>687</c>
+              <c>201320</c>
+              <c>10977</c>
+              <c>29291</c>
+              <c>19843</c>
+              <c>81393</c>
+              <c>9517</c>
+              <c>0</c>
+              <c>150347</c>
+              <c>31008</c>
+              <c>214957</c>
+              <c>2629</c>
+              <c>7481</c>
+              <c>5739</c>
+              <c>76821</c>
+              <c>10199</c>
+              <c>12853</c>
+              <c>254508</c>
+              <c>254168</c>
+              <c>127547</c>
+              <c>80092</c>
+              <c>248010</c>
+              <c>86653</c>
+              <c>55854</c>
+              <c>297920</c>
+              <c>0</c>
+              <c>140664</c>
+              <c>30294</c>
+              <c>13977</c>
+              <c>0</c>
+              <c>396950</c>
+              <c>169508</c>
+              <c>45397</c>
+              <c>62110</c>
+              <c>42544</c>
+              <c>68419</c>
+              <c>0</c>
+              <c>131965</c>
+              <c>32053</c>
+              <c>28599</c>
+              <c>27745</c>
+              <c>15575</c>
+              <c>45759</c>
+              <c>64859</c>
+              <c>96538</c>
+              <c>62259</c>
+              <c>11330</c>
+              <c>20061</c>
+              <c>35947</c>
+              <c>4046</c>
+            </r>
+            <r>
+              <c>Montana</c>
+              <c>30</c>
+              <c>10</c>
+              <c>3526</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3056</c>
+              <c>8141</c>
+              <c>19</c>
+              <c>15298</c>
+              <c>0</c>
+              <c>11399</c>
+              <c>1909</c>
+              <c>0</c>
+              <c>0</c>
+              <c>7924</c>
+              <c>53144</c>
+              <c>0</c>
+              <c>385</c>
+              <c>2177</c>
+              <c>0</c>
+              <c>91483</c>
+              <c>7117</c>
+              <c>20245</c>
+              <c>0</c>
+              <c>0</c>
+              <c>2143</c>
+              <c>22668</c>
+              <c>60897</c>
+              <c>1123</c>
+              <c>18927</c>
+              <c>13714</c>
+              <c>4437</c>
+              <c>2445</c>
+              <c>3239</c>
+              <c>2614</c>
+              <c>2902</c>
+              <c>3444</c>
+              <c>36178</c>
+              <c>6837</c>
+              <c>0</c>
+              <c>10328</c>
+              <c>0</c>
+              <c>48961</c>
+              <c>71701</c>
+              <c>63277</c>
+              <c>15209</c>
+              <c>0</c>
+              <c>76263</c>
+              <c>0</c>
+              <c>0</c>
+              <c>14477</c>
+              <c>5047</c>
+              <c>0</c>
+              <c>3333</c>
+              <c>0</c>
+              <c>6150</c>
+              <c>14227</c>
+              <c>0</c>
+              <c>2986</c>
+              <c>4177</c>
+              <c>512</c>
+              <c>1610</c>
+            </r>
+            <r>
+              <c>Nebraska</c>
+              <c>31</c>
+              <c>871</c>
+              <c>43990</c>
+              <c>0</c>
+              <c>446</c>
+              <c>14458</c>
+              <c>49531</c>
+              <c>59613</c>
+              <c>9007</c>
+              <c>7756</c>
+              <c>19942</c>
+              <c>17976</c>
+              <c>914</c>
+              <c>45109</c>
+              <c>5707</c>
+              <c>11818</c>
+              <c>708</c>
+              <c>16409</c>
+              <c>11633</c>
+              <c>4941</c>
+              <c>168705</c>
+              <c>9401</c>
+              <c>52612</c>
+              <c>0</c>
+              <c>12344</c>
+              <c>771</c>
+              <c>32804</c>
+              <c>6966</c>
+              <c>6176</c>
+              <c>68568</c>
+              <c>37203</c>
+              <c>28536</c>
+              <c>20443</c>
+              <c>1605</c>
+              <c>2045</c>
+              <c>2744</c>
+              <c>26</c>
+              <c>3797</c>
+              <c>23057</c>
+              <c>609</c>
+              <c>23997</c>
+              <c>4676</c>
+              <c>21181</c>
+              <c>206807</c>
+              <c>14903</c>
+              <c>12349</c>
+              <c>0</c>
+              <c>132162</c>
+              <c>0</c>
+              <c>13829</c>
+              <c>15868</c>
+              <c>10338</c>
+              <c>1254</c>
+              <c>14204</c>
+              <c>4761</c>
+              <c>11146</c>
+              <c>26986</c>
+              <c>4783</c>
+              <c>4950</c>
+              <c>7636</c>
+              <c>2353</c>
+              <c>213</c>
+            </r>
+            <r>
+              <c>Nevada</c>
+              <c>32</c>
+              <c>11474</c>
+              <c>12464</c>
+              <c>11390</c>
+              <c>9487</c>
+              <c>15642</c>
+              <c>34616</c>
+              <c>335490</c>
+              <c>143450</c>
+              <c>1367</c>
+              <c>32023</c>
+              <c>75619</c>
+              <c>111794</c>
+              <c>2796</c>
+              <c>22297</c>
+              <c>70110</c>
+              <c>165649</c>
+              <c>17676</c>
+              <c>12218</c>
+              <c>9136</c>
+              <c>6689</c>
+              <c>2210</c>
+              <c>42329</c>
+              <c>2</c>
+              <c>6880</c>
+              <c>47140</c>
+              <c>10709</c>
+              <c>148831</c>
+              <c>19328</c>
+              <c>31980</c>
+              <c>32611</c>
+              <c>6804</c>
+              <c>21771</c>
+              <c>2489</c>
+              <c>8860</c>
+              <c>21563</c>
+              <c>3900</c>
+              <c>4776</c>
+              <c>3345</c>
+              <c>410</c>
+              <c>56561</c>
+              <c>60198</c>
+              <c>10661</c>
+              <c>3776</c>
+              <c>14812</c>
+              <c>2097</c>
+              <c>0</c>
+              <c>41116</c>
+              <c>54976</c>
+              <c>2792</c>
+              <c>29511</c>
+              <c>12968</c>
+              <c>493</c>
+              <c>0</c>
+              <c>2511</c>
+              <c>158949</c>
+              <c>3668</c>
+              <c>3477</c>
+              <c>943</c>
+              <c>1744</c>
+              <c>14085</c>
+              <c>151</c>
+            </r>
+            <r>
+              <c>New Hampshire</c>
+              <c>33</c>
+              <c>918</c>
+              <c>16007</c>
+              <c>44188</c>
+              <c>2847</c>
+              <c>8168</c>
+              <c>19362</c>
+              <c>6080</c>
+              <c>24116</c>
+              <c>0</c>
+              <c>24005</c>
+              <c>0</c>
+              <c>2665</c>
+              <c>262501</c>
+              <c>1280</c>
+              <c>0</c>
+              <c>0</c>
+              <c>24154</c>
+              <c>174414</c>
+              <c>0</c>
+              <c>30081</c>
+              <c>1029</c>
+              <c>6301</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12127</c>
+              <c>24515</c>
+              <c>80788</c>
+              <c>2057</c>
+              <c>5544</c>
+              <c>47487</c>
+              <c>420</c>
+              <c>0</c>
+              <c>1580</c>
+              <c>33201</c>
+              <c>3400</c>
+              <c>0</c>
+              <c>0</c>
+              <c>16257</c>
+              <c>0</c>
+              <c>4983</c>
+              <c>0</c>
+              <c>78645</c>
+              <c>0</c>
+              <c>9440</c>
+              <c>19333</c>
+              <c>1394</c>
+              <c>7319</c>
+              <c>677</c>
+              <c>0</c>
+              <c>3587</c>
+              <c>4215</c>
+              <c>0</c>
+              <c>12787</c>
+              <c>0</c>
+              <c>635</c>
+              <c>16063</c>
+              <c>0</c>
+              <c>0</c>
+              <c>12764</c>
+              <c>2783</c>
+              <c>29</c>
+            </r>
+            <r>
+              <c>New Jersey</c>
+              <c>34</c>
+              <c>236405</c>
+              <c>243531</c>
+              <c>397760</c>
+              <c>141513</c>
+              <c>370327</c>
+              <c>89116</c>
+              <c>75742</c>
+              <c>424628</c>
+              <c>53374</c>
+              <c>249625</c>
+              <c>402673</c>
+              <c>315122</c>
+              <c>236696</c>
+              <c>42910</c>
+              <c>18905</c>
+              <c>485325</c>
+              <c>45269</c>
+              <c>315089</c>
+              <c>70394</c>
+              <c>0</c>
+              <c>2791</c>
+              <c>7485</c>
+              <c>279696</c>
+              <c>58311</c>
+              <c>115328</c>
+              <c>119339</c>
+              <c>38279</c>
+              <c>121327</c>
+              <c>72578</c>
+              <c>289375</c>
+              <c>20709</c>
+              <c>42435</c>
+              <c>936</c>
+              <c>5693</c>
+              <c>5570</c>
+              <c>1039</c>
+              <c>0</c>
+              <c>112159</c>
+              <c>107418</c>
+              <c>101737</c>
+              <c>359360</c>
+              <c>12275</c>
+              <c>252</c>
+              <c>14369</c>
+              <c>8374</c>
+              <c>0</c>
+              <c>16</c>
+              <c>73717</c>
+              <c>28110</c>
+              <c>8233</c>
+              <c>74098</c>
+              <c>27366</c>
+              <c>90012</c>
+              <c>113924</c>
+              <c>29247</c>
+              <c>27334</c>
+              <c>89579</c>
+              <c>7956</c>
+              <c>34631</c>
+              <c>34687</c>
+              <c>6558</c>
+            </r>
+            <r>
+              <c>New Mexico</c>
+              <c>35</c>
+              <c>2039</c>
+              <c>13944</c>
+              <c>1060</c>
+              <c>10260</c>
+              <c>10423</c>
+              <c>18739</c>
+              <c>51089</c>
+              <c>62298</c>
+              <c>2645</c>
+              <c>41364</c>
+              <c>5680</c>
+              <c>37113</c>
+              <c>4096</c>
+              <c>32279</c>
+              <c>25382</c>
+              <c>7487</c>
+              <c>4546</c>
+              <c>6962</c>
+              <c>0</c>
+              <c>35095</c>
+              <c>11314</c>
+              <c>23920</c>
+              <c>0</c>
+              <c>261999</c>
+              <c>11366</c>
+              <c>28062</c>
+              <c>24053</c>
+              <c>4375</c>
+              <c>45517</c>
+              <c>29342</c>
+              <c>9845</c>
+              <c>21352</c>
+              <c>7250</c>
+              <c>23017</c>
+              <c>27118</c>
+              <c>13356</c>
+              <c>101442</c>
+              <c>24819</c>
+              <c>0</c>
+              <c>26529</c>
+              <c>176249</c>
+              <c>36500</c>
+              <c>10873</c>
+              <c>29131</c>
+              <c>2084</c>
+              <c>0</c>
+              <c>24185</c>
+              <c>60819</c>
+              <c>0</c>
+              <c>14986</c>
+              <c>5034</c>
+              <c>4430</c>
+              <c>3614</c>
+              <c>0</c>
+              <c>17480</c>
+              <c>12715</c>
+              <c>1054</c>
+              <c>7819</c>
+              <c>3407</c>
+              <c>9383</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>New York</c>
+              <c>36</c>
+              <c>342769</c>
+              <c>122316</c>
+              <c>264103</c>
+              <c>295368</c>
+              <c>604693</c>
+              <c>126529</c>
+              <c>10475</c>
+              <c>164745</c>
+              <c>729170</c>
+              <c>324905</c>
+              <c>701744</c>
+              <c>649012</c>
+              <c>355318</c>
+              <c>92146</c>
+              <c>2221</c>
+              <c>232393</c>
+              <c>118820</c>
+              <c>507437</c>
+              <c>184994</c>
+              <c>103204</c>
+              <c>131879</c>
+              <c>173741</c>
+              <c>1807606</c>
+              <c>152612</c>
+              <c>123222</c>
+              <c>318890</c>
+              <c>277067</c>
+              <c>87289</c>
+              <c>174802</c>
+              <c>243513</c>
+              <c>80692</c>
+              <c>31236</c>
+              <c>13739</c>
+              <c>481526</c>
+              <c>9435</c>
+              <c>4926</c>
+              <c>7102</c>
+              <c>145007</c>
+              <c>377983</c>
+              <c>208547</c>
+              <c>495128</c>
+              <c>457336</c>
+              <c>20675</c>
+              <c>69441</c>
+              <c>156000</c>
+              <c>24963</c>
+              <c>40646</c>
+              <c>306340</c>
+              <c>49355</c>
+              <c>59263</c>
+              <c>459285</c>
+              <c>26870</c>
+              <c>452310</c>
+              <c>366338</c>
+              <c>298717</c>
+              <c>244154</c>
+              <c>393202</c>
+              <c>13163</c>
+              <c>120776</c>
+              <c>76684</c>
+              <c>30670</c>
+            </r>
+            <r>
+              <c>North Carolina</c>
+              <c>37</c>
+              <c>15862</c>
+              <c>101109</c>
+              <c>5520</c>
+              <c>13636</c>
+              <c>135827</c>
+              <c>81133</c>
+              <c>324044</c>
+              <c>97377</c>
+              <c>28801</c>
+              <c>33321</c>
+              <c>4152</c>
+              <c>6627</c>
+              <c>83505</c>
+              <c>244044</c>
+              <c>362931</c>
+              <c>165109</c>
+              <c>63259</c>
+              <c>152944</c>
+              <c>0</c>
+              <c>29325</c>
+              <c>33455</c>
+              <c>77682</c>
+              <c>1952</c>
+              <c>44552</c>
+              <c>91251</c>
+              <c>63033</c>
+              <c>19523</c>
+              <c>9884</c>
+              <c>32583</c>
+              <c>143672</c>
+              <c>183345</c>
+              <c>147889</c>
+              <c>370842</c>
+              <c>216459</c>
+              <c>671754</c>
+              <c>306818</c>
+              <c>56592</c>
+              <c>305703</c>
+              <c>17418</c>
+              <c>56385</c>
+              <c>10165</c>
+              <c>164510</c>
+              <c>2068</c>
+              <c>531101</c>
+              <c>214600</c>
+              <c>437560</c>
+              <c>15921</c>
+              <c>11070</c>
+              <c>144269</c>
+              <c>48803</c>
+              <c>16082</c>
+              <c>33578</c>
+              <c>32076</c>
+              <c>82933</c>
+              <c>93684</c>
+              <c>55378</c>
+              <c>111391</c>
+              <c>53921</c>
+              <c>51525</c>
+              <c>21376</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>North Dakota</c>
+              <c>38</c>
+              <c>2</c>
+              <c>2448</c>
+              <c>0</c>
+              <c>0</c>
+              <c>4840</c>
+              <c>10143</c>
+              <c>2077</c>
+              <c>0</c>
+              <c>0</c>
+              <c>6059</c>
+              <c>1098</c>
+              <c>0</c>
+              <c>18092</c>
+              <c>0</c>
+              <c>6880</c>
+              <c>3918</c>
+              <c>12376</c>
+              <c>9771</c>
+              <c>0</c>
+              <c>60119</c>
+              <c>877</c>
+              <c>8451</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1335</c>
+              <c>8766</c>
+              <c>3245</c>
+              <c>1184</c>
+              <c>10956</c>
+              <c>23684</c>
+              <c>10823</c>
+              <c>8733</c>
+              <c>0</c>
+              <c>1217</c>
+              <c>1493</c>
+              <c>423</c>
+              <c>17170</c>
+              <c>17925</c>
+              <c>0</c>
+              <c>3734</c>
+              <c>0</c>
+              <c>7794</c>
+              <c>97910</c>
+              <c>5472</c>
+              <c>13324</c>
+              <c>0</c>
+              <c>58913</c>
+              <c>0</c>
+              <c>0</c>
+              <c>19017</c>
+              <c>4225</c>
+              <c>0</c>
+              <c>4755</c>
+              <c>0</c>
+              <c>4707</c>
+              <c>6402</c>
+              <c>0</c>
+              <c>5077</c>
+              <c>6236</c>
+              <c>716</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Ohio</c>
+              <c>39</c>
+              <c>17644</c>
+              <c>195055</c>
+              <c>8367</c>
+              <c>13414</c>
+              <c>236535</c>
+              <c>312992</c>
+              <c>183285</c>
+              <c>27040</c>
+              <c>87199</c>
+              <c>169209</c>
+              <c>152558</c>
+              <c>725</c>
+              <c>352821</c>
+              <c>27623</c>
+              <c>20625</c>
+              <c>181318</c>
+              <c>646183</c>
+              <c>357027</c>
+              <c>0</c>
+              <c>336286</c>
+              <c>70756</c>
+              <c>464003</c>
+              <c>2859</c>
+              <c>9173</c>
+              <c>41808</c>
+              <c>89726</c>
+              <c>15146</c>
+              <c>40796</c>
+              <c>561610</c>
+              <c>391173</c>
+              <c>499649</c>
+              <c>98192</c>
+              <c>185254</c>
+              <c>62428</c>
+              <c>80399</c>
+              <c>28724</c>
+              <c>0</c>
+              <c>278942</c>
+              <c>96879</c>
+              <c>47071</c>
+              <c>196</c>
+              <c>670039</c>
+              <c>111558</c>
+              <c>156939</c>
+              <c>243899</c>
+              <c>185096</c>
+              <c>13803</c>
+              <c>3143</c>
+              <c>236032</c>
+              <c>74516</c>
+              <c>66427</c>
+              <c>34219</c>
+              <c>17945</c>
+              <c>71665</c>
+              <c>96269</c>
+              <c>161256</c>
+              <c>131804</c>
+              <c>3311</c>
+              <c>63571</c>
+              <c>43153</c>
+              <c>1364</c>
+            </r>
+            <r>
+              <c>Oklahoma</c>
+              <c>40</c>
+              <c>2109</c>
+              <c>19997</c>
+              <c>0</c>
+              <c>3734</c>
+              <c>36039</c>
+              <c>64305</c>
+              <c>74940</c>
+              <c>6183</c>
+              <c>7022</c>
+              <c>63969</c>
+              <c>7294</c>
+              <c>4863</c>
+              <c>34521</c>
+              <c>34066</c>
+              <c>62602</c>
+              <c>37278</c>
+              <c>18087</c>
+              <c>20071</c>
+              <c>0</c>
+              <c>73035</c>
+              <c>444364</c>
+              <c>134937</c>
+              <c>655</c>
+              <c>41413</c>
+              <c>8239</c>
+              <c>68908</c>
+              <c>17797</c>
+              <c>1424</c>
+              <c>93937</c>
+              <c>29230</c>
+              <c>31221</c>
+              <c>46069</c>
+              <c>48208</c>
+              <c>120582</c>
+              <c>44601</c>
+              <c>195927</c>
+              <c>100715</c>
+              <c>53852</c>
+              <c>5519</c>
+              <c>60836</c>
+              <c>21500</c>
+              <c>168461</c>
+              <c>34700</c>
+              <c>15456</c>
+              <c>20785</c>
+              <c>10397</c>
+              <c>85852</c>
+              <c>7132</c>
+              <c>35560</c>
+              <c>24820</c>
+              <c>7655</c>
+              <c>9203</c>
+              <c>3127</c>
+              <c>14684</c>
+              <c>30063</c>
+              <c>46867</c>
+              <c>22646</c>
+              <c>11057</c>
+              <c>13882</c>
+              <c>32021</c>
+              <c>5</c>
+            </r>
+            <r>
+              <c>Oregon</c>
+              <c>41</c>
+              <c>3606</c>
+              <c>21072</c>
+              <c>9478</c>
+              <c>11389</c>
+              <c>39552</c>
+              <c>35499</c>
+              <c>66728</c>
+              <c>130315</c>
+              <c>7409</c>
+              <c>47118</c>
+              <c>45262</c>
+              <c>13004</c>
+              <c>36540</c>
+              <c>31557</c>
+              <c>191938</c>
+              <c>50708</c>
+              <c>38634</c>
+              <c>11326</c>
+              <c>1157</c>
+              <c>59684</c>
+              <c>5067</c>
+              <c>42818</c>
+              <c>0</c>
+              <c>22169</c>
+              <c>13654</c>
+              <c>32331</c>
+              <c>348731</c>
+              <c>9757</c>
+              <c>5158</c>
+              <c>378240</c>
+              <c>7855</c>
+              <c>30427</c>
+              <c>7765</c>
+              <c>17821</c>
+              <c>12086</c>
+              <c>0</c>
+              <c>3385</c>
+              <c>154668</c>
+              <c>0</c>
+              <c>60901</c>
+              <c>20663</c>
+              <c>76153</c>
+              <c>55602</c>
+              <c>366171</c>
+              <c>17397</c>
+              <c>1685</c>
+              <c>103985</c>
+              <c>14396</c>
+              <c>0</c>
+              <c>40839</c>
+              <c>20511</c>
+              <c>11002</c>
+              <c>4107</c>
+              <c>0</c>
+              <c>148684</c>
+              <c>5518</c>
+              <c>0</c>
+              <c>0</c>
+              <c>10588</c>
+              <c>21670</c>
+              <c>434</c>
+            </r>
+            <r>
+              <c>Pennsylvania</c>
+              <c>42</c>
+              <c>51610</c>
+              <c>135485</c>
+              <c>176147</c>
+              <c>56313</c>
+              <c>194221</c>
+              <c>143252</c>
+              <c>42717</c>
+              <c>213817</c>
+              <c>39745</c>
+              <c>380618</c>
+              <c>39268</c>
+              <c>41410</c>
+              <c>317114</c>
+              <c>23473</c>
+              <c>37142</c>
+              <c>198591</c>
+              <c>450488</c>
+              <c>495302</c>
+              <c>0</c>
+              <c>132525</c>
+              <c>874814</c>
+              <c>204200</c>
+              <c>556831</c>
+              <c>114966</c>
+              <c>99531</c>
+              <c>277241</c>
+              <c>69618</c>
+              <c>96200</c>
+              <c>214158</c>
+              <c>422871</c>
+              <c>125597</c>
+              <c>46254</c>
+              <c>22691</c>
+              <c>400516</c>
+              <c>9713</c>
+              <c>65723</c>
+              <c>0</c>
+              <c>135458</c>
+              <c>93706</c>
+              <c>57915</c>
+              <c>3039</c>
+              <c>425878</c>
+              <c>119753</c>
+              <c>172103</c>
+              <c>734592</c>
+              <c>69111</c>
+              <c>62296</c>
+              <c>1293</c>
+              <c>309364</c>
+              <c>64930</c>
+              <c>91244</c>
+              <c>30791</c>
+              <c>37696</c>
+              <c>48749</c>
+              <c>57494</c>
+              <c>125341</c>
+              <c>154355</c>
+              <c>162</c>
+              <c>105415</c>
+              <c>57972</c>
+              <c>9106</c>
+            </r>
+            <r>
+              <c>Rhode Island</c>
+              <c>44</c>
+              <c>1553</c>
+              <c>8338</c>
+              <c>21729</c>
+              <c>7105</c>
+              <c>5494</c>
+              <c>11829</c>
+              <c>268</c>
+              <c>803</c>
+              <c>2176</c>
+              <c>29683</c>
+              <c>0</c>
+              <c>0</c>
+              <c>98641</c>
+              <c>625</c>
+              <c>1799</c>
+              <c>14378</c>
+              <c>5071</c>
+              <c>142629</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>5497</c>
+              <c>4758</c>
+              <c>3460</c>
+              <c>21671</c>
+              <c>67966</c>
+              <c>66601</c>
+              <c>3943</c>
+              <c>25167</c>
+              <c>54994</c>
+              <c>8712</c>
+              <c>9412</c>
+              <c>0</c>
+              <c>71</c>
+              <c>0</c>
+              <c>129</c>
+              <c>0</c>
+              <c>19201</c>
+              <c>0</c>
+              <c>14217</c>
+              <c>13278</c>
+              <c>0</c>
+              <c>0</c>
+              <c>13815</c>
+              <c>991</c>
+              <c>0</c>
+              <c>0</c>
+              <c>15455</c>
+              <c>0</c>
+              <c>5708</c>
+              <c>22350</c>
+              <c>3227</c>
+              <c>1268</c>
+              <c>0</c>
+              <c>8615</c>
+              <c>63116</c>
+              <c>5801</c>
+              <c>2387</c>
+              <c>15913</c>
+              <c>0</c>
+              <c>3465</c>
+            </r>
+            <r>
+              <c>South Carolina</c>
+              <c>45</c>
+              <c>1540</c>
+              <c>7372</c>
+              <c>0</c>
+              <c>3769</c>
+              <c>124755</c>
+              <c>36131</c>
+              <c>99693</c>
+              <c>9409</c>
+              <c>19177</c>
+              <c>18354</c>
+              <c>2592</c>
+              <c>0</c>
+              <c>35408</c>
+              <c>102143</c>
+              <c>154478</c>
+              <c>110023</c>
+              <c>9209</c>
+              <c>54556</c>
+              <c>0</c>
+              <c>11832</c>
+              <c>5960</c>
+              <c>16686</c>
+              <c>6</c>
+              <c>2986</c>
+              <c>73081</c>
+              <c>91242</c>
+              <c>15583</c>
+              <c>3578</c>
+              <c>24704</c>
+              <c>60799</c>
+              <c>47772</c>
+              <c>90239</c>
+              <c>192017</c>
+              <c>33440</c>
+              <c>553237</c>
+              <c>309665</c>
+              <c>0</c>
+              <c>108641</c>
+              <c>5226</c>
+              <c>23049</c>
+              <c>1732</c>
+              <c>32932</c>
+              <c>0</c>
+              <c>198632</c>
+              <c>67519</c>
+              <c>131778</c>
+              <c>1940</c>
+              <c>369</c>
+              <c>149146</c>
+              <c>21808</c>
+              <c>5496</c>
+              <c>13743</c>
+              <c>15273</c>
+              <c>60273</c>
+              <c>55150</c>
+              <c>17472</c>
+              <c>73747</c>
+              <c>24565</c>
+              <c>22229</c>
+              <c>19925</c>
+              <c>3417</c>
+            </r>
+            <r>
+              <c>South Dakota</c>
+              <c>46</c>
+              <c>3</c>
+              <c>1300</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3270</c>
+              <c>7572</c>
+              <c>32307</c>
+              <c>3782</c>
+              <c>0</c>
+              <c>5014</c>
+              <c>0</c>
+              <c>0</c>
+              <c>18259</c>
+              <c>6282</c>
+              <c>11703</c>
+              <c>0</c>
+              <c>15077</c>
+              <c>2611</c>
+              <c>0</c>
+              <c>59456</c>
+              <c>4298</c>
+              <c>20569</c>
+              <c>0</c>
+              <c>0</c>
+              <c>3133</c>
+              <c>12736</c>
+              <c>5854</c>
+              <c>559</c>
+              <c>15205</c>
+              <c>27206</c>
+              <c>9750</c>
+              <c>4039</c>
+              <c>4783</c>
+              <c>1287</c>
+              <c>11836</c>
+              <c>0</c>
+              <c>42472</c>
+              <c>1391</c>
+              <c>0</c>
+              <c>9434</c>
+              <c>0</c>
+              <c>20870</c>
+              <c>114842</c>
+              <c>11088</c>
+              <c>17855</c>
+              <c>0</c>
+              <c>53402</c>
+              <c>0</c>
+              <c>0</c>
+              <c>9286</c>
+              <c>3907</c>
+              <c>6</c>
+              <c>4721</c>
+              <c>0</c>
+              <c>2384</c>
+              <c>7479</c>
+              <c>0</c>
+              <c>1065</c>
+              <c>5311</c>
+              <c>3642</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Tennessee</c>
+              <c>47</c>
+              <c>14080</c>
+              <c>88573</c>
+              <c>0</c>
+              <c>11209</c>
+              <c>119339</c>
+              <c>91572</c>
+              <c>154469</c>
+              <c>15128</c>
+              <c>14134</c>
+              <c>35135</c>
+              <c>21703</c>
+              <c>10710</c>
+              <c>76832</c>
+              <c>74177</c>
+              <c>297557</c>
+              <c>41273</c>
+              <c>22912</c>
+              <c>64986</c>
+              <c>0</c>
+              <c>53636</c>
+              <c>11735</c>
+              <c>153811</c>
+              <c>0</c>
+              <c>4244</c>
+              <c>21098</c>
+              <c>57998</c>
+              <c>10892</c>
+              <c>6137</c>
+              <c>70996</c>
+              <c>105316</c>
+              <c>165401</c>
+              <c>84339</c>
+              <c>265307</c>
+              <c>52057</c>
+              <c>69582</c>
+              <c>101226</c>
+              <c>0</c>
+              <c>169448</c>
+              <c>38928</c>
+              <c>44219</c>
+              <c>2031</c>
+              <c>270880</c>
+              <c>12944</c>
+              <c>234844</c>
+              <c>74338</c>
+              <c>815300</c>
+              <c>4814</c>
+              <c>1238</c>
+              <c>117426</c>
+              <c>25730</c>
+              <c>30728</c>
+              <c>52507</c>
+              <c>15865</c>
+              <c>118871</c>
+              <c>71055</c>
+              <c>60667</c>
+              <c>86795</c>
+              <c>4031</c>
+              <c>22035</c>
+              <c>25327</c>
+              <c>181</c>
+            </r>
+            <r>
+              <c>Texas</c>
+              <c>48</c>
+              <c>99490</c>
+              <c>541993</c>
+              <c>79203</c>
+              <c>43717</c>
+              <c>186498</c>
+              <c>440241</c>
+              <c>1289716</c>
+              <c>137199</c>
+              <c>59943</c>
+              <c>444585</c>
+              <c>46874</c>
+              <c>619198</c>
+              <c>30226</c>
+              <c>202297</c>
+              <c>468136</c>
+              <c>83858</c>
+              <c>66275</c>
+              <c>310804</c>
+              <c>58340</c>
+              <c>117007</c>
+              <c>294281</c>
+              <c>244873</c>
+              <c>2220</c>
+              <c>1483047</c>
+              <c>116722</c>
+              <c>300270</c>
+              <c>111322</c>
+              <c>31246</c>
+              <c>468644</c>
+              <c>58558</c>
+              <c>71474</c>
+              <c>152348</c>
+              <c>151812</c>
+              <c>1131964</c>
+              <c>304845</c>
+              <c>227038</c>
+              <c>421</c>
+              <c>648839</c>
+              <c>50164</c>
+              <c>527167</c>
+              <c>1147063</c>
+              <c>194051</c>
+              <c>98739</c>
+              <c>84729</c>
+              <c>75053</c>
+              <c>143785</c>
+              <c>427650</c>
+              <c>2161811</c>
+              <c>206774</c>
+              <c>158844</c>
+              <c>31473</c>
+              <c>61954</c>
+              <c>23509</c>
+              <c>135483</c>
+              <c>487881</c>
+              <c>97186</c>
+              <c>120188</c>
+              <c>51311</c>
+              <c>41717</c>
+              <c>226751</c>
+              <c>17359</c>
+            </r>
+            <r>
+              <c>Utah</c>
+              <c>49</c>
+              <c>8927</c>
+              <c>34300</c>
+              <c>8912</c>
+              <c>1834</c>
+              <c>3323</c>
+              <c>127650</c>
+              <c>332988</c>
+              <c>41630</c>
+              <c>2972</c>
+              <c>106125</c>
+              <c>2381</c>
+              <c>113708</c>
+              <c>24250</c>
+              <c>26334</c>
+              <c>93956</c>
+              <c>23304</c>
+              <c>58761</c>
+              <c>2318</c>
+              <c>5358</c>
+              <c>20213</c>
+              <c>2598</c>
+              <c>16664</c>
+              <c>0</c>
+              <c>4893</c>
+              <c>5554</c>
+              <c>11713</c>
+              <c>85673</c>
+              <c>4127</c>
+              <c>68106</c>
+              <c>76515</c>
+              <c>1584</c>
+              <c>26324</c>
+              <c>0</c>
+              <c>26161</c>
+              <c>29204</c>
+              <c>1938</c>
+              <c>7698</c>
+              <c>48439</c>
+              <c>0</c>
+              <c>42303</c>
+              <c>43528</c>
+              <c>42688</c>
+              <c>19219</c>
+              <c>2504</c>
+              <c>18505</c>
+              <c>1771</c>
+              <c>2539</c>
+              <c>9555</c>
+              <c>0</c>
+              <c>51897</c>
+              <c>4028</c>
+              <c>5069</c>
+              <c>5304</c>
+              <c>0</c>
+              <c>84321</c>
+              <c>8885</c>
+              <c>0</c>
+              <c>4748</c>
+              <c>14086</c>
+              <c>9116</c>
+              <c>674</c>
+            </r>
+            <r>
+              <c>Vermont</c>
+              <c>50</c>
+              <c>0</c>
+              <c>2465</c>
+              <c>0</c>
+              <c>0</c>
+              <c>6779</c>
+              <c>12302</c>
+              <c>0</c>
+              <c>19264</c>
+              <c>0</c>
+              <c>2055</c>
+              <c>939</c>
+              <c>0</c>
+              <c>40754</c>
+              <c>4506</c>
+              <c>771</c>
+              <c>0</c>
+              <c>12650</c>
+              <c>80772</c>
+              <c>0</c>
+              <c>25629</c>
+              <c>0</c>
+              <c>5479</c>
+              <c>0</c>
+              <c>0</c>
+              <c>565</c>
+              <c>9088</c>
+              <c>46814</c>
+              <c>0</c>
+              <c>0</c>
+              <c>4164</c>
+              <c>0</c>
+              <c>3328</c>
+              <c>0</c>
+              <c>62301</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>8581</c>
+              <c>0</c>
+              <c>4626</c>
+              <c>0</c>
+              <c>78543</c>
+              <c>3971</c>
+              <c>3936</c>
+              <c>18861</c>
+              <c>0</c>
+              <c>8385</c>
+              <c>0</c>
+              <c>0</c>
+              <c>6146</c>
+              <c>2383</c>
+              <c>0</c>
+              <c>9466</c>
+              <c>0</c>
+              <c>2371</c>
+              <c>4218</c>
+              <c>0</c>
+              <c>0</c>
+              <c>5736</c>
+              <c>0</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Virginia</c>
+              <c>51</c>
+              <c>92172</c>
+              <c>173423</c>
+              <c>138426</c>
+              <c>115066</c>
+              <c>346113</c>
+              <c>81792</c>
+              <c>288214</c>
+              <c>200967</c>
+              <c>85892</c>
+              <c>162673</c>
+              <c>62525</c>
+              <c>54899</c>
+              <c>56216</c>
+              <c>292121</c>
+              <c>160158</c>
+              <c>208565</c>
+              <c>77249</c>
+              <c>235524</c>
+              <c>8469</c>
+              <c>7492</c>
+              <c>7080</c>
+              <c>58234</c>
+              <c>17869</c>
+              <c>2653</c>
+              <c>43594</c>
+              <c>57689</c>
+              <c>5002</c>
+              <c>12612</c>
+              <c>84572</c>
+              <c>158137</c>
+              <c>163170</c>
+              <c>177867</c>
+              <c>120127</c>
+              <c>116333</c>
+              <c>52287</c>
+              <c>328174</c>
+              <c>0</c>
+              <c>229187</c>
+              <c>44103</c>
+              <c>63563</c>
+              <c>47887</c>
+              <c>154177</c>
+              <c>10247</c>
+              <c>182577</c>
+              <c>249234</c>
+              <c>131859</c>
+              <c>16592</c>
+              <c>1854</c>
+              <c>91828</c>
+              <c>42918</c>
+              <c>21589</c>
+              <c>21180</c>
+              <c>20521</c>
+              <c>79569</c>
+              <c>74800</c>
+              <c>44386</c>
+              <c>77669</c>
+              <c>55055</c>
+              <c>46588</c>
+              <c>39197</c>
+              <c>1136</c>
+            </r>
+            <r>
+              <c>Washington</c>
+              <c>53</c>
+              <c>32178</c>
+              <c>66107</c>
+              <c>82938</c>
+              <c>70979</c>
+              <c>74527</c>
+              <c>147572</c>
+              <c>124864</c>
+              <c>237459</c>
+              <c>45316</c>
+              <c>26365</c>
+              <c>90063</c>
+              <c>47561</c>
+              <c>16405</c>
+              <c>78819</c>
+              <c>921274</c>
+              <c>84407</c>
+              <c>31772</c>
+              <c>22620</c>
+              <c>2626</c>
+              <c>43148</c>
+              <c>10109</c>
+              <c>83755</c>
+              <c>10093</c>
+              <c>65535</c>
+              <c>53939</c>
+              <c>18878</c>
+              <c>262974</c>
+              <c>23138</c>
+              <c>26743</c>
+              <c>610012</c>
+              <c>25987</c>
+              <c>43508</c>
+              <c>3049</c>
+              <c>54039</c>
+              <c>18982</c>
+              <c>1409</c>
+              <c>24327</c>
+              <c>255134</c>
+              <c>0</c>
+              <c>145218</c>
+              <c>25748</c>
+              <c>76770</c>
+              <c>42874</c>
+              <c>257186</c>
+              <c>20292</c>
+              <c>391</c>
+              <c>84808</c>
+              <c>57683</c>
+              <c>0</c>
+              <c>63814</c>
+              <c>45667</c>
+              <c>5894</c>
+              <c>7144</c>
+              <c>0</c>
+              <c>234295</c>
+              <c>16917</c>
+              <c>579</c>
+              <c>32174</c>
+              <c>23768</c>
+              <c>25081</c>
+              <c>2718</c>
+            </r>
+            <r>
+              <c>West Virginia</c>
+              <c>54</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1751</c>
+              <c>5981</c>
+              <c>3572</c>
+              <c>0</c>
+              <c>3772</c>
+              <c>3204</c>
+              <c>4082</c>
+              <c>0</c>
+              <c>0</c>
+              <c>11100</c>
+              <c>18741</c>
+              <c>45792</c>
+              <c>697</c>
+              <c>10861</c>
+              <c>14982</c>
+              <c>0</c>
+              <c>44084</c>
+              <c>63623</c>
+              <c>97192</c>
+              <c>0</c>
+              <c>0</c>
+              <c>580</c>
+              <c>11720</c>
+              <c>20026</c>
+              <c>572</c>
+              <c>28609</c>
+              <c>52012</c>
+              <c>36760</c>
+              <c>7439</c>
+              <c>75210</c>
+              <c>86343</c>
+              <c>14524</c>
+              <c>310416</c>
+              <c>0</c>
+              <c>2474</c>
+              <c>0</c>
+              <c>323</c>
+              <c>0</c>
+              <c>59500</c>
+              <c>0</c>
+              <c>79309</c>
+              <c>125163</c>
+              <c>75339</c>
+              <c>47402</c>
+              <c>0</c>
+              <c>1020</c>
+              <c>12137</c>
+              <c>19135</c>
+              <c>14120</c>
+              <c>5625</c>
+              <c>0</c>
+              <c>1815</c>
+              <c>8255</c>
+              <c>3309</c>
+              <c>0</c>
+              <c>5867</c>
+              <c>2554</c>
+              <c>0</c>
+            </r>
+            <r>
+              <c>Wisconsin</c>
+              <c>55</c>
+              <c>5126</c>
+              <c>37355</c>
+              <c>4897</c>
+              <c>5576</c>
+              <c>41727</c>
+              <c>253057</c>
+              <c>53405</c>
+              <c>12793</c>
+              <c>30710</c>
+              <c>53956</c>
+              <c>62662</c>
+              <c>0</c>
+              <c>356112</c>
+              <c>3287</c>
+              <c>5286</c>
+              <c>54151</c>
+              <c>372004</c>
+              <c>143027</c>
+              <c>3991</c>
+              <c>186875</c>
+              <c>5530</c>
+              <c>53818</c>
+              <c>0</c>
+              <c>17037</c>
+              <c>22991</c>
+              <c>35591</c>
+              <c>3690</c>
+              <c>19789</c>
+              <c>219161</c>
+              <c>143020</c>
+              <c>196562</c>
+              <c>47033</c>
+              <c>10815</c>
+              <c>148111</c>
+              <c>2461</c>
+              <c>0</c>
+              <c>18197</c>
+              <c>136585</c>
+              <c>8416</c>
+              <c>32929</c>
+              <c>5244</c>
+              <c>363123</c>
+              <c>320437</c>
+              <c>73119</c>
+              <c>248285</c>
+              <c>1198</c>
+              <c>77714</c>
+              <c>20678</c>
+              <c>39709</c>
+              <c>48007</c>
+              <c>28927</c>
+              <c>15892</c>
+              <c>8744</c>
+              <c>39137</c>
+              <c>49097</c>
+              <c>78870</c>
+              <c>31011</c>
+              <c>0</c>
+              <c>38153</c>
+              <c>11763</c>
+              <c>2668</c>
+            </r>
+            <r>
+              <c>Wyoming</c>
+              <c>56</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>1318</c>
+              <c>12898</c>
+              <c>0</c>
+              <c>3135</c>
+              <c>0</c>
+              <c>9600</c>
+              <c>4522</c>
+              <c>0</c>
+              <c>2515</c>
+              <c>2373</c>
+              <c>10120</c>
+              <c>0</c>
+              <c>9899</c>
+              <c>2482</c>
+              <c>0</c>
+              <c>61503</c>
+              <c>1628</c>
+              <c>10980</c>
+              <c>0</c>
+              <c>1215</c>
+              <c>0</c>
+              <c>13161</c>
+              <c>22031</c>
+              <c>4</c>
+              <c>11291</c>
+              <c>17375</c>
+              <c>7715</c>
+              <c>4218</c>
+              <c>1869</c>
+              <c>6902</c>
+              <c>7902</c>
+              <c>12587</c>
+              <c>4456</c>
+              <c>1101</c>
+              <c>0</c>
+              <c>0</c>
+              <c>0</c>
+              <c>30734</c>
+              <c>45261</c>
+              <c>14939</c>
+              <c>31059</c>
+              <c>0</c>
+              <c>14825</c>
+              <c>0</c>
+              <c>0</c>
+              <c>6572</c>
+              <c>3272</c>
+              <c>799</c>
+              <c>380</c>
+              <c>0</c>
+              <c>1402</c>
+              <c>1809</c>
+              <c>0</c>
+              <c>3177</c>
+              <c>1577</c>
+              <c>0</c>
+              <c>1</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Input (3)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="66" width="924" height="108" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: Example of using the Dynamic Forumla Tool
+Author: Adam Riley (riley.ad@gmail.com)
+Full Explanation: http://www.chaosreignswithin.com</Text>
+          <Font name="Microsoft Sans Serif" size="14.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (8)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FieldInfo.FieldInfo">
+        <Position x="442" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Field Info (13)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFieldInfo" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="506" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>left([Name],7) == 'MOSCYAP'</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Filter (14)</Name>
+          <DefaultAnnotationText>left([Name],7) == 'MOSCYAP'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="570" y="346" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="Concat" rename="Expression">
+              <Separator>+</Separator>
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Summarize (15)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="634" y="346" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Name" type="String" size="64" expression="'Total'" />
+            <FormulaField field="Type" type="String" size="64" expression="'Int32'" />
+            <FormulaField field="Size" type="String" size="64" expression="'4'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Formula (16)</Name>
+          <DefaultAnnotationText>Name='Total'
+Type='Int32'
+Size='4'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="750" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Name Field">Name</Value>
+          <Value name="Type Field">Type</Value>
+          <Value name="Size Field">Size</Value>
+          <Value name="Expression Field">Expression</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Dynamic Formula (17)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_DynamicFormula.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="834" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_3776_9b2c1df67a8c4df592c594ba34b589f2\Engine_13464_2cb521a416bc4a0aa40e171e013703a7.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (18)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.FieldInfo.FieldInfo">
+        <Position x="434" y="802" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Field Info (23)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFieldInfo" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="490" y="802" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>left([Name],7) == 'MOSCYAP'</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Filter (24)</Name>
+          <DefaultAnnotationText>left([Name],7) == 'MOSCYAP'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="634" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Group" action="GroupBy" rename="Group" />
+            <SummarizeField field="Name" action="Concat" rename="Expression">
+              <Separator>+</Separator>
+            </SummarizeField>
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Summarize (25)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="706" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Name" type="String" size="64" expression="'Total_' + [Group]" />
+            <FormulaField field="Type" type="String" size="64" expression="'Int32'" />
+            <FormulaField field="Size" type="String" size="64" expression="'4'" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Formula (26)</Name>
+          <DefaultAnnotationText>Name='Total_' + [Group]
+Type='Int32'
+Size='4'</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings>
+        <Position x="798" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Name Field">Name</Value>
+          <Value name="Type Field">Type</Value>
+          <Value name="Size Field">Size</Value>
+          <Value name="Expression Field">Expression</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Dynamic Formula (27)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_DynamicFormula.yxmc" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="894" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_3776_9b2c1df67a8c4df592c594ba34b589f2\Engine_13464_38c2d191c50d43dc957791d62497d014.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (28)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="562" y="810" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Group" type="String" size="64" expression="left([Name],8)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Formula (29)</Name>
+          <DefaultAnnotationText>Group=left([Name],8)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="810" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_3776_9b2c1df67a8c4df592c594ba34b589f2\Engine_13464_291e103130284e2a949e24426b6671a8.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (31)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="843" y="835" width="120" height="160" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>This is what you would normally type into the properties window of the standard formula field</Text>
+          <Font name="Microsoft Sans Serif" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="255" g="255" b="128" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Text Comment (37)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="870" y="906" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_3776_9b2c1df67a8c4df592c594ba34b589f2\Engine_13464_2fa123b7f6ad4c51b8afa3b7992c65e8.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (35)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="17" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="27" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="True" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Formulas" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Formulas" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DynamicFormulaExample</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

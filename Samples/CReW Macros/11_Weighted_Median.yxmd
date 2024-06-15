@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<AlteryxDocument yxmdVer="8.5">
+  <Nodes>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextInput.TextInput">
+        <Position x="18" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <NumRows value="26" />
+          <Fields>
+            <Field name="NumberOfKids" />
+            <Field name="MilesToNearestSchool" />
+            <Field name="Field3" />
+          </Fields>
+          <Data>
+            <r>
+              <c>2</c>
+              <c>2</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>0.6</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.3</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.3</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>0.3</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.7</c>
+              <c>a</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.7</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>6</c>
+              <c>1.7</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0.4</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>0.5</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.5</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.2</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>4</c>
+              <c>1.1</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.6</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>1.4</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>0.2</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>5</c>
+              <c>1.6</c>
+              <c>b</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.6</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>1.3</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>1.1</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>3</c>
+              <c>1.1</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>1</c>
+              <c>0.2</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.1</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>2</c>
+              <c>1.4</c>
+              <c>c</c>
+            </r>
+            <r>
+              <c>0</c>
+              <c>0.9</c>
+              <c>c</c>
+            </r>
+          </Data>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NumberOfKids" source="TextInput:" type="Byte" />
+            <Field name="MilesToNearestSchool" source="TextInput:" type="Float" />
+            <Field name="Field3" size="1" source="TextInput:" type="String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="126" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="ValueField">MilesToNearestSchool</Value>
+          <Value name="WeightField">NumberOfKids</Value>
+          <Value name="GroupingField">Field3</Value>
+          <Value name="Percentile">0.50</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output29">
+          <RecordInfo>
+            <Field description="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*[Question.Percentile]&#xA;endif" name="WeigtedPercentile" source="Formula: if [PreviousSum]&lt;[__Macro_Goal] then &#xA;[__Macro_Value]&#xA;else&#xA;[Row-1:__Macro_Value] + ([__Macro_Value]-[Row-1:__Macro_Value])*[Question.Percentile]&#xA;endif (BatchMacro)" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_WeightedMedian.yxmc" />
+    </Node>
+    <Node ToolID="39">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="222" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>w:\temp\alteryxtemp\Engine_49916_121ff71ac4914163a8c08bd3b137f139\Engine_18904_1a934489511c495b9f2f07541c3e9f6c.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="38" Connection="Input11" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output29" />
+      <Destination ToolID="39" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>WeightedMedianBatch_test</Name>
+      <Description />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

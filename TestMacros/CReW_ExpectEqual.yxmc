@@ -1,0 +1,2112 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.0">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Expected</Name>
+          <Abbrev>E</Abbrev>
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="Field1" />
+                <Field name="Total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>1</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+            <Field name="Total" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="54" y="462" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Actual</Name>
+          <Abbrev>A</Abbrev>
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="Field1" />
+                <Field name="Total" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>1</c>
+                  <c>0</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Field1" source="TextInput:" type="Byte" />
+            <Field name="Total" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1050" y="534" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+            <Connection>#3</Connection>
+            <Connection>#4</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+            <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+            <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+            <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+            <Field name="Name" size="6" source="Transpose:" type="String" />
+            <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+            <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+            <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+            <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="296" y="54" width="651" height="670" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Test Fields</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="69">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="516" y="83" width="327" height="331" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Extra/Missing</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="13">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="526" y="184" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="Name" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="Name" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <SelectFields>
+                        <SelectField field="Right_Name" selected="True" rename="Right_Name" />
+                        <SelectField field="Right_Type" selected="True" rename="Right_Type" />
+                        <SelectField field="Right_Size" selected="True" rename="Right_Size" />
+                        <SelectField field="Right_Scale" selected="True" rename="Right_Scale" />
+                        <SelectField field="Right_Source" selected="True" rename="Right_Source" />
+                        <SelectField field="Right_Description" selected="True" rename="Right_Description" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Left">
+                  <RecordInfo>
+                    <Field name="Name" size="6" source="FieldInfo" type="V_String" />
+                    <Field name="Type" size="4" source="FieldInfo" type="String" />
+                    <Field name="Size" source="FieldInfo" type="Int32" />
+                    <Field name="Scale" source="FieldInfo" type="Int32" />
+                    <Field name="Source" size="10" source="FieldInfo" type="V_WString" />
+                    <Field name="Description" size="1" source="FieldInfo" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo noProgress="True">
+                    <Field field="Name" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="Join">
+                  <RecordInfo>
+                    <Field name="Name" size="6" source="FieldInfo" type="V_String" />
+                    <Field name="Type" size="4" source="FieldInfo" type="String" />
+                    <Field name="Size" source="FieldInfo" type="Int32" />
+                    <Field name="Scale" source="FieldInfo" type="Int32" />
+                    <Field name="Source" size="10" source="FieldInfo" type="V_WString" />
+                    <Field name="Description" size="1" source="FieldInfo" type="V_WString" />
+                    <Field name="Right_Name" size="6" source="FieldInfo" type="V_String" />
+                    <Field name="Right_Type" size="4" source="FieldInfo" type="String" />
+                    <Field name="Right_Size" source="FieldInfo" type="Int32" />
+                    <Field name="Right_Scale" source="FieldInfo" type="Int32" />
+                    <Field name="Right_Source" size="10" source="FieldInfo" type="V_WString" />
+                    <Field name="Right_Description" size="1" source="FieldInfo" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="Name" order="" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="Right">
+                  <RecordInfo>
+                    <Field name="Name" size="6" source="FieldInfo" type="V_String" />
+                    <Field name="Type" size="4" source="FieldInfo" type="String" />
+                    <Field name="Size" source="FieldInfo" type="Int32" />
+                    <Field name="Scale" source="FieldInfo" type="Int32" />
+                    <Field name="Source" size="10" source="FieldInfo" type="V_WString" />
+                    <Field name="Description" size="1" source="FieldInfo" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo noProgress="True">
+                    <Field field="Name" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="18">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="634" y="112" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Name" action="Concat" rename="Concat_Name">
+                      <Concat_Start />
+                      <Separator>,</Separator>
+                      <Concat_End />
+                    </SummarizeField>
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="21">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="634" y="268" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Name" action="Concat" rename="Concat_Name">
+                      <Concat_Start />
+                      <Separator>,</Separator>
+                      <Concat_End />
+                    </SummarizeField>
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="38">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="730" y="112" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField field="Message" type="V_WString" size="5000" expression="'Field(s): &quot;' + [Concat_Name] + '&quot; expected, but not present.'" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Message='Field(s): "' + [Concat_Name] + '" expected, but not ...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="Message" size="5000" source="Formula: 'Field(s): &quot;' + [Concat_Name] + '&quot; expected, but not present.'" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="44">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="730" y="268" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField field="Message" type="V_WString" size="5000" expression="'Field(s): &quot;' + [Concat_Name] + '&quot; present, but not expected.'" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Message='Field(s): "' + [Concat_Name] + '" present, but not e...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="Message" size="5000" source="Formula: 'Field(s): &quot;' + [Concat_Name] + '&quot; present, but not expected.'" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FieldInfo.FieldInfo">
+            <Position x="306" y="114" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="6" source="FieldInfo" type="V_String" />
+                <Field name="Type" size="4" source="FieldInfo" type="String" />
+                <Field name="Size" source="FieldInfo" type="Int32" />
+                <Field name="Scale" source="FieldInfo" type="Int32" />
+                <Field name="Source" size="10" source="FieldInfo" type="V_WString" />
+                <Field name="Description" size="1" source="FieldInfo" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFieldInfo" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.FieldInfo.FieldInfo">
+            <Position x="306" y="210" />
+          </GuiSettings>
+          <Properties>
+            <Configuration />
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Name" size="6" source="FieldInfo" type="V_String" />
+                <Field name="Type" size="4" source="FieldInfo" type="String" />
+                <Field name="Size" source="FieldInfo" type="Int32" />
+                <Field name="Scale" source="FieldInfo" type="Int32" />
+                <Field name="Source" size="10" source="FieldInfo" type="V_WString" />
+                <Field name="Description" size="1" source="FieldInfo" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFieldInfo" />
+        </Node>
+        <Node ToolID="77">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="522" y="426" width="415" height="288" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Order</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="79">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="532" y="575" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Name" action="Concat" rename="ExpectedFieldOrder">
+                      <Concat_Start />
+                      <Separator>;</Separator>
+                      <Concat_End />
+                    </SummarizeField>
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="80">
+              <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+                <Position x="532" y="635" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <SummarizeFields>
+                    <SummarizeField field="Name" action="Concat" rename="ActualFieldOrder">
+                      <Concat_Start />
+                      <Separator>;</Separator>
+                      <Concat_End />
+                    </SummarizeField>
+                  </SummarizeFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+            </Node>
+            <Node ToolID="83">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.JoinMultiple.JoinMultiple">
+                <Position x="652" y="563" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <JoinByRecPos value="True" />
+                  <OutputJoinOnly value="False" />
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Output">
+                      <OrderChanged value="False" />
+                      <SelectFields>
+                        <SelectField field="Input_#3_Count" selected="True" rename="Input_#3_Count" />
+                        <SelectField field="Input_#4_Count" selected="True" rename="Input_#4_Count" />
+                        <SelectField field="Input_#2_Count" selected="True" rename="Input_#2_Count" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                    <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoinMultiple" />
+            </Node>
+            <Node ToolID="86">
+              <GuiSettings>
+                <Position x="532" y="515" />
+              </GuiSettings>
+              <Properties>
+                <Configuration />
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output9">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="CountRecords.yxmc" />
+            </Node>
+            <Node ToolID="87">
+              <GuiSettings>
+                <Position x="532" y="455" />
+              </GuiSettings>
+              <Properties>
+                <Configuration />
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output9">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="CountRecords.yxmc" />
+            </Node>
+            <Node ToolID="88">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="724" y="568" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[Input_#3_Count]==0 &amp;&amp; [Input_#4_Count]==0 &amp;&amp; [ExpectedFieldOrder]!=[ActualFieldOrder]</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[Input_#3_Count]==0 &amp;&amp; [Input_#4_Count]==0 &amp;&amp; [ExpectedFieldO...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="True">
+                  <RecordInfo>
+                    <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                    <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="False">
+                  <RecordInfo>
+                    <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                    <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="89">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="822" y="558" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField field="Message" type="V_WString" size="5000" expression="'Different field order. Expected:'+[ExpectedFieldOrder]+' Actual:'+[ActualFieldOrder]" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Message='Different field order. Expected:'+[ExpectedFieldOrde...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                    <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                    <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+                    <Field name="Message" size="5000" source="Formula: 'Different field order. Expected:'+[ExpectedFieldOrder]+' Actual:'+[ActualFieldOrder]" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1170" y="582" width="571" height="232" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Output messages</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+            <Position x="1672" y="611" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <When>Filter</When>
+              <Filter>1==1</Filter>
+              <Type>Error</Type>
+              <Priority>High</Priority>
+              <Transient>False</Transient>
+              <MessageExpression>[Message]</MessageExpression>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Count" source="Summarize: Count - RecordID" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="1180" y="622.9999" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>RecordID</FieldName>
+              <FieldType>Int32</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="50">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1264" y="623" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>Simple</Mode>
+              <Simple>
+                <Field>RecordID</Field>
+                <Operator>&lt;=</Operator>
+                <Operands>
+                  <Operand>4</Operand>
+                </Operands>
+              </Simple>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[RecordID] &lt;= 4</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="RecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="51">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+            <Position x="1588" y="611" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+              <ByName_OutputMode>All</ByName_OutputMode>
+              <Mode>ByName</Mode>
+              <SetOutputOrder value="True" />
+              <OutputOrder>
+                <Connection>#1</Connection>
+                <Connection>#2</Connection>
+              </OutputOrder>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="RecordID" source="RecordID: Starting Value=1" type="Int32" />
+                <Field name="Concat_Name" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="(Multiple Sources)" type="V_WString" />
+                <Field name="ExpectedFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="ActualFieldOrder" size="2147483647" source="Summarize: Concat - Name" type="V_String" />
+                <Field name="Input_#3_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Input_#4_Count" source="(Multiple Sources)" type="Int64" />
+                <Field name="Count" source="Summarize: Count - RecordID" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+        </Node>
+        <Node ToolID="54">
+          <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+            <Position x="1384" y="683" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <SummarizeFields>
+                <SummarizeField field="RecordID" action="Count" rename="Count" />
+              </SummarizeFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="Summarize: Count - RecordID" type="Int64" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+        </Node>
+        <Node ToolID="55">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1468" y="683" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Message" type="V_WString" size="5000" expression="tostring([Count]) + ' more errors not displayed'" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Message=tostring([Count]) + ' more errors not displayed'</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Count" source="Summarize: Count - RecordID" type="Int64" />
+                <Field name="Message" size="5000" source="Formula: tostring([Count]) + ' more errors not displayed'" type="V_WString" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="296" y="822" width="707" height="744" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Compare Data</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="520" y="851" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Ignore</ErrorWarn>
+              <KeyFields>
+                <Field field="ExpectEqualRecordID" />
+              </KeyFields>
+              <DataFields>
+                <Field field="ExpectEqualRecordID" selected="False" />
+                <Field field="Field1" selected="True" />
+                <Field field="Total" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="Value" source="TextInput:" type="Byte" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+            <Position x="508" y="995" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <ErrorWarn>Ignore</ErrorWarn>
+              <KeyFields>
+                <Field field="ExpectEqualRecordID" />
+              </KeyFields>
+              <DataFields>
+                <Field field="ExpectEqualRecordID" selected="False" />
+                <Field field="Field1" selected="True" />
+                <Field field="Total" selected="True" />
+                <Field field="*Unknown" selected="True" />
+              </DataFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="Value" source="TextInput:" type="Byte" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+        </Node>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="424" y="851" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>ExpectEqualRecordID</FieldName>
+              <FieldType>Int64</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Field1" source="TextInput:" type="Byte" />
+                <Field name="Total" source="TextInput:" type="Byte" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+            <Position x="412" y="995" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <StartValue>1</StartValue>
+              <FieldName>ExpectEqualRecordID</FieldName>
+              <FieldType>Int64</FieldType>
+              <Position>0</Position>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Field1" source="TextInput:" type="Byte" />
+                <Field name="Total" source="TextInput:" type="Byte" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="Asc" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="688" y="923" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="ExpectEqualRecordID" />
+                <Field field="Name" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="ExpectEqualRecordID" />
+                <Field field="Name" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Value" selected="True" rename="ExpectedValue" type="V_WString" size="5000000" />
+                    <SelectField field="Right_ExpectEqualRecordID" selected="False" rename="Right_ExpectEqualRecordID" />
+                    <SelectField field="Right_Name" selected="False" rename="Right_Name" />
+                    <SelectField field="Right_Value" selected="True" rename="ActualValue" type="V_WString" size="5000000" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Left">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="Value" source="TextInput:" type="Byte" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="ExpectEqualRecordID" />
+                <Field field="Name" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Join">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="" />
+                <Field field="Name" order="" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="Right">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="Value" source="TextInput:" type="Byte" />
+              </RecordInfo>
+              <SortInfo noProgress="True">
+                <Field field="ExpectEqualRecordID" />
+                <Field field="Name" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="40">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="784" y="923" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>[ExpectedValue]!=[ActualValue]</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>[ExpectedValue]!=[ActualValue]</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="True">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="" />
+                <Field field="Name" order="" />
+              </SortInfo>
+            </MetaInfo>
+            <MetaInfo connection="False">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="" />
+                <Field field="Name" order="" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="880" y="911" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField field="Message" type="V_WString" size="5000" expression="'Unexpected Value - Field:' + [Name] + &#xA;' Row:'+ tostring([ExpectEqualRecordID]) +&#xA;' Expected:' + tostring([ExpectedValue]) +&#xA;' Actual:' + tostring([ActualValue])" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Message='Unexpected Value - Field:' + [Name] + 
+' Row:'+ tost...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                <Field name="Name" size="6" source="Transpose:" type="String" />
+                <Field name="ExpectedValue" size="5000000" source="TextInput:" type="V_WString" />
+                <Field name="ActualValue" size="5000000" source="TextInput:" type="V_WString" />
+                <Field name="Message" size="5000" source="Formula: 'Unexpected Value - Field:' + [Name] + &#xA;' Row:'+ tostring([ExpectEqualRecordID]) +&#xA;' Expected:' + tostring([ExpectedValue]) +&#xA;' Actual:' + tostring([ActualValue])" type="V_WString" />
+              </RecordInfo>
+              <SortInfo>
+                <Field field="ExpectEqualRecordID" order="" />
+                <Field field="Name" order="" />
+              </SortInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="67">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+            <Position x="316" y="851" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>FieldTypes</Mode>
+              <FieldTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,SpatialObj</FieldTypes>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field1" source="TextInput:" type="Byte" />
+                <Field name="Total" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+        </Node>
+        <Node ToolID="68">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+            <Position x="316" y="995" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Mode>FieldTypes</Mode>
+              <FieldTypes>Bool,Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString,Date,Time,DateTime,SpatialObj</FieldTypes>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <MetaInfo connection="Output">
+              <RecordInfo>
+                <Field name="Field1" source="TextInput:" type="Byte" />
+                <Field name="Total" source="TextInput:" type="Byte" />
+              </RecordInfo>
+            </MetaInfo>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+        </Node>
+        <Node ToolID="72">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="306" y="1314" width="687" height="242" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Compare Blob Data</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="56">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+                <Position x="496" y="1343" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ErrorWarn>Ignore</ErrorWarn>
+                  <KeyFields>
+                    <Field field="ExpectEqualRecordID" />
+                  </KeyFields>
+                  <DataFields>
+                    <Field field="ExpectEqualRecordID" selected="False" />
+                    <Field field="Field1" selected="True" />
+                    <Field field="Total" selected="True" />
+                    <Field field="*Unknown" selected="True" />
+                  </DataFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="Value" size="1" type="String" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+            </Node>
+            <Node ToolID="57">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+                <Position x="496" y="1487" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ErrorWarn>Ignore</ErrorWarn>
+                  <KeyFields>
+                    <Field field="ExpectEqualRecordID" />
+                  </KeyFields>
+                  <DataFields>
+                    <Field field="ExpectEqualRecordID" selected="False" />
+                    <Field field="Field1" selected="True" />
+                    <Field field="Total" selected="True" />
+                    <Field field="*Unknown" selected="True" />
+                  </DataFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="Value" size="1" type="String" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+            </Node>
+            <Node ToolID="58">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="388" y="1343" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <StartValue>1</StartValue>
+                  <FieldName>ExpectEqualRecordID</FieldName>
+                  <FieldType>Int64</FieldType>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="59">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+                <Position x="388" y="1487" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <StartValue>1</StartValue>
+                  <FieldName>ExpectEqualRecordID</FieldName>
+                  <FieldType>Int64</FieldType>
+                  <Position>0</Position>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+            </Node>
+            <Node ToolID="60">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="688" y="1415" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="False">
+                  <JoinInfo connection="Left">
+                    <Field field="ExpectEqualRecordID" />
+                    <Field field="Name" />
+                  </JoinInfo>
+                  <JoinInfo connection="Right">
+                    <Field field="ExpectEqualRecordID" />
+                    <Field field="Name" />
+                  </JoinInfo>
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_Value" selected="True" rename="ExpectedValue" type="V_WString" size="5000000" />
+                        <SelectField field="Right_ExpectEqualRecordID" selected="False" rename="Right_ExpectEqualRecordID" />
+                        <SelectField field="Right_Name" selected="False" rename="Right_Name" />
+                        <SelectField field="Right_Value" selected="True" rename="ActualValue" type="V_WString" size="5000000" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Left">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+                  </RecordInfo>
+                  <SortInfo noProgress="True">
+                    <Field field="ExpectEqualRecordID" />
+                    <Field field="Name" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="Join">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                    <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="" />
+                    <Field field="Name" order="" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="Right">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+                  </RecordInfo>
+                  <SortInfo noProgress="True">
+                    <Field field="ExpectEqualRecordID" />
+                    <Field field="Name" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="61">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="784" y="1415" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[ExpectedValue]!=[ActualValue]</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[ExpectedValue]!=[ActualValue]</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="True">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                    <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="" />
+                    <Field field="Name" order="" />
+                  </SortInfo>
+                </MetaInfo>
+                <MetaInfo connection="False">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                    <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="" />
+                    <Field field="Name" order="" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="62">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="880" y="1403" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField field="Message" type="V_WString" size="5000" expression="'Unexpected Value - Field:' + [Name] + &#xA;' Row:'+ tostring([ExpectEqualRecordID]) +&#xA;' Actual blob data differs from expected'" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Message='Unexpected Value - Field:' + [Name] + 
+' Row:'+ tost...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="ExpectedValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                    <Field name="ActualValue" size="5000000" source="BlobConvert: MD5" type="V_WString" />
+                    <Field name="Message" size="5000" source="Formula: 'Unexpected Value - Field:' + [Name] + &#xA;' Row:'+ tostring([ExpectEqualRecordID]) +&#xA;' Actual blob data differs from expected'" type="V_WString" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="" />
+                    <Field field="Name" order="" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+            <Node ToolID="63">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BlobConvert.BlobConvert">
+                <Position x="592" y="1379" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ToBlob value="False" />
+                  <from_Field>Value</from_Field>
+                  <from_Mode>MD5</from_Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlobConvert" />
+            </Node>
+            <Node ToolID="64">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.BlobConvert.BlobConvert">
+                <Position x="592" y="1475" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <ToBlob value="False" />
+                  <from_Field>Value</from_Field>
+                  <from_Mode>MD5</from_Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectEqualRecordID" source="RecordID: Starting Value=1" type="Int64" />
+                    <Field name="Name" size="1" source="Transpose:" type="String" />
+                    <Field name="Value" size="32" source="BlobConvert: MD5" type="String" />
+                  </RecordInfo>
+                  <SortInfo>
+                    <Field field="ExpectEqualRecordID" order="Asc" />
+                  </SortInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBlobConvert" />
+            </Node>
+            <Node ToolID="65">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+                <Position x="316" y="1343" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>FieldTypes</Mode>
+                  <FieldTypes>Blob</FieldTypes>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+            </Node>
+            <Node ToolID="66">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicSelect.DynamicSelect">
+                <Position x="316" y="1487" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Mode>FieldTypes</Mode>
+                  <FieldTypes>Blob</FieldTypes>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicSelect" />
+            </Node>
+          </ChildNodes>
+        </Node>
+        <Node ToolID="71">
+          <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+            <Position x="306" y="1086" width="641" height="211" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Caption>Check Row Counts</Caption>
+              <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="10" />
+              <Disabled value="False" />
+              <Folded value="False" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <ChildNodes>
+            <Node ToolID="31">
+              <GuiSettings>
+                <Position x="316" y="1115" />
+              </GuiSettings>
+              <Properties>
+                <Configuration />
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output9">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="CountRecords.yxmc" />
+            </Node>
+            <Node ToolID="32">
+              <GuiSettings>
+                <Position x="316" y="1223" />
+              </GuiSettings>
+              <Properties>
+                <Configuration />
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output9">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings Macro="CountRecords.yxmc" />
+            </Node>
+            <Node ToolID="34">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="448" y="1115" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="35">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+                <Position x="448" y="1223" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <OrderChanged value="False" />
+                  <SelectFields>
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+            </Node>
+            <Node ToolID="36">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+                <Position x="604" y="1163" />
+              </GuiSettings>
+              <Properties>
+                <Configuration joinByRecordPos="True">
+                  <SelectConfiguration>
+                    <Configuration outputConnection="Join">
+                      <OrderChanged value="False" />
+                      <SelectFields>
+                        <SelectField field="Left_Count" selected="True" rename="ExpectedRecordCount" />
+                        <SelectField field="Right_Count" selected="True" rename="ActualRecordCount" />
+                        <SelectField field="*Unknown" selected="True" />
+                      </SelectFields>
+                    </Configuration>
+                  </SelectConfiguration>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText />
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Left">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="Join">
+                  <RecordInfo>
+                    <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                    <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="Right">
+                  <RecordInfo>
+                    <Field name="Count" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+            </Node>
+            <Node ToolID="41">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+                <Position x="700" y="1163" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <Expression>[ExpectedRecordCount]!=[ActualRecordCount]</Expression>
+                  <Mode>Custom</Mode>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>[ExpectedRecordCount]!=[ActualRecordCount]</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="True">
+                  <RecordInfo>
+                    <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                    <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+                <MetaInfo connection="False">
+                  <RecordInfo>
+                    <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                    <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+            </Node>
+            <Node ToolID="46">
+              <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+                <Position x="832" y="1151" />
+              </GuiSettings>
+              <Properties>
+                <Configuration>
+                  <FormulaFields>
+                    <FormulaField field="Message" type="V_WString" size="5000" expression="'Expected: '+tostring([ExpectedRecordCount])+' row(s) Actual: '+tostring([ActualRecordCount])+' row(s)'" />
+                  </FormulaFields>
+                </Configuration>
+                <Annotation DisplayMode="0">
+                  <Name />
+                  <DefaultAnnotationText>Message='Expected: '+tostring([ExpectedRecordCount])+' row(s)...</DefaultAnnotationText>
+                  <Left value="False" />
+                </Annotation>
+                <MetaInfo connection="Output">
+                  <RecordInfo>
+                    <Field name="ExpectedRecordCount" source="(Multiple Sources)" type="Int64" />
+                    <Field name="ActualRecordCount" source="(Multiple Sources)" type="Int64" />
+                    <Field name="Message" size="5000" source="Formula: 'Expected: '+tostring([ExpectedRecordCount])+' row(s) Actual: '+tostring([ActualRecordCount])+' row(s)'" type="V_WString" />
+                  </RecordInfo>
+                </MetaInfo>
+              </Properties>
+              <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+            </Node>
+          </ChildNodes>
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="31" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="65" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="67" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="32" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="66" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="68" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Left" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Right" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Left" />
+      <Destination ToolID="87" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Right" />
+      <Destination ToolID="86" Connection="Input8" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection name="#6">
+      <Origin ToolID="89" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="45" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="62" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="79" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="80" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="79" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="80" Connection="Output" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="86" Connection="Output9" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="87" Connection="Output9" />
+      <Destination ToolID="83" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="83" Connection="Output" />
+      <Destination ToolID="88" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="88" Connection="True" />
+      <Destination ToolID="89" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="50" Connection="True" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="False" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="51" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="29" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="29" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Join" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="True" />
+      <Destination ToolID="45" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="67" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="68" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="63" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="60" Connection="Join" />
+      <Destination ToolID="61" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="61" Connection="True" />
+      <Destination ToolID="62" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="63" Connection="Output" />
+      <Destination ToolID="60" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="60" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="65" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="66" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output9" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output9" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="36" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="36" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="36" Connection="Join" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="True" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Expect Equal (BETA)</Name>
+      <Description>Tests that two data streams are identical</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags>Test, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (1)</Name>
+          <ToolId value="1" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (4)</Description>
+              <Name>Macro Input (4)</Name>
+              <ToolId value="4" />
+            </Question>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Macro Input (4)</Description>
+              <Name>Macro Input (5)</Name>
+              <ToolId value="5" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>iVBORw0KGgoAAAANSUhEUgAAAKsAAACrCAYAAAAZ6GwZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAsSSURBVHhe7ZxPbBxXHcfjtb21nTSO638httXs2sQoTiyInKw3Thz+OMFqi4UhQfypEqAQ1AN/UgEHVIn2QA+NFMSFA0hNywXJqnqo7KgSbTlEyqFSWyHSFomSVELiRipaqFKa7PDeel6YN/Ob3fn3Zt6b+X6kj3bsPs+Ot58+v5md7RYAQLEZtQVAPxYWFh6fnp6+PD4+/k5fX9+7vb29/6xUKm8tLi4+YQ8BIFNKzMHjx49f7+rqusW2Lbfd3d0fLS0tXWPbg0wAMoGHerpcLt8slUqeSJ12dnZabNz7bPtBJgCp0gyV+SGTDNTHfzMRLEiNtqH2928nv2+LYEEqtAy1Xttj/erxEevSMx+zfvnzIat+6OOeMbYIFiilZagr933SeuuP49Z/395hNd4ZaD7++cUJ6/7Pz3rG2iJYoIRAofJI3SJYkCaRQxUiWJAGsUMVIligksRCFSJYoILEQxUiWJAkykIVIliQBMpDFSJYEIfUQhUiWBCF1EMVIlgQhsxCFSJYEITMQxUiWNAKbUIVIlhAoV2oQgQLnGgbqhDBAo72oQoRbLExJlQhgi0mxoUqRLDFwthQhQi2GKQa6u3r9PeTEMHmG2Wh8iiF1NfO74mvkxDB5pNEQqUiDKP4ubj7cYpg80XsUJOMy6lzv3H2jWDzgTEnU3H/Q0CwZhM51LgzXVYiWDOJFKqJgbpFsGYRa0alvm+aCNYMjFmjqhbB6k1hQg36FwDB6kmhZtQwyxUEqxf4099GBKsHCDWgCDZbEGpIEWw2INSIIth00TbUdic+ulzHRbDpoPWMakqsXASrFq1C5eHpFF8UEawasEZVJIJNFoSqWASbDAg1JRFsPAofatrrYgQbjcxD1eXkKe3jQLDh0GJGTXtW00kEGwysUTURwbYGoWomgqVBqJqKYGUQquYi2E0QqiEWPViEaphFDRahGmrRgkWohluUYBFqTsx7sAg1Z+Y1WISaU/MWLELNuXkJNtNQ13691bp3vARtrzx3N/k6JaHpwWY+oz51vs/zvEX25d9vI1+npDQ1WC3+9CNW2Sixhr1V0rRgtVmjIlZZ1TOr0JRgtTqZQqyycWINeyO67sFqFSoXscqmGStX12C1C5WLWGXjLgPyEKyWoXIRq2wWsXJ1CVbbULmIVTaJEyxTg9U6VC5ilc0yVm5WwWofKhexyiYRa1zTDtaIULmIVdYdK58l48yUUU0rWGNC5SJWWR1mVqHqYI0KlYtYZXWKlasqWONC5SJWWb9Ys1gKCJMO1shQuYhVVsdYuUkF28H8OtO4ULmIVVa3ZYDTAMF+hdmagYGBD9iDZwe6h8r9xyv9zX9BcNMbf+onXydu1rMrt1WwIyMjN9ijP8vLy1e7uroabFP6QRNCheHUIVauX7DlcrnBenyVbXuZmpra29nZ6fnzj1ChUxWR+wXLJs6b+/bt+wTbljlz5syXS6WSNKsODw9aV18aI58AFlNVM/LrL4xbQ0P3SLGyydM6fPjw79i2zMLCwgaLVRp8+uSE9f6bO8idQ5ik/7q6w3rwS6NSf1z2F58vBbqYdyhXKpXX2OOdQR0dHdbDpyfIHcN8qMu6lcuP5bfnp6VQubVa7QX22M28Q3lmZmaNPUoDJ8bvsd57g945NN8osaoMfPULn2pOkqI/vgxYWVn5BtuW2b1794r7SkC53GV9/+wCuWNovjy8sPGpivXhh45Y5e7OO+1t9le+PTk5+Wm2LcMWstMHDhx4m21KP9DT041gc2qUWFVIhcqdm5v769GjRyts28uJEyc+MzY2dottSj+EYPOpDrH6hdrT03O7Wq3ex7Z9KbOlwM/YI/HD+geLt1tl+btY1OskzDpWv1Btn2AOMVsywTzP9OxA92ARq2y7WLM0QKi7mIEwMljEKqtrrEmGKjAuWMQqq2OsKkIVGBUsYpXVLVaVoQqMCRaxyqqINeoJWRqhCowIFrHK6hJrmqEKtA8WscrqsAzIIlSB1sEiVtmsY80yVIG2wSJW2Sxj1SFUgZbBIlbZrGLVKVSBdsEiVtksYtUxVIFWwSJW2bRj1TlUgTbBIlbZNGM1IVSBFsEiVtm0YjUpVEHmwSJW2TRiNTFUQabBIlZZ1bGaHKogs2Dfe2OHde3ydmj7wV/UfYw+D6EKtDnpgsmbp1AFCDaH5jFUAYLNkXkOVYBgc2ARQhUgWIMtUqgCBGugRQxVgGANssihChCsASLU/4NgNRahekGwGopQ/UGwGolQ24NgNRChBgfBZihCDQ+CzUCEGh0Em6IIlfHDL56t/2jlu+eePlZb26hX1zbmq1c26pPW5iP7mvn0sUPn+Dj7R5wg2BQsdKjPH56sb4bIogwpj/rbJ3/sDBfBKrSwoTYjFTNnXNl+nlk8KKJFsAosZKjrB+/dmVikLi8eq135zupPx9nTINgELWao9alT6/Xq36nQkpLv/+KxQ6fY0yHYBCxsqFRcqkSw8UWoKXpxsXaBPT2CjSBCDaH17HOW9bdrlsQfXrKs3zxFjvcTM2x4Cxnq8/OTB6iA/LQefcyybrxrl9kGFi61D8onP/cAv1KAYANYyFA5YU6mrFdftysMB7Uvt/w47ENCsC0sbKgb9eoFKhzKwLOpD9Q+3drrVw6CJSxsqOy366KCoWyuQ93weJ+84B37g0fosNna1j2W0r4Gy0GwDgsbKifUrOqGLQeocU6pJQM1zq1jduUgWGahQ+UEXat6zvbZrEmNo/QQ8ITLPkRBoYMtfKiNbTuHqUgo3VBj/OSXsNxQ49zal7KcFDLYwofKCXoHVfMylZOA606nzZk55HVXfnz2oTopVLAI1SbwEoBf9HcSOrpoOi5juSlEsAjVARUIpWe9ys70qXEqtA+VItfBIlQH7DcuUXFQuqHGqPKRlbPudauTXAaLUF2w37qbioPSDTVGlcRJlptcBYtQCRpbpu6i4qB0Q41RJb+5xj7kVuQiWITqA/vt8zKzCowOFqG2gL0CHVQclG6oMapss2Z1Y2SwCDUAVByUWV4N+ObJn4SJlWNUsAg1IFQclJ4bWCJcZ22+i8X38+hj5D/30z7UsBgRLEINQaNv6CEqELeJvYPlhLhTy22LNwWCoHWwCDUkVt/wTioSSjfUmFa6ocZ4Jd9uDYOWwSLUiNCRePXMjCFm16i3CQa8bNUOrYJFqDGgIvHTQ5D7WYk7roKuee1DTAItgkWoMQn15oDfJwV8Tpo8szEn8H2wVefN10mQabAINSHoWGjJAENA7ZPy0qEp8bGWJMkkWISaIOwVC3xTCzfSp1tDfLJAwazqJNVgEaoCGr0j83Q4tJ7LWa0I+DEWbszLVUFJJViEqhAqnnY2P8Xq939kCXAt1S3/32vah6MapcEi1BSgAkrLhC5VhUFJsAg1JdirGfgGl2RVuk5tRaLBItQMoINS4/r81Dn7abMikWARaoasz0++QsWVpOv1yv3202VNrGARqgY0+vsrVGSxna9euXRkath+Gl2IFCxC1YzG1sHPktGFlF+a0mg2pWgZ7Pe+NW+9+eKAdes68xpC1ZrG3UN7qAjbW13bOFjZY+9Gd3yDLZVK1l3lDmuyuqspQjWERu/gLn5y1AzRHSZ3fvL0pYWpeXu4afgGG0CEClKnGWxHRwcVpJ8IFWTG2NDQ0Nfm5ub+w7apOJuOjo5+yB5/wUSoIFuWl5ePzMzMXGbhfsS+bAa6fft2HunN/fv3v7y0tMSXOz18LACZs3fv3m21Wm22UqmcYuF+lQU8u7q6OjI7O7vVHgKAdnTYAgCKyZYt/wPVCLSvBh9vnQAAAABJRU5ErkJggg==</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="4" Selected="True" />
+        <Tool ToolId="5" Selected="True" />
+        <Tool ToolId="86" Selected="True" />
+        <Tool ToolId="87" Selected="True" />
+        <Tool ToolId="31" Selected="True" />
+        <Tool ToolId="32" Selected="True" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

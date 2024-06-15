@@ -1,0 +1,1594 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="642" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Drop Down (18)">FullPath</Value>
+          <Value name="Radio Button (20)">True</Value>
+          <Value name="Radio Button (21)">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output16">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_ListRunner.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="882" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output15">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_LogParser.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings>
+        <Position x="642" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Drop Down (18)">FullPath</Value>
+          <Value name="Radio Button (20)">True</Value>
+          <Value name="Radio Button (21)">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output16">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_ListRunner.yxmc" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings>
+        <Position x="894" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output15">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="CReW_LogParser.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="978" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[MessageType]=="Error"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[MessageType]=="Error"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1074" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Module" selected="False" />
+            <SelectField field="MessageType" selected="False" />
+            <SelectField field="Message" selected="True" rename="ActualMessage" />
+            <SelectField field="File" selected="False" />
+            <SelectField field="ModuleFullPath" selected="True" rename="FullPath" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="ActualMessage" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="FullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="80">
+      <GuiSettings>
+        <Position x="546" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Summarize: GroupBy - FullPath" type="V_WString" />
+            <Field name="ModuleXML" size="2147483647" source="Summarize: GroupBy - ModuleXML" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="Asc" />
+            <Field field="ModuleXML" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="ModuleXML" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Supporting_Macros\CReW_ContainsExpectError.yxmc" />
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="54" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>%Engine.ModuleDirectory%</Directory>
+          <FileSpec>*.yxmd</FileSpec>
+          <IncludeSubDirs value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dir %Engine.ModuleDirectory%\*.yxmd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="246" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="FullPath" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Left_FullPath" selected="True" />
+                <SelectField field="Right_FullPath" selected="False" rename="Right_FullPath" />
+                <SelectField field="Right_Directory" selected="False" rename="Right_Directory" />
+                <SelectField field="Right_FileName" selected="False" rename="Right_FileName" />
+                <SelectField field="Right_ShortFileName" selected="False" rename="Right_ShortFileName" />
+                <SelectField field="Right_CreationTime" selected="False" rename="Right_CreationTime" />
+                <SelectField field="Right_LastAccessTime" selected="False" rename="Right_LastAccessTime" />
+                <SelectField field="Right_LastWriteTime" selected="False" rename="Right_LastWriteTime" />
+                <SelectField field="Right_Size" selected="False" rename="Right_Size" />
+                <SelectField field="Right_AttributeArchive" selected="False" rename="Right_AttributeArchive" />
+                <SelectField field="Right_AttributeCompressed" selected="False" rename="Right_AttributeCompressed" />
+                <SelectField field="Right_AttributeEncrypted" selected="False" rename="Right_AttributeEncrypted" />
+                <SelectField field="Right_AttributeHidden" selected="False" rename="Right_AttributeHidden" />
+                <SelectField field="Right_AttributeNormal" selected="False" rename="Right_AttributeNormal" />
+                <SelectField field="Right_AttributeOffline" selected="False" rename="Right_AttributeOffline" />
+                <SelectField field="Right_AttributeReadonly" selected="False" rename="Right_AttributeReadonly" />
+                <SelectField field="Right_AttributeReparsePoint" selected="False" rename="Right_AttributeReparsePoint" />
+                <SelectField field="Right_AttributeSparseFile" selected="False" rename="Right_AttributeSparseFile" />
+                <SelectField field="Right_AttributeSystem" selected="False" rename="Right_AttributeSystem" />
+                <SelectField field="Right_AttributeTemporary" selected="False" rename="Right_AttributeTemporary" />
+                <SelectField field="*Unknown" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="FullPath" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings>
+        <Position x="354" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output3">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+            <Field name="FileContents" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Supporting_Macros\CReW_LoadFileToField.yxmc" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="450" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="FullPath" selected="True" />
+            <SelectField field="FileContents" selected="True" rename="ModuleXML" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="ModuleXML" size="2147483647" source="Summarize: Concat - Field_1" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="FullPath" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings>
+        <Position x="642" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output22">
+          <RecordInfo>
+            <Field name="ToolID" source="TextInput:" type="Int64" />
+            <Field name="ExpectErrorToolId" size="2147483647" source="TextInput:" type="V_String" />
+            <Field name="ExpectedMessage" size="2147483647" source="TextInput:" type="V_String" />
+            <Field name="FullPath" size="32767" source="Summarize: GroupBy - FullPath" type="V_WString" />
+            <Field name="InContainer" source="Formula: (Multiple Sources)" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Supporting_Macros\CReW_GetExpectErrorMessagesAndTools.yxmc" />
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings>
+        <Position x="1218" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output28">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="Summarize: GroupBy - FullPath" type="V_WString" />
+            <Field name="Message" size="5000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1000" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Supporting_Macros\CReW_CompareExpectedMessagesAgainstActual.yxmc" />
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="2058" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Filter</When>
+          <Filter>[MessageType] == "Error"</Filter>
+          <Type>Error</Type>
+          <Priority>High</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>[Message]</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
+            <Field field="ModuleFullPath" order="Ascending" />
+            <Field field="Order" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Message.Message">
+        <Position x="2142" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <When>Filter</When>
+          <Filter>[MessageType] == "Message"</Filter>
+          <Type>Message</Type>
+          <Priority>High</Priority>
+          <Transient>False</Transient>
+          <MessageExpression>[Message]</MessageExpression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
+            <Field field="ModuleFullPath" order="Ascending" />
+            <Field field="Order" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMessage" />
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="54" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>%Engine.ModuleDirectory%</Directory>
+          <FileSpec>*.yxmd</FileSpec>
+          <IncludeSubDirs value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dir %Engine.ModuleDirectory%\*.yxmd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1194" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_10992_6fe59cba5a4f4f009fe2f3afa7e49cfa_\Engine_6300_983b71431b224f45b7fe1d29a58fbe4a_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1206" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\admin\AppData\Local\Temp\Engine_10992_6fe59cba5a4f4f009fe2f3afa7e49cfa_\Engine_6300_3dd819e6ed4f46c98a4521be3780a4ea_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1098" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="FullPath" order="Ascending" />
+            <Field field="ExpectErrorToolId" order="Ascending" />
+            <Field field="ToolID" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>FullPath - Ascending
+ExpectErrorToolId - Ascending
+ToolID - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ToolID" source="TextInput:" type="Int64" />
+            <Field name="ExpectErrorToolId" size="2147483647" source="TextInput:" type="V_String" />
+            <Field name="ExpectedMessage" size="2147483647" source="TextInput:" type="V_String" />
+            <Field name="FullPath" size="32767" source="Summarize: GroupBy - FullPath" type="V_WString" />
+            <Field name="InContainer" source="Formula: (Multiple Sources)" type="Bool" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="FullPath" order="Ascending" />
+            <Field field="ExpectErrorToolId" order="Ascending" />
+            <Field field="ToolID" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="738" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Result</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Succeeded</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Result] = "Succeeded"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="834" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="ModuleFullPath" selected="True" rename="FullPath" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="738" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>Result</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Succeeded</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Result] = "Succeeded"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="870" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Message" type="V_WString" size="5000" expression="[Module] + &quot; - Passed&quot;" />
+            <FormulaField field="MessageType" type="V_WString" size="5000" expression="&quot;Message&quot;" />
+            <FormulaField field="Order" type="Int16" size="2" expression="0" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Message=[Module] + " - Passed"
+MessageType="Message"
+Order=0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Passed&quot;" type="V_WString" />
+            <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1086" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Message" type="V_WString" size="5000" expression="[Module] + &quot; - Failed&quot;" />
+            <FormulaField field="MessageType" type="V_WString" size="5000" expression="&quot;Error&quot;" />
+            <FormulaField field="Order" type="Int16" size="2" expression="0" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Message=[Module] + " - Failed"
+MessageType="Error"
+Order=0</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Result" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Errors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="FieldConversionErrors" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field description="TextToColumns: Parsed from Field_1" name="Warnings" source="TextToColumns: Parsed from Field_1 (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Int64" />
+            <Field name="Time" source="Formula: DateTimeAdd(&quot;2010-01-01 00:00:00&quot;,[TimeSeconds],&quot;Seconds&quot;) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro) (BatchMacro)" type="Time" />
+            <Field name="Log" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Failed&quot;" type="V_WString" />
+            <Field name="MessageType" size="5000" source="Formula: &quot;Error&quot;" type="V_WString" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1086" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Message" type="V_String" size="2147483647" expression="&quot;    &quot; +[Message]" />
+            <FormulaField field="MessageType" type="V_String" size="2147483647" expression="&quot;Message&quot;" />
+            <FormulaField field="Order" type="Int16" size="2" expression="1" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Message="    " +[Message]
+MessageType="Message"
+Order=1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: &quot;Message&quot;" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: &quot;    &quot; +[Message]" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: 1" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1482" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Error</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="121">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="978" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Field>MessageType</Field>
+            <Operator>=</Operator>
+            <Operands>
+              <Operand>Error</Operand>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[MessageType] = "Error"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="Module" size="50000" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="ToolId" source="RegEx: Parsed from Log" type="Int32" />
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: iif(isempty([Message2])&amp;&amp;isempty([MessageType]), &quot;Message&quot;,&#xA;iif(!isempty([Message2]), &quot;File&quot;,&#xA;[MessageType]))" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: iif(!isempty([Message2]), [Message2], [Message])" type="V_WString" />
+            <Field name="File" size="2147483647" source="Formula: iif(!isempty([Message2]), [Message1], NULL())" type="V_String" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1314" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Module" selected="False" />
+            <SelectField field="Result" selected="False" />
+            <SelectField field="Errors" selected="False" />
+            <SelectField field="FieldConversionErrors" selected="False" />
+            <SelectField field="Warnings" selected="False" />
+            <SelectField field="Time" selected="False" />
+            <SelectField field="Log" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Passed&quot;" type="V_WString" />
+            <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1314" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Module" selected="False" />
+            <SelectField field="Result" selected="False" />
+            <SelectField field="Errors" selected="False" />
+            <SelectField field="FieldConversionErrors" selected="False" />
+            <SelectField field="Warnings" selected="False" />
+            <SelectField field="Time" selected="False" />
+            <SelectField field="Log" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="5000" source="Formula: [Module] + &quot; - Failed&quot;" type="V_WString" />
+            <Field name="MessageType" size="5000" source="Formula: &quot;Error&quot;" type="V_WString" />
+            <Field name="Order" source="Formula: 0" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1314" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Module" selected="False" />
+            <SelectField field="ToolId" selected="False" />
+            <SelectField field="File" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field description="RegEx: Parsed from Log" name="MessageType" size="2147483647" source="Formula: &quot;Message&quot;" type="V_String" />
+            <Field description="RegEx: Parsed from Log" name="Message" size="1073741823" source="Formula: &quot;    &quot; +[Message]" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: 1" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1962" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
+            <Field field="ModuleFullPath" order="Ascending" />
+            <Field field="Order" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TestSuite - Ascending
+ModuleFullPath - Ascending
+Order - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+          <SortInfo locale="0">
+            <Field field="TestSuite" order="Ascending" />
+            <Field field="ModuleFullPath" order="Ascending" />
+            <Field field="Order" order="Ascending" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="126">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1674" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="TestSuite" action="GroupBy" rename="TestSuite" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TestSuite" size="1000" source="Summarize: GroupBy - TestSuite" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="TestSuite" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1746" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Order" type="Int16" size="2" expression="-1" />
+            <FormulaField field="Message" type="V_WString" size="5000" expression="&quot;-------- &quot; + [TestSuite] + &quot; Tests --------&quot;" />
+            <FormulaField field="MessageType" type="V_WString" size="5000" expression="&quot;Message&quot;" />
+            <FormulaField field="ModuleFullPath" type="V_WString" size="50000" expression="Null()" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Order=-1
+Message="-------- " + [TestSuite] + " Tests --------"
+MessageType="Message"
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="TestSuite" size="1000" source="Summarize: GroupBy - TestSuite" type="V_WString" />
+            <Field name="Order" source="Formula: -1" type="Int16" />
+            <Field name="Message" size="5000" source="Formula: &quot;-------- &quot; + [TestSuite] + &quot; Tests --------&quot;" type="V_WString" />
+            <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" />
+            <Field name="ModuleFullPath" size="50000" source="Formula: Null()" type="V_WString" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="TestSuite" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1878" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByName</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" column="1" />
+                <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" column="2" />
+                <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" column="3" />
+                <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" column="4" />
+                <Field name="TestSuite" size="1000" source="Formula: FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" type="V_WString" column="5" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="ModuleFullPath" size="50000" source="Formula: Null()" type="V_WString" column="1" />
+                <Field name="Message" size="5000" source="Formula: &quot;----&quot; + [TestSuite] + &quot; Test----&quot;" type="V_WString" column="2" />
+                <Field name="MessageType" size="5000" source="Formula: &quot;Message&quot;" type="V_WString" column="3" />
+                <Field name="Order" source="Formula: -1" type="Int16" column="4" />
+                <Field name="TestSuite" size="1000" source="Summarize: GroupBy - TestSuite" type="V_WString" column="5" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ManualDelayed</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1554" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="TestSuite" type="V_WString" size="1000" expression="FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TestSuite=FileGetFileName(Left(FileGetDir([ModuleFullPath]), ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="Formula: FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1746" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Message" type="V_WString" size="1073741823" expression="&quot;    &quot; + [Message]" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Message="    " + [Message]</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ModuleFullPath" size="50000" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Message" size="1073741823" source="Formula: &quot;    &quot; + [Message]" type="V_WString" />
+            <Field name="MessageType" size="1073741823" source="Formula: (Multiple Sources)" type="V_WString" />
+            <Field name="Order" source="Formula: (Multiple Sources)" type="Int16" />
+            <Field name="TestSuite" size="1000" source="Formula: FileGetFileName(Left(FileGetDir([ModuleFullPath]), Length(FileGetDir([ModuleFullPath]))-1))" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Directory.Directory">
+        <Position x="54" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Directory>%Engine.ModuleDirectory%</Directory>
+          <FileSpec>_*.yxmd</FileSpec>
+          <IncludeSubDirs value="True" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>dir %Engine.ModuleDirectory%\_*.yxmd</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDirectory" />
+    </Node>
+    <Node ToolID="133">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="150" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="FullPath" size="32767" source="Directory:" type="V_WString" />
+            <Field name="Directory" size="32767" source="Directory:" type="V_WString" />
+            <Field name="FileName" size="260" source="Directory:" type="V_WString" />
+            <Field name="ShortFileName" size="14" source="Directory:" type="V_WString" />
+            <Field name="CreationTime" source="Directory:" type="DateTime" />
+            <Field name="LastAccessTime" source="Directory:" type="DateTime" />
+            <Field name="LastWriteTime" source="Directory:" type="DateTime" />
+            <Field name="Size" source="Directory:" type="Int64" />
+            <Field name="AttributeArchive" source="Directory:" type="Bool" />
+            <Field name="AttributeCompressed" source="Directory:" type="Bool" />
+            <Field name="AttributeEncrypted" source="Directory:" type="Bool" />
+            <Field name="AttributeHidden" source="Directory:" type="Bool" />
+            <Field name="AttributeNormal" source="Directory:" type="Bool" />
+            <Field name="AttributeOffline" source="Directory:" type="Bool" />
+            <Field name="AttributeReadonly" source="Directory:" type="Bool" />
+            <Field name="AttributeReparsePoint" source="Directory:" type="Bool" />
+            <Field name="AttributeSparseFile" source="Directory:" type="Bool" />
+            <Field name="AttributeSystem" source="Directory:" type="Bool" />
+            <Field name="AttributeTemporary" source="Directory:" type="Bool" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output16" />
+      <Destination ToolID="116" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output15" />
+      <Destination ToolID="121" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output16" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Output16" />
+      <Destination ToolID="22" Connection="Input6" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output15" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="106" Connection="Input4" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output22" />
+      <Destination ToolID="106" Connection="Input5" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="115" Connection="Output" />
+      <Destination ToolID="106" Connection="Input55" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="110" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="False" />
+      <Destination ToolID="2" Connection="Input15" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="True" />
+      <Destination ToolID="18" Connection="Input15" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="80" Connection="True" />
+      <Destination ToolID="100" Connection="Input3" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="84" Connection="Output" />
+      <Destination ToolID="133" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="132" Connection="Output" />
+      <Destination ToolID="133" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="85" Connection="Left" />
+      <Destination ToolID="89" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="89" Connection="Output3" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="94" Connection="Output" />
+      <Destination ToolID="80" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Output22" />
+      <Destination ToolID="112" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="106" Connection="Output28" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="122" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="123" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="124" Connection="Output" />
+      <Destination ToolID="120" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="107" Connection="Output" />
+      <Destination ToolID="108" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="109" Connection="Output" />
+      <Destination ToolID="85" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="133" Connection="Output" />
+      <Destination ToolID="85" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="112" Connection="Output" />
+      <Destination ToolID="111" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="114" Connection="True" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="True" />
+      <Destination ToolID="117" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="False" />
+      <Destination ToolID="118" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="116" Connection="False" />
+      <Destination ToolID="4" Connection="Input6" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="117" Connection="Output" />
+      <Destination ToolID="122" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="118" Connection="Output" />
+      <Destination ToolID="123" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="119" Connection="Output" />
+      <Destination ToolID="124" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="120" Connection="Output" />
+      <Destination ToolID="130" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="121" Connection="True" />
+      <Destination ToolID="119" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="125" Connection="Output" />
+      <Destination ToolID="107" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="126" Connection="Output" />
+      <Destination ToolID="127" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="127" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="131" Connection="Output" />
+      <Destination ToolID="128" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="128" Connection="Output" />
+      <Destination ToolID="125" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="126" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="130" Connection="Output" />
+      <Destination ToolID="131" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name>Test Runner (BETA)</Name>
+      <Description>Runs the tests for a CReW test suite</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags>Test, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions />
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (8)</Name>
+          <ToolId value="8" />
+          <Questions />
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="2" Selected="True" />
+        <Tool ToolId="4" Selected="True" />
+        <Tool ToolId="18" Selected="True" />
+        <Tool ToolId="22" Selected="True" />
+        <Tool ToolId="80" Selected="True" />
+        <Tool ToolId="89" Selected="True" />
+        <Tool ToolId="100" Selected="True" />
+        <Tool ToolId="106" Selected="True" />
+        <Tool ToolId="110" Selected="False" />
+        <Tool ToolId="111" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

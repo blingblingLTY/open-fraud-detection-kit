@@ -1,0 +1,2018 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="11.3">
+  <Nodes>
+    <Node ToolID="157">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1914" y="1002" width="696" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add row total label if required</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="156">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1914" y="690" width="492" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Row total label options</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="138">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2862" y="522" width="132" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="137">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2742" y="522" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Remove Record Id</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="136">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2622" y="522" width="108" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Attach last row to original table</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="135">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1482" y="690" width="216" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If adding both Total Row and Column, select the Table Total for output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="134">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1482" y="1002" width="420" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Build up last row</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="133">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2418" y="690" width="192" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If total column only stop the workflow for the row total</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="132">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1482" y="522" width="420" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Attach Total Column to Original Table</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="131">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1482" y="318" width="420" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>If only adding Total Row detour the original data straight through</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="130">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1146" y="1002" width="324" height="168" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create Row Total
+(Cross Tab doesn't like support spaces in field names so replace them before and after)</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="129">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1146" y="834" width="324" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create Table Total</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="128">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1146" y="522" width="324" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create Total Column</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="127">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="978" y="522" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Transpose Data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="125">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="318" width="576" height="192" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User selects fields to sum</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="124">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="390" y="522" width="576" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Select fields to be sumed plus RecordID field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="123">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="522" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add Record ID</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="122">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="522" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="2886" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="102" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="6" />
+              <Fields>
+                <Field name="NonRepeatableGroup2" />
+                <Field name="NonRepeatableFieldName A" />
+                <Field name="NonRepeatableFieldNameB" />
+                <Field name="NonRepeatableFieldNameC" />
+                <Field name="NonRepeatableFieldNameD" />
+                <Field name="NonRepeatableFieldNameE" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>A</c>
+                  <c>1</c>
+                  <c>2</c>
+                  <c>4</c>
+                  <c>5</c>
+                  <c>4</c>
+                </r>
+                <r>
+                  <c>B</c>
+                  <c>2</c>
+                  <c>2</c>
+                  <c>5</c>
+                  <c>54</c>
+                  <c>54</c>
+                </r>
+                <r>
+                  <c>C</c>
+                  <c>34</c>
+                  <c>2</c>
+                  <c>4</c>
+                  <c>43</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>D</c>
+                  <c>3</c>
+                  <c>3</c>
+                  <c>6</c>
+                  <c>1</c>
+                  <c>3</c>
+                </r>
+                <r>
+                  <c>E</c>
+                  <c>3</c>
+                  <c>45</c>
+                  <c>8</c>
+                  <c>2</c>
+                  <c>4</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input</Name>
+          <DefaultAnnotationText />
+          <Left value="True" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1026" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="NonRepeatableRecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="NonRepeatableRecordID" selected="False" />
+            <Field field="NonRepeatableFieldName A" selected="True" />
+            <Field field="NonRepeatableFieldNameB" selected="True" />
+            <Field field="NonRepeatableFieldNameC" selected="True" />
+            <Field field="NonRepeatableFieldNameD" selected="True" />
+            <Field field="NonRepeatableFieldNameE" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Transpose (4)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Name" size="24" source="Transpose:" type="String" />
+            <Field name="Value" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1194" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="NonRepeatableRecordID" action="GroupBy" rename="NonRepeatableRecordID" />
+            <SummarizeField field="Value" action="Sum" rename="Total" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Summarize (9)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1146" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Name" action="GroupBy" rename="Name" />
+            <SummarizeField field="Value" action="Sum" rename="Total" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Summarize (10)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="24" source="Summarize: GroupBy - Name" type="String" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Name" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1650" y="582" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="NonRepeatableRecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="NonRepeatableRecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="Right_NonRepeatableGroup2" selected="True" />
+                <SelectField field="Right_NonRepeatableFieldNameA" selected="True" />
+                <SelectField field="Right_NonRepeatableFieldNameB" selected="True" />
+                <SelectField field="Right_NonRepeatableFieldNameC" selected="True" />
+                <SelectField field="Right_NonRepeatableFieldNameD" selected="True" />
+                <SelectField field="Right_NonRepeatableFieldNameE" selected="True" />
+                <SelectField field="Left_NonRepeatableRecordID" selected="True" />
+                <SelectField field="Right_NonRepeatableRecordID" selected="True" rename="Right_NonRepeatableRecordID" />
+                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="Left_Total" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Join (13)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="NonRepeatableRecordID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
+            <Field name="Right_NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="NonRepeatableRecordID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1350" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Total" action="Sum" rename="Total" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Summarize (15)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="1326" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields />
+          <HeaderField field="Name" />
+          <DataField field="Total" />
+          <Methods>
+            <Method method="Sum" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Cross Tab (20)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName__Space__A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2646" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Ignore</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="True" />
+          <OutputOrder>
+            <Connection>#1</Connection>
+            <Connection>#2</Connection>
+          </OutputOrder>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Union (24)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldNameB" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
+            <Field name="Right_NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableFieldName A" source="(Multiple Sources)" type="Int64" />
+            <Field name="Total" source="Summarize: (Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2886" y="546" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>c:\temp\Engine_138560_9fd5ef42fbea46fbb10c5903a8e13694\Engine_131632_aa3d67aca4fe458b9983f8e0e6d20bfb.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Table</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Browse (25)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="606" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="NonRepeatableGroup2" selected="False" />
+            <SelectField field="NonRepeatableRecordID" selected="True" />
+            <SelectField field="NonRepeatableFieldName A" selected="True" />
+            <SelectField field="NonRepeatableFieldNameB" selected="True" />
+            <SelectField field="NonRepeatableFieldNameC" selected="True" />
+            <SelectField field="NonRepeatableFieldNameD" selected="True" />
+            <SelectField field="NonRepeatableFieldNameE" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Select (29)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="71">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="1770" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Detour End (71)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableRecordID" source="Summarize: GroupBy - NonRepeatableRecordID" type="Int32" />
+            <Field name="Right_NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+        <Position x="1542" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DetourRight value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Detour (75)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1722" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="NonRepeatableFieldNameA" selected="True" />
+            <SelectField field="NonRepeatableFieldNameB" selected="True" />
+            <SelectField field="NonRepeatableFieldNameC" selected="True" />
+            <SelectField field="NonRepeatableFieldNameD" selected="True" />
+            <SelectField field="NonRepeatableFieldNameE" selected="True" />
+            <SelectField field="Total" selected="True" />
+            <SelectField field="NonRepeatableFieldName A" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Select (74)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="270" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>NonRepeatableRecordID</FieldName>
+          <FieldType>Int32</FieldType>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Record ID (93)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldName A" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameB" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameC" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameD" source="TextInput:" type="Byte" />
+            <Field name="NonRepeatableFieldNameE" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="NonRepeatableRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2766" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <SelectFields>
+            <SelectField field="NonRepeatableGroup2" selected="True" />
+            <SelectField field="NonRepeatableFieldNameA" selected="True" />
+            <SelectField field="NonRepeatableFieldNameB" selected="True" />
+            <SelectField field="NonRepeatableFieldNameC" selected="True" />
+            <SelectField field="NonRepeatableFieldNameD" selected="True" />
+            <SelectField field="NonRepeatableFieldNameE" selected="True" />
+            <SelectField field="NonRepeatableRecordID" selected="False" />
+            <SelectField field="Right_NonRepeatableRecordID" selected="False" />
+            <SelectField field="NonRepeatableFieldName A" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+            <SelectField field="Total" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Select (96)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableGroup2" size="1" source="TextInput:" type="String" />
+            <Field name="NonRepeatableFieldNameB" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="(Multiple Sources)" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="(Multiple Sources)" type="Int64" />
+            <Field name="Total" source="Summarize: (Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1578" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="True">
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Join (97)</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="0" y="0" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="116">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="54" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="222" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="54" width="636" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_AddTotalRowColumns.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="119">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="870" y="54" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.2</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="120">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="222" y="174" width="876" height="132" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+Macro to add total row and columns to a data table</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="798" y="438" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Select To Reselect record ID</Name>
+          <AnnotationText><![CDATA[Update Select To Reselect record ID
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2430" y="918" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Delete Select</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Condition.Condition">
+        <Position x="2454" y="834" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+        <Position x="2454" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Add Total Column Only</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="606" y="438" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Select</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.ListBox">
+        <Position x="594" y="342" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Please Select Fields To Sum</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+        <Position x="1530" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Add Total Row and Column</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.RadioButtonGroup.RadioButtonGroup">
+        <Position x="1530" y="342" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Add Total Row Only</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1542" y="438" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Detour</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1542" y="918" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Last Row Select</Name>
+          <AnnotationText><![CDATA[Select Total Field
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="139">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="54" y="690" width="912" height="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version History: 
+
+1.0 - Initial release
+2.0 - Updated to Alteryx 9.0 macro interface
+2.1 - Fixed case where spaces in field names
+2.2 - Added option for row total label</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="140">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+        <Position x="414" y="438" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="144">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1266" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Name" type="V_String" size="500000" expression="replace([Name], &quot; &quot;, &quot;__Space__&quot;)" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Name=replace([Name], " ", "__Space__")</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="500000" source="Formula: replace([Name], &quot; &quot;, &quot;__Space__&quot;)" type="V_String" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="146">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1206" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Name" selected="True" type="V_String" size="500000" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Name" size="500000" source="Summarize: GroupBy - Name" type="V_String" />
+            <Field name="Total" source="Summarize: Sum - Value" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="147">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DynamicRename.DynamicRename">
+        <Position x="1398" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <RenameMode>Formula</RenameMode>
+          <Fields orderChanged="False">
+            <Field name="NonRepeatableFieldNameB" />
+            <Field name="NonRepeatableFieldNameC" />
+            <Field name="NonRepeatableFieldNameD" />
+            <Field name="NonRepeatableFieldNameE" />
+            <Field name="NonRepeatableFieldName__Space__A" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Expression>replace([_CurrentField_], "__Space__", " ")</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDynamicRename" />
+    </Node>
+    <Node ToolID="148">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2070" y="1050" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="RowLabel" type="V_String" size="64" expression="&quot;Total&quot;" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>RowLabel="Total"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="149">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Detour.Detour">
+        <Position x="1938" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <DetourRight value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetour" />
+    </Node>
+    <Node ToolID="150">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DetourEnd.DetourEnd">
+        <Position x="2430" y="1038" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="NonRepeatableFieldNameB" source="CrossTab:Header:Name:NonRepeatableFieldNameB:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameC" source="CrossTab:Header:Name:NonRepeatableFieldNameC:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameD" source="CrossTab:Header:Name:NonRepeatableFieldNameD:Sum:" type="Int64" />
+            <Field name="NonRepeatableFieldNameE" source="CrossTab:Header:Name:NonRepeatableFieldNameE:Sum:" type="Int64" />
+            <Field name="Total" source="Summarize: Sum - Total" type="Int64" />
+            <Field name="NonRepeatableFieldName A" source="CrossTab:Header:Name:NonRepeatableFieldName__Space__A:Sum:" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDetourEnd" />
+    </Node>
+    <Node ToolID="151">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.CheckBoxGroup.CheckBoxGroup">
+        <Position x="1926" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="152">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="1938" y="906" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="153">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="2094" y="726" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="154">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2082" y="906" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="155">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Error.Error">
+        <Position x="2202" y="906" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="113" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="113" Connection="Question" />
+      <Destination ToolID="105" Connection="Question Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="113" Connection="Question" />
+      <Destination ToolID="153" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="13" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Left" />
+      <Destination ToolID="13" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="146" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Join" />
+      <Destination ToolID="71" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="75" Connection="Right" />
+      <Destination ToolID="71" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="97" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="147" Connection="Output" />
+      <Destination ToolID="97" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="147" Connection="Targets" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="96" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="71" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="150" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="74" Connection="Output" />
+      <Destination ToolID="149" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="152" Connection="Action" />
+      <Destination ToolID="149" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Action" />
+      <Destination ToolID="29" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Action" />
+      <Destination ToolID="29" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="93" Connection="Output" />
+      <Destination ToolID="75" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Action" />
+      <Destination ToolID="75" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Output" />
+      <Destination ToolID="114" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Join" />
+      <Destination ToolID="74" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Action" />
+      <Destination ToolID="74" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="100" Connection="Action" />
+      <Destination ToolID="150" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="148" Connection="Output" />
+      <Destination ToolID="150" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Left" />
+      <Destination ToolID="150" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="True Condition" />
+      <Destination ToolID="100" Connection="Condition" />
+    </Connection>
+    <Connection name="Add Total Column Only">
+      <Origin ToolID="108" Connection="Question" />
+      <Destination ToolID="103" Connection="Question" />
+    </Connection>
+    <Connection name="Fields To Sum">
+      <Origin ToolID="105" Connection="Question" />
+      <Destination ToolID="98" Connection="Question" />
+    </Connection>
+    <Connection name="Fields To Sum">
+      <Origin ToolID="105" Connection="Question" />
+      <Destination ToolID="140" Connection="Question" />
+    </Connection>
+    <Connection name="Add Total Row and Column">
+      <Origin ToolID="106" Connection="Question" />
+      <Destination ToolID="102" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="107" Connection="Question" />
+      <Destination ToolID="101" Connection="Question" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="144" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="146" Connection="Output" />
+      <Destination ToolID="144" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="149" Connection="Right" />
+      <Destination ToolID="148" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="154" Connection="Action" />
+      <Destination ToolID="148" Connection="Action" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="151" Connection="Question" />
+      <Destination ToolID="152" Connection="Question" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="151" Connection="Question" />
+      <Destination ToolID="155" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="153" Connection="Question" />
+      <Destination ToolID="155" Connection="Question" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="153" Connection="Question" />
+      <Destination ToolID="154" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Please Select Fields To Sum</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Add Total Row and Column</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Add Total Row Only</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Add Total Column Only</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Check Box (151)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Drop Down (153)</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[  Add Totals]]></Name>
+      <Description>Macro to add total row and columns to a data table</Description>
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags>Transform, Chaos, Chaos Reigns Within, Total</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateSelect</Type>
+              <Description>Please Select Fields To Sum</Description>
+              <ToolId value="98" />
+              <Variable>Please Select Fields To Sum</Variable>
+              <SelectTool value="29" />
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="99" />
+              <Expression>"True"</Expression>
+              <Destination>29/SelectFields/SelectField[@field='NonRepeatableRecordID']/@selected</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="101" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>75/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="102" />
+              <Expression>[Add Total Row and Column]</Expression>
+              <Destination>74/SelectFields/SelectField[@field='Total']/@selected</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>No fields selected</Description>
+              <ToolId value="140" />
+              <Expression>FindString([Fields To Sum], "=True")==-1</Expression>
+            </Action>
+            <Action>
+              <Type>Dynamic</Type>
+              <Description />
+              <ToolId value="152" />
+              <Expression>{{INPUT}}</Expression>
+              <Destination>149/DetourRight/@value</Destination>
+              <Mapping>Update Detour Direction from Question</Mapping>
+              <Mode>Expression</Mode>
+              <DynamicConfiguration />
+              <DefaultConfiguration value="True" />
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description />
+              <ToolId value="154" />
+              <Mode>Simple</Mode>
+              <Variable />
+              <Replace value="False" />
+              <Destination>148/FormulaFields/FormulaField/@field</Destination>
+            </Action>
+            <Action>
+              <Type>Error</Type>
+              <Description>No field selected for row total</Description>
+              <ToolId value="155" />
+              <Expression>IsEmpty([#1]) &amp;&amp; [#2]</Expression>
+            </Action>
+          </True>
+        </NoCondition>
+        <Condition>
+          <Type>Condition</Type>
+          <Description />
+          <ToolId value="103" />
+          <Expression>[Add Total Column Only]</Expression>
+          <True>
+            <Action>
+              <Type>DeleteTool</Type>
+              <Description />
+              <ToolId value="100" />
+              <DeleteTool value="74" />
+            </Action>
+          </True>
+          <False />
+        </Condition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (111)</Name>
+          <ToolId value="111" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Fields To Sum</Description>
+              <Name>Please Select Fields To Sum</Name>
+              <ToolId value="105" />
+              <Multiple value="True" />
+              <Multiple_Custom value="False" />
+              <Multiple_Default value="True" />
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="3" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Byte,Int16,Int32,Int64,FixedDecimal,Float,Double</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>RadioGroup</Type>
+              <Description>Add Total Row and Column</Description>
+              <Name>Add Total Row and Column</Name>
+              <ToolId value="106" />
+              <Questions />
+              <Default value="True" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>RadioGroup</Type>
+              <Description>Add Total Row Only</Description>
+              <Name>Add Total Row Only</Name>
+              <ToolId value="107" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>RadioGroup</Type>
+              <Description>Add Total Column Only</Description>
+              <Name>Add Total Column Only</Name>
+              <ToolId value="108" />
+              <Questions />
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output</Description>
+              <Name>Output</Name>
+              <ToolId value="114" />
+            </Question>
+            <Question>
+              <Type>BooleanGroup</Type>
+              <Description>Include Row Total label in field</Description>
+              <Name>Check Box (151)</Name>
+              <ToolId value="151" />
+              <Questions>
+                <Question>
+                  <Type>ListBox</Type>
+                  <Description />
+                  <Name>Drop Down (153)</Name>
+                  <ToolId value="153" />
+                  <Multiple value="False" />
+                  <Default />
+                  <Mode>MacroField</Mode>
+                  <MacroField_InputTool value="0" />
+                  <Field_IncludeNone value="False" />
+                  <MacroField_FilterTypes>String,WString,V_String,V_WString</MacroField_FilterTypes>
+                </Question>
+              </Questions>
+              <Default value="False" />
+              <Collapsable value="False" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input</Description>
+          <Name>Tab (112)</Name>
+          <ToolId value="112" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input</Description>
+              <Name>Input</Name>
+              <ToolId value="113" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="False" />
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="114" Selected="True" />
+        <Tool ToolId="113" Selected="True" />
+        <Tool ToolId="25" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>

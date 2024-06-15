@@ -1,0 +1,3167 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="9.0">
+  <Nodes>
+    <Node ToolID="118">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2604" y="349.9" width="1056" height="300" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Questions about styling the gauge</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="117">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="300" y="421.9" width="168" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>User selects field containing Percentage value</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor r="230" g="255" b="230" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="91">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1140" y="660" width="240" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Draw a triangle at the angle of the percentage.  This will be the foundation of the arroe and used to cut the dial into it's two halves.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="90">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="744" y="660" width="384" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Draw 1 mile radius around point (10, 10).  Draw a rectangle that covers the bottom half of it.  Use the rectangle to cut the circle in half.  This will be the dial.</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="89">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="636" y="660" width="96" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Create point (10, 10)</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="88">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="480" y="660" width="144" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Cheat a little for percentage values that will  break my trigonometry.
+Create the Angle of the arrow is radians.
+Set x y co-odinates to (10, 10)</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="87">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="300" y="660" width="168" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Set DataTypes and Choose Percentage Field</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="85">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="2604" y="661.9" width="1056" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Render Gauges using the map tool</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="84">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3672" y="660" width="84" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Join Gauges back to original data</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="83">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="3768" y="660" width="84" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Output</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="82">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="660" width="84" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Macro Input</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="81">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="204" y="660" width="84" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Add RecordId so we can keep track of the individual gauges</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="66">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1392" y="660" width="1200" height="456" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Build the Arrow</Text>
+          <Font name="Microsoft Sans Serif" size="18" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="65">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="1392" y="1128" width="1200" height="312" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Build the Dial</Text>
+          <Font name="Microsoft Sans Serif" size="18" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="114">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroInput.MacroInput">
+        <Position x="120" y="744" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UseFileInput value="False" />
+          <Name>Input</Name>
+          <Abbrev />
+          <ShowFieldMap value="False" />
+          <TextInput>
+            <Configuration>
+              <NumRows value="2" />
+              <Fields>
+                <Field name="GaugeMacroPercent" />
+              </Fields>
+              <Data>
+                <r>
+                  <c>75</c>
+                </r>
+              </Data>
+            </Configuration>
+          </TextInput>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Input</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroPercent" source="TextInput:" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.TradeArea.TradeArea">
+        <Position x="756" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" includeOut="True" />
+          <Units units="Miles" noOverlap="False" />
+          <Radius_FromField value="False" />
+          <Radii>1</Radii>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>1 Miles</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="x" source="Formula: 10" type="Double" />
+            <Field name="y" source="Formula: 10" type="Double" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=1 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxTradeArea" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.CreatePoints.CreatePoints">
+        <Position x="660" y="817.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields fieldX="x" fieldY="y" />
+          <Mode>Double</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="x" source="Formula: 10" type="Double" />
+            <Field name="y" source="Formula: 10" type="Double" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxCreatePoints" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="828" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Rect" type="SpatialObj" size="536870911" expression="ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Rect=ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="x" source="Formula: 10" type="Double" />
+            <Field name="y" source="Formula: 10" type="Double" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=1 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialProcess.SpatialProcess">
+        <Position x="948" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjFields field1="SpatialObject_TradeArea" field2="Rect" />
+          <Action action="Cut2_From1" noEmpty="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cut2_From1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="x" source="Formula: 10" type="Double" />
+            <Field name="y" source="Formula: 10" type="Double" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=1 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialProcess" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1176" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Triangle" type="SpatialObj" size="536870911" expression="iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Triangle=iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoi...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1020" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="x" selected="False" />
+            <SelectField field="y" selected="False" />
+            <SelectField field="SpatialObject_TradeArea" selected="False" />
+            <SelectField field="RadiusSize" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialProcess.SpatialProcess">
+        <Position x="1440" y="1188" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjFields field1="SpatialObj_Process" field2="Triangle" />
+          <Action action="Cut2_From1" noEmpty="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cut2_From1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObj_Process Source2=Triangle" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialProcess" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialProcess.SpatialProcess">
+        <Position x="1524" y="1188" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjFields field1="SpatialObj_Process" field2="SpatialObj_Process2" />
+          <Action action="Cut2_From1" noEmpty="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cut2_From1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObj_Process Source2=Triangle" type="SpatialObj" />
+            <Field name="SpatialObj_Process3" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObj_Process Source2=SpatialObj_Process2" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialProcess" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1632" y="1188" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="SpatialObj_Process" selected="False" />
+            <SelectField field="Triangle" selected="False" />
+            <SelectField field="SpatialObj_Process2" selected="True" rename="BigPercent" />
+            <SelectField field="SpatialObj_Process3" selected="True" rename="SmallPercent" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="BigPercent" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObj_Process Source2=Triangle" type="SpatialObj" />
+            <Field name="SmallPercent" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObj_Process Source2=SpatialObj_Process2" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="516" y="817.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Percent" type="FixedDecimal" size="5.1" expression="iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" />
+            <FormulaField field="angleRadians" type="Float" size="4" expression="[Percent]/100*Pi()" />
+            <FormulaField field="x" type="Double" size="8" expression="10" />
+            <FormulaField field="y" type="Double" size="8" expression="10" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Percent=iif([Percent]==50, 49.9, 
+iif([Percent]&gt;=100, 99.9, 
+...
+angleRadians=[Percent]/100*Pi()
+x=10
+...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="x" source="Formula: 10" type="Double" />
+            <Field name="y" source="Formula: 10" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.ReportMap.ReportMap">
+        <Position x="3096" y="769.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TemporaryFileLocationXML>C:\Users\ariley\AppData\Local\Temp\Engine_10364_14677aeb62dc48a386aef5cbb63637d9\Engine_12044_65d52f25e02c407db60e916446aceaff.xml</TemporaryFileLocationXML>
+          <IsMetric value="False" />
+          <ImageWidth>8</ImageWidth>
+          <ImageHeight>6</ImageHeight>
+          <ImageResolution>3</ImageResolution>
+          <ReferenceMap />
+          <BackgroundColor>#fdfeff</BackgroundColor>
+          <DropShadow>False</DropShadow>
+          <ScaleUnits>None</ScaleUnits>
+          <ExpandExtent>10</ExpandExtent>
+          <MinimumWidth>0.5</MinimumWidth>
+          <DataConnections>
+            <DataConnection name="#1">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#1</Connection>
+              <FileName />
+              <SpatialObj />
+              <GroupField>GaugeMacroRecordID</GroupField>
+              <ThemeField>Theme</ThemeField>
+              <LabelField>Label</LabelField>
+            </DataConnection>
+            <DataConnection name="#2">
+              <ConnectionType>IncomingConnection</ConnectionType>
+              <Connection>#2</Connection>
+              <FileName />
+              <SpatialObj />
+              <GroupField>GaugeMacroRecordID</GroupField>
+              <ThemeField />
+              <LabelField />
+            </DataConnection>
+          </DataConnections>
+          <Layers>
+            <Layer name="Base Layers - Points" order="0">
+              <DisplayName>Base Layers - Points</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="Base Layers - Lines" order="1">
+              <DisplayName>Base Layers - Lines</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="2" order="2">
+              <LayerType>Polygons</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>#2 - Polygons</DisplayName>
+              <DataConnection>#2</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PolygonStyle FillColor="#ffffff" HatchColor="#000000" HatchStyle="single" Hatched="false" Opacity="100" OutlineColor="#000000" OutlineSize="1" UseFillColor="true" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+            </Layer>
+            <Layer name="1" order="3">
+              <LayerType>Polygons</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="False" />
+              <DisplayName>#1 - Polygons</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PolygonStyle FillColor="#988576" HatchColor="#000000" HatchStyle="single" Hatched="false" Opacity="100" OutlineColor="#000000" OutlineSize="3" UseFillColor="true" />
+              <ThemeStyle ColorMethod="Map" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="First&#xD;&#xA;Second&#xD;&#xA;" StartColor="#0000ff" TileMethod="IndividualValue" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Color="#ffffff" Disabled="false" Size="40" />
+            </Layer>
+            <Layer name="Base Layers - Polygons" order="4">
+              <DisplayName>Base Layers - Polygons</DisplayName>
+              <DataConnection />
+              <LayerType>Placeholder</LayerType>
+              <ShowLabel value="False" />
+            </Layer>
+            <Layer name="3" order="1001">
+              <LayerType>Polygons</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="True" />
+              <DisplayName><![CDATA[First
+]]></DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PolygonStyle FillColor="#ff0000" Opacity="50" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>1</ThemeBandNumber>
+            </Layer>
+            <Layer name="4" order="1002">
+              <LayerType>Polygons</LayerType>
+              <isBaseLayer value="False" />
+              <isReorderedBaseLayer value="False" />
+              <isRestlyedBaseLayer value="False" />
+              <isThemeLayer value="True" />
+              <DisplayName>Second</DisplayName>
+              <DataConnection>#1</DataConnection>
+              <ShowInLegend value="True" />
+              <ZoomToLayer value="True" />
+              <Disable value="False" />
+              <PolygonStyle FillColor="#0080ff" Opacity="50" />
+              <ThemeStyle ColorMethod="Ramp" EndColor="#ff0000" ManualTiles="" NoneSpecificValuesAction="Color" NumTiles="5" SpecificValues="" StartColor="#0000ff" TileMethod="SmartTile" UniqueColors="#dc143c,#6495ed,#f0e68c,#228b22,#a9a9a9,#ffa500,#ba55d3,#a0522d,#ff69b4,#4b0082,#d3d3d3,#9acd32,#00ffff,#808000,#ffb6c1" UpperCutoffIncludedExcluded="Excluded" />
+              <LabelStyle Disabled="false" />
+              <ParentLayer>1</ParentLayer>
+              <ThemeBandNumber>2</ThemeBandNumber>
+            </Layer>
+          </Layers>
+          <Legend>
+            <LegendStyle Position="None" UseCommaSeparators="false" />
+          </Legend>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Map" size="2147483647" source="Report:Map:" type="V_String" />
+            <Field name="BoundingRect" size="2147483647" source="Map:" type="SpatialObj" />
+            <Field name="Group" source="(Multiple Sources)" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxReportMap" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="3780" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_10364_14677aeb62dc48a386aef5cbb63637d9\Engine_12044_764d59da6a334e6aae98357f34322b5c.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints />
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1439" y="1264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="SmallPercent" type="FixedDecimal" size="19.1" expression="iif([Percent]&lt;50, [Percent], 100-[Percent])" />
+            <FormulaField field="BigPercent" type="FixedDecimal" size="19.1" expression="iif([Percent]&lt;50, 100-[Percent], [Percent])" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>SmallPercent=iif([Percent]&lt;50, [Percent], 100-[Percent])
+BigPercent=iif([Percent]&lt;50, 100-[Percent], [Percent])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="TextInput:" type="FixedDecimal" />
+            <Field name="SmallPercent" scale="1" size="19" source="Formula: iif([Percent]&lt;50, [Percent], 100-[Percent])" type="FixedDecimal" />
+            <Field name="BigPercent" scale="1" size="19" source="Formula: iif([Percent]&lt;50, 100-[Percent], [Percent])" type="FixedDecimal" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1633" y="1264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="GaugeMacroRecordID" />
+            <Field field="Percent" />
+          </KeyFields>
+          <DataFields>
+            <Field field="GaugeMacroRecordID" selected="False" />
+            <Field field="Percent" selected="False" />
+            <Field field="SmallPercent" selected="True" />
+            <Field field="BigPercent" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="19" source="TextInput:" type="FixedDecimal" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" scale="1" size="19" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="1740" y="1188" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="GaugeMacroRecordID" />
+          </KeyFields>
+          <DataFields>
+            <Field field="GaugeMacroRecordID" selected="False" />
+            <Field field="Percent" selected="False" />
+            <Field field="angleRadians" selected="False" />
+            <Field field="Centroid" selected="False" />
+            <Field field="Rect" selected="False" />
+            <Field field="BigPercent" selected="True" />
+            <Field field="SmallPercent" selected="True" />
+            <Field field="*Unknown" selected="False" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" size="2147483647" source="(Multiple Sources)" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1896" y="1236" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Name" />
+            <Field field="GaugeMacroRecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Name" />
+            <Field field="GaugeMacroRecordID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_GaugeMacroRecordID" selected="True" rename="Right_GaugeMacroRecordID" />
+                <SelectField field="Right_Name" selected="False" rename="Right_Name" />
+                <SelectField field="Right_Value" selected="True" rename="Right_Value" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" size="2147483647" source="(Multiple Sources)" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Name" />
+            <Field field="GaugeMacroRecordID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" size="2147483647" source="(Multiple Sources)" type="SpatialObj" />
+            <Field name="Right_GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="19" source="TextInput:" type="FixedDecimal" />
+            <Field name="Right_Value" scale="1" size="19" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+            <Field name="Label" size="64" source="Formula: iif([Value]&lt;7,&#xA;&quot;&quot;,&#xA;ToString([Value]) + ' %')" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Name" order="" />
+            <Field field="GaugeMacroRecordID" order="" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="19" source="TextInput:" type="FixedDecimal" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" scale="1" size="19" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+            <Field name="Label" size="64" source="Formula: iif([Value]&lt;7,&#xA;&quot;&quot;,&#xA;ToString([Value]) + ' %')" type="V_String" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Name" />
+            <Field field="GaugeMacroRecordID" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1521" y="1264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Percent" selected="True" size="19.1" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="19" source="TextInput:" type="FixedDecimal" />
+            <Field name="SmallPercent" scale="1" size="19" source="Formula: iif([Percent]&lt;50, [Percent], 100-[Percent])" type="FixedDecimal" />
+            <Field name="BigPercent" scale="1" size="19" source="Formula: iif([Percent]&lt;50, 100-[Percent], [Percent])" type="FixedDecimal" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1733" y="1264" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Label" type="V_String" size="64" expression="iif([Value]&lt;7,&#xA;&quot;&quot;,&#xA;ToString([Value]) + ' %')" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Label=iif([Value]&lt;7,
+"",
+ToString([Value]) + ' %')</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="19" source="TextInput:" type="FixedDecimal" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" scale="1" size="19" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+            <Field name="Label" size="64" source="Formula: iif([Value]&lt;7,&#xA;&quot;&quot;,&#xA;ToString([Value]) + ' %')" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1572" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="TriangleLine" type="SpatialObj" size="536870911" expression="ST_Boundary([Triangle])" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TriangleLine=ST_Boundary([Triangle])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.95 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="TriangleLine" size="2147483647" source="Formula: ST_Boundary([Triangle])" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialProcess.SpatialProcess">
+        <Position x="1680" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjFields field1="SpatialObj_Process2" field2="TriangleLine" />
+          <Action action="Intersection" noEmpty="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Intersection</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.95 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="TriangleLine" size="2147483647" source="Formula: ST_Boundary([Triangle])" type="SpatialObj" />
+            <Field name="SpatialObj_Process3" size="2147483647" source="SpatialProcess Action=Intersection Source1=SpatialObj_Process2 Source2=TriangleLine" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialProcess" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1752" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Percent" selected="False" />
+            <SelectField field="Centroid" selected="False" />
+            <SelectField field="SpatialObj_Process" selected="False" />
+            <SelectField field="Triangle" selected="False" />
+            <SelectField field="SpatialObject_TradeArea" selected="False" />
+            <SelectField field="RadiusSize" selected="False" />
+            <SelectField field="TriangleLine" selected="False" />
+            <SelectField field="angle" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="SpatialObj_Process3" size="2147483647" source="SpatialProcess Action=Intersection Source1=SpatialObj_Process2 Source2=TriangleLine" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolySplit.PolySplit">
+        <Position x="1824" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="SpatialObj_Process3" />
+          <SplitTo type="Point" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolySplit" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1908" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Split_SequenceNum] in (2,3) &amp;&amp; [Split_SequenceNum]==3</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Split_SequenceNum] in (2,3) &amp;&amp; [Split_SequenceNum]==3</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolyBuild.PolyBuild">
+        <Position x="2016" y="912" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Split_SpatialObj" />
+          <GroupField field="GaugeMacroRecordID" />
+          <BuildType>SequencePolyline</BuildType>
+          <SequenceField field="" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="SpatialObj_Built" size="2147483647" source="PolyBuild: Method=SequencePolyline Source=Split_SpatialObj" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolyBuild" />
+    </Node>
+    <Node ToolID="35">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Buffer.Buffer">
+        <Position x="2112" y="912" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjectField>SpatialObj_Built</SpatialObjectField>
+          <IncludeSourceInOutput value="False" />
+          <GeneralizeToOnePercent value="True" />
+          <BufferSizeSource>SpecificValue</BufferSizeSource>
+          <BufferSizeSpecificValue>0.02</BufferSizeSpecificValue>
+          <Units>Miles</Units>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="SpatialObj_Built_Buffer" size="2147483647" source="Buffer: Source=SpatialObj_Built Size=0.02 Units=Miles" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxBuffer" />
+    </Node>
+    <Node ToolID="37">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.TradeArea.TradeArea">
+        <Position x="1416" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" includeOut="True" />
+          <Units units="Miles" noOverlap="False" />
+          <Radius_FromField value="False" />
+          <Radii>0.95</Radii>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>0.95 Miles</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.95 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxTradeArea" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialProcess.SpatialProcess">
+        <Position x="1488" y="816" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjFields field1="SpatialObject_TradeArea" field2="Rect" />
+          <Action action="Cut2_From1" noEmpty="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cut2_From1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.95 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialProcess" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialInfo.SpatialInfo">
+        <Position x="2016" y="804" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Split_SpatialObj" />
+          <SelectedItems>
+            <Item name="CentroidXY" />
+          </SelectedItems>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+            <Field name="CentroidX" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+            <Field name="CentroidY" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialInfo" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2112" y="804" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Arrow" type="SpatialObj" size="536870911" expression="ST_CreatePolygon(ST_CreatePoint([CentroidX],[CentroidY]), ST_CreatePoint([CentroidX]+0.002*sin(3*Pi()/8-[angleRadians]),[CentroidY]-0.002*cos(3*Pi()/8-[angleRadians])), ST_CreatePoint([CentroidX]+0.002*cos(Pi()/8-[angleRadians]),[CentroidY]+0.002*sin(Pi()/8-[angleRadians])))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Arrow=ST_CreatePolygon(ST_CreatePoint([CentroidX],[CentroidY]...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+            <Field name="CentroidX" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+            <Field name="CentroidY" source="SpatialInfo: CentroidXY Source=Split_SpatialObj" type="Double" />
+            <Field name="Arrow" size="2147483647" source="Formula: ST_CreatePolygon(ST_CreatePoint([CentroidX],[CentroidY]), ST_CreatePoint([CentroidX]+0.002*sin(3*Pi()/8-[angleRadians]),[CentroidY]-0.002*cos(3*Pi()/8-[angleRadians])), ST_CreatePoint([CentroidX]+0.002*cos(Pi()/8-[angleRadians]),[CentroidY]+0.002*sin(Pi()/8-[angleRadians])))" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.TradeArea.TradeArea">
+        <Position x="1416" y="1020" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" includeOut="True" />
+          <Units units="Miles" noOverlap="False" />
+          <Radius_FromField value="False" />
+          <Radii>0.04</Radii>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>0.04 Miles</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.04 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxTradeArea" />
+    </Node>
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2220" y="1020" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Percent" selected="False" />
+            <SelectField field="angleRadians" selected="False" />
+            <SelectField field="Centroid" selected="False" />
+            <SelectField field="Rect" selected="False" />
+            <SelectField field="SpatialObj_Process" selected="False" />
+            <SelectField field="Triangle" selected="False" />
+            <SelectField field="RadiusSize" selected="False" />
+            <SelectField field="angle" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.04 Units=Miles" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2220" y="804" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="angleRadians" selected="False" />
+            <SelectField field="Rect" selected="False" />
+            <SelectField field="SpatialObj_Process2" selected="False" />
+            <SelectField field="Split_SpatialObj" selected="False" />
+            <SelectField field="Split_SequenceNum" selected="False" />
+            <SelectField field="CentroidX" selected="False" />
+            <SelectField field="CentroidY" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Arrow" size="2147483647" source="Formula: ST_CreatePolygon(ST_CreatePoint([CentroidX],[CentroidY]), ST_CreatePoint([CentroidX]+0.002*sin(3*Pi()/8-[angleRadians]),[CentroidY]-0.002*cos(3*Pi()/8-[angleRadians])), ST_CreatePoint([CentroidX]+0.002*cos(Pi()/8-[angleRadians]),[CentroidY]+0.002*sin(Pi()/8-[angleRadians])))" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="2352" y="912" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <AutoResetMode>ByPos</AutoResetMode>
+          <MultiMetaInfo>
+            <MetaInfo name="#2">
+              <RecordInfo>
+                <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" column="1" />
+                <Field name="SpatialObj_Built_Buffer" size="536870911" source="Buffer: Source=SpatialObj_Built Size=0.02 Units=Miles" type="SpatialObj" column="2" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#3">
+              <RecordInfo>
+                <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" column="1" />
+                <Field name="SpatialObject_TradeArea" size="536870911" source="TradeArea: Source=Centroid Radius=0.04 Units=Miles" type="SpatialObj" column="2" />
+              </RecordInfo>
+            </MetaInfo>
+            <MetaInfo name="#1">
+              <RecordInfo>
+                <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" column="1" />
+                <Field name="Arrow" size="536870911" source="Formula: ST_CreatePolygon(ST_CreatePoint([CentroidX],[CentroidY]), ST_CreatePoint([CentroidX]+0.002*sin(3*Pi()/8-[angleRadians]),[CentroidY]-0.002*cos(3*Pi()/8-[angleRadians])), ST_CreatePoint([CentroidX]+0.002*cos(Pi()/8-[angleRadians]),[CentroidY]+0.002*sin(Pi()/8-[angleRadians])))" type="SpatialObj" column="2" />
+              </RecordInfo>
+            </MetaInfo>
+          </MultiMetaInfo>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>Manual</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Arrow" size="2147483647" source="(Multiple Sources)" type="SpatialObj" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="52">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="1575" y="924" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="TriangleLine" type="SpatialObj" size="536870911" expression="ST_Boundary([Triangle])" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>TriangleLine=ST_Boundary([Triangle])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.85 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="TriangleLine" size="2147483647" source="Formula: ST_Boundary([Triangle])" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialProcess.SpatialProcess">
+        <Position x="1680" y="924" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjFields field1="SpatialObj_Process2" field2="TriangleLine" />
+          <Action action="Intersection" noEmpty="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Intersection</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.85 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="TriangleLine" size="2147483647" source="Formula: ST_Boundary([Triangle])" type="SpatialObj" />
+            <Field name="SpatialObj_Process3" size="2147483647" source="SpatialProcess Action=Intersection Source1=SpatialObj_Process2 Source2=TriangleLine" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialProcess" />
+    </Node>
+    <Node ToolID="54">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1752" y="924" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Percent" selected="False" />
+            <SelectField field="Centroid" selected="False" />
+            <SelectField field="SpatialObj_Process" selected="False" />
+            <SelectField field="Triangle" selected="False" />
+            <SelectField field="SpatialObject_TradeArea" selected="False" />
+            <SelectField field="RadiusSize" selected="False" />
+            <SelectField field="TriangleLine" selected="False" />
+            <SelectField field="angle" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="SpatialObj_Process3" size="2147483647" source="SpatialProcess Action=Intersection Source1=SpatialObj_Process2 Source2=TriangleLine" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.PolySplit.PolySplit">
+        <Position x="1824" y="924" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="SpatialObj_Process3" />
+          <SplitTo type="Point" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxPolySplit" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1908" y="924" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[Split_SequenceNum] in (2,3)</Expression>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Split_SequenceNum] in (2,3)</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="True">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="False">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Split_SpatialObj" size="2147483647" source="PolySplit: SpatialObj Source=SpatialObj_Process3" type="SpatialObj" />
+            <Field name="Split_SequenceNum" source="PolySplit: SequenceNum Source=SpatialObj_Process3" type="Int32" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="57">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.TradeArea.TradeArea">
+        <Position x="1411" y="924" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObj field="Centroid" includeOut="True" />
+          <Units units="Miles" noOverlap="False" />
+          <Radius_FromField value="False" />
+          <Radii>0.85</Radii>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>0.85 Miles</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.85 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxTradeArea" />
+    </Node>
+    <Node ToolID="58">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.SpatialProcess.SpatialProcess">
+        <Position x="1493" y="924" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SpatialObjFields field1="SpatialObject_TradeArea" field2="Rect" />
+          <Action action="Cut2_From1" noEmpty="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Cut2_From1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="Formula: iif([Percent]==50, 49.9, &#xA;iif([Percent]&gt;=100, 99.9, &#xA;iif([Percent]&lt;=0, 0.1,&#xA;[Percent])))" type="FixedDecimal" />
+            <Field name="angleRadians" source="Formula: [Percent]/100*Pi()" type="Float" />
+            <Field name="Centroid" size="2147483647" source="CreatePoints: x=x y=y" type="SpatialObj" />
+            <Field name="Rect" size="2147483647" source="Formula: ST_BoundingRectangle(ST_CreatePoint(9.9,10),ST_CreatePoint(10.1,9.9))" type="SpatialObj" />
+            <Field name="SpatialObj_Process" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+            <Field name="Triangle" size="2147483647" source="Formula: iif([Percent]==50, ST_BoundingRectangle(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10.1)),&#xA;iif([Percent]&lt;50, ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(9.9,10),ST_CreatePoint(9.9,0.1*tan([angleRadians])+10)),&#xA;ST_CreatePolygon(ST_CreatePoint(10,10),ST_CreatePoint(10.1,10),ST_CreatePoint(10.1,0.1*tan(Pi()-[angleRadians])+10))&#xA;))" type="SpatialObj" />
+            <Field name="SpatialObject_TradeArea" size="2147483647" source="TradeArea: Source=Centroid Radius=0.85 Units=Miles" type="SpatialObj" />
+            <Field name="RadiusSize" size="20" source="TradeArea: RadiusSize Units=Miles" type="V_String" />
+            <Field name="SpatialObj_Process2" size="2147483647" source="SpatialProcess Action=Cut2_From1 Source1=SpatialObject_TradeArea Source2=Rect" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSpatialProcess" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="2424" y="912" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="GaugeMacroRecordID" action="GroupBy" rename="GaugeMacroRecordID" />
+            <SummarizeField field="Arrow" action="SpatialObjCombine" rename="SpatialObjCombine_Arrow" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="Summarize: GroupBy - GaugeMacroRecordID" type="Int32" />
+            <Field name="SpatialObjCombine_Arrow" size="2147483647" source="Summarize: SpatialObjCombine - Arrow" type="SpatialObj" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="64">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="324" y="817.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="GaugeMacroRecordID" selected="True" />
+            <SelectField field="GaugeMacroPercent" selected="True" rename="Percent" type="FixedDecimal" size="5.1" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="5" source="TextInput:" type="FixedDecimal" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="69">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="216" y="744" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <StartValue>1</StartValue>
+          <FieldName>GaugeMacroRecordID</FieldName>
+          <FieldType>Int32</FieldType>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="GaugeMacroPercent" source="TextInput:" type="Byte" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="GaugeMacroRecordID" order="Asc" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="70">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="3684" y="757.9" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="GaugeMacroRecordID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Group" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="True" />
+              <SelectFields>
+                <SelectField field="*Unknown" selected="True" />
+                <SelectField field="Left_GaugeMacroRecordID" selected="False" />
+                <SelectField field="Left_GaugeMacroPercent" selected="False" />
+                <SelectField field="Right_Map" selected="True" rename="Gauge" />
+                <SelectField field="Right_BoundingRect" selected="False" />
+                <SelectField field="Right_Group" selected="False" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Left">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="GaugeMacroRecordID" />
+          </SortInfo>
+        </MetaInfo>
+        <MetaInfo connection="Join">
+          <RecordInfo>
+            <Field name="Gauge" size="2147483647" source="Report:Map:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Right">
+          <RecordInfo>
+            <Field name="Map" size="2147483647" source="Report:Map:" type="V_String" />
+            <Field name="Group" source="(Multiple Sources)" type="Int32" />
+          </RecordInfo>
+          <SortInfo noProgress="True">
+            <Field field="Group" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="115">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.MacroOutput.MacroOutput">
+        <Position x="3780" y="756" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Name>Output</Name>
+          <Abbrev>
+          </Abbrev>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Output</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMacroOutput" />
+    </Node>
+    <Node ToolID="73">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="2436" y="1236" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Theme" type="String" size="64" expression="iif([Percent]!=50,&#xA;iif([Percent]==[Right_Value], &quot;First&quot;, &quot;Second&quot;),&#xA;iif([Name]==&quot;SmallPercent&quot;, &quot;First&quot;, &quot;Second&quot;))" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Theme=iif([Percent]!=50,
+iif([Percent]==[Right_Value], "First...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Name" size="12" source="Transpose:" type="String" />
+            <Field name="Value" size="2147483647" source="(Multiple Sources)" type="SpatialObj" />
+            <Field name="Right_GaugeMacroRecordID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Percent" scale="1" size="19" source="TextInput:" type="FixedDecimal" />
+            <Field name="Right_Value" scale="1" size="19" source="Formula: (Multiple Sources)" type="FixedDecimal" />
+            <Field name="Label" size="64" source="Formula: iif([Value]&lt;7,&#xA;&quot;&quot;,&#xA;ToString([Value]) + ' %')" type="V_String" />
+            <Field name="Theme" size="64" source="Formula: iif([Percent]!=50,&#xA;iif([Percent]==[Right_Value], &quot;First&quot;, &quot;Second&quot;),&#xA;iif([Name]==&quot;SmallPercent&quot;, &quot;First&quot;, &quot;Second&quot;))" type="String" />
+          </RecordInfo>
+          <SortInfo>
+            <Field field="Name" order="" />
+            <Field field="GaugeMacroRecordID" order="" />
+          </SortInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="74">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="216" width="156" height="156" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Chaos
+Reigns
+Within</Text>
+          <Font name="Segoe UI" size="26.25" style="1" />
+          <TextColor name="White" />
+          <FillColor r="181" g="57" b="35" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="75">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="384" width="156" height="24" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>www.ChaosReignsWithin.com</Text>
+          <Font name="Segoe UI" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="1" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="76">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="216" width="636" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Module: CReW_Gauge.yxmc
+Author: Adam Riley
+]]></Text>
+          <Font name="Segoe UI" size="21.75" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="77">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="924" y="216" width="228" height="96" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Version: 2.0</Text>
+          <Font name="Segoe UI" size="26.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="78">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="276" y="324" width="876" height="84" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Description: 
+
+The Gauge Tool lets you create gauge report snippets to make part of your reports.</Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="79">
+      <GuiSettings>
+        <Position x="1092" y="252" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Version XML URL">versions.ChaosReignsWithin.com\Gauge.xml</Value>
+          <Value name="Version of this Macro">2.0</Value>
+          <Value name="EnableTest">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="CReW_Version.yxmc" />
+    </Node>
+    <Node ToolID="86">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1320" y="1056" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_10364_14677aeb62dc48a386aef5cbb63637d9\Engine_12044_89d0728be38a49b79288ea36106cb94a.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="92">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1068" y="1056" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_10364_14677aeb62dc48a386aef5cbb63637d9\Engine_12044_c6405498fe494060b40a4f6466a3da5e.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="93">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2532" y="1056" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_10364_14677aeb62dc48a386aef5cbb63637d9\Engine_12044_03ecca4febf844eca7d4c41e80cc05f6.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="94">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2532" y="1380" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\ariley\AppData\Local\Temp\Engine_10364_14677aeb62dc48a386aef5cbb63637d9\Engine_12044_806b6aa8b49840ceaa94f0decceee452.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Map</DefaultTab>
+              <Hints>
+                <Map>
+                  <BaseMap>[No Base Map]</BaseMap>
+                </Map>
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="95">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="108" y="1128" width="1116" height="228" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text><![CDATA[Version History: 
+
+1.0 - Initial release
+2.0 - Updated to Alteryx 9.0 macro interface
+]]></Text>
+          <Font name="Segoe UI" size="12" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="3" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="112">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="113">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.Tab.Tab">
+        <Position x="54" y="54" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="102">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="3552" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update Color 2</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="101">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="3456" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update Color 1</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="96">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="324" y="577.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Set Percentage Field</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="105">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.DropDownListBox.DropDown">
+        <Position x="312" y="469.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>PercentField</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="106">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="2616" y="385.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Width</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="107">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.NumericUpDown.NumericUpDown">
+        <Position x="3060" y="385.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Height</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="108">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="3444" y="385.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Color1</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="109">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="3540" y="385.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Color2</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="110">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="3192" y="385.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>FontColor</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="111">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Questions.TextBox.QuestionTextBox">
+        <Position x="3324" y="385.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>ArrowColor</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="97">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2628" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Set Width</Name>
+          <AnnotationText><![CDATA[Set Width
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="98">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="3072" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Set Height</Name>
+          <AnnotationText><![CDATA[Set Height
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="99">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2772" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Font Size</Name>
+          <AnnotationText><![CDATA[Update Font Size
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="100">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="2916" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="0">
+          <Name>Update Outline Size</Name>
+          <AnnotationText><![CDATA[Update Outline Size
+
+]]></AnnotationText>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="103">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="3204" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update Font Color</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+    <Node ToolID="104">
+      <GuiSettings Plugin="AlteryxGuiToolkit.Action.Action">
+        <Position x="3336" y="553.9" width="59" height="59" />
+      </GuiSettings>
+      <Properties>
+        <Configuration />
+        <Annotation DisplayMode="2">
+          <Name>Update Arrow Color</Name>
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="114" Connection="Output" />
+      <Destination ToolID="69" Connection="Input" />
+    </Connection>
+    <Connection Wireless="True">
+      <Origin ToolID="114" Connection="Question" />
+      <Destination ToolID="105" Connection="Question Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="37" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="57" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="86" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="92" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="70" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="70" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Output" />
+      <Destination ToolID="23" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Join" />
+      <Destination ToolID="73" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="29" Connection="Output" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="33" Connection="True" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="35" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="37" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="50" Connection="Output" />
+      <Destination ToolID="59" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="53" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="56" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="True" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="57" Connection="Output" />
+      <Destination ToolID="58" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="58" Connection="Output" />
+      <Destination ToolID="52" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="102" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="101" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="97" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="98" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="99" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="100" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="103" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="104" Connection="Action" />
+      <Destination ToolID="17" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="93" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="64" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="69" Connection="Output" />
+      <Destination ToolID="64" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="96" Connection="Action" />
+      <Destination ToolID="64" Connection="Action" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Join" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="70" Connection="Join" />
+      <Destination ToolID="115" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="73" Connection="Output" />
+      <Destination ToolID="94" Connection="Input" />
+    </Connection>
+    <Connection name="PercentField">
+      <Origin ToolID="105" Connection="Question" />
+      <Destination ToolID="96" Connection="Question" />
+    </Connection>
+    <Connection name="Width">
+      <Origin ToolID="106" Connection="Question" />
+      <Destination ToolID="97" Connection="Question" />
+    </Connection>
+    <Connection name="Width">
+      <Origin ToolID="106" Connection="Question" />
+      <Destination ToolID="99" Connection="Question" />
+    </Connection>
+    <Connection name="Height">
+      <Origin ToolID="107" Connection="Question" />
+      <Destination ToolID="99" Connection="Question" />
+    </Connection>
+    <Connection name="Width">
+      <Origin ToolID="106" Connection="Question" />
+      <Destination ToolID="100" Connection="Question" />
+    </Connection>
+    <Connection name="Height">
+      <Origin ToolID="107" Connection="Question" />
+      <Destination ToolID="100" Connection="Question" />
+    </Connection>
+    <Connection name="Height">
+      <Origin ToolID="107" Connection="Question" />
+      <Destination ToolID="98" Connection="Question" />
+    </Connection>
+    <Connection name="Color1">
+      <Origin ToolID="108" Connection="Question" />
+      <Destination ToolID="101" Connection="Question" />
+    </Connection>
+    <Connection name="Color2">
+      <Origin ToolID="109" Connection="Question" />
+      <Destination ToolID="102" Connection="Question" />
+    </Connection>
+    <Connection name="FontColor">
+      <Origin ToolID="110" Connection="Question" />
+      <Destination ToolID="103" Connection="Question" />
+    </Connection>
+    <Connection name="ArrowColor">
+      <Origin ToolID="111" Connection="Question" />
+      <Destination ToolID="104" Connection="Question" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <Constants>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>PercentField</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Width</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Height</Name>
+        <Value />
+        <IsNumeric value="True" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Color1</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>Color2</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>FontColor</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+      <Constant>
+        <Namespace>Question</Namespace>
+        <Name>ArrowColor</Name>
+        <Value />
+        <IsNumeric value="False" />
+      </Constant>
+    </Constants>
+    <MetaInfo>
+      <NameIsFileName value="False" />
+      <Name><![CDATA[ Gauge]]></Name>
+      <Description>The Gauge Tool lets you create gauge report snippets to make part of your reports.</Description>
+      <CategoryName />
+      <SearchTags>Report, Reporting, Gauge, Dial, Arrow, Chaos, Chaos Reigns Within</SearchTags>
+      <Author>Adam Riley</Author>
+      <Company>ChaosReignsWithIn</Company>
+      <Copyright>ChaosReignsWithIn</Copyright>
+      <DescriptionLink actual="www.ChaosReignsWithIn.com" displayed="www.ChaosReignsWithIn.com" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+    <RuntimeProperties>
+      <Actions>
+        <NoCondition>
+          <Type>NoCondition</Type>
+          <Description>(Always Run)</Description>
+          <True>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>PercentField</Description>
+              <ToolId value="96" />
+              <Mode>Simple</Mode>
+              <Variable>PercentField</Variable>
+              <Replace value="False" />
+              <Destination>64/SelectFields/SelectField[@field='GaugeMacroPercent']/@field</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Width</Description>
+              <ToolId value="97" />
+              <Mode>Simple</Mode>
+              <Variable>Width</Variable>
+              <Replace value="False" />
+              <Destination>17/ImageWidth</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>Height</Description>
+              <ToolId value="98" />
+              <Mode>Simple</Mode>
+              <Variable>Height</Variable>
+              <Replace value="False" />
+              <Destination>17/ImageHeight</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="99" />
+              <Expression>40*
+(toNumber([Width])+toNumber([Height]))
+/(2*7)</Expression>
+              <Destination>17/Layers/Layer[@name='1']/LabelStyle/@Size</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValueFormula</Type>
+              <Description />
+              <ToolId value="100" />
+              <Expression>iif(
+round(
+3*
+(toNumber([Width])+toNumber([Height]))
+/(2*7),1) == 0, 1,
+round(
+3*
+(toNumber([Width])+toNumber([Height]))
+/(2*7),1))</Expression>
+              <Destination>17/Layers/Layer[@name='1']/PolygonStyle/@OutlineSize</Destination>
+              <Mode>Expression</Mode>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>PercentField</Description>
+              <ToolId value="101" />
+              <Mode>Simple</Mode>
+              <Variable>PercentField</Variable>
+              <Replace value="False" />
+              <Destination>17/Layers/Layer[@name='3']/PolygonStyle/@FillColor</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>PercentField</Description>
+              <ToolId value="102" />
+              <Mode>Simple</Mode>
+              <Variable>PercentField</Variable>
+              <Replace value="False" />
+              <Destination>17/Layers/Layer[@name='4']/PolygonStyle/@FillColor</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>FontColor</Description>
+              <ToolId value="103" />
+              <Mode>Simple</Mode>
+              <Variable>FontColor</Variable>
+              <Replace value="False" />
+              <Destination>17/Layers/Layer[@name='1']/LabelStyle/@Color</Destination>
+            </Action>
+            <Action>
+              <Type>UpdateValue</Type>
+              <Description>ArrowColor</Description>
+              <ToolId value="104" />
+              <Mode>Simple</Mode>
+              <Variable>ArrowColor</Variable>
+              <Replace value="False" />
+              <Destination>17/Layers/Layer[@name='2']/PolygonStyle/@FillColor</Destination>
+            </Action>
+          </True>
+        </NoCondition>
+      </Actions>
+      <Questions>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Questions</Description>
+          <Name>Tab (112)</Name>
+          <ToolId value="112" />
+          <Questions>
+            <Question>
+              <Type>ListBox</Type>
+              <Description>Percentage Field</Description>
+              <Name>PercentField</Name>
+              <ToolId value="105" />
+              <Multiple value="False" />
+              <Default>Percent</Default>
+              <Mode>MacroField</Mode>
+              <MacroField_InputTool value="1" />
+              <Field_IncludeNone value="False" />
+              <MacroField_FilterTypes>Byte,Int16,Int32,Int64,FixedDecimal,Float,Double,String,WString,V_String,V_WString</MacroField_FilterTypes>
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Width</Description>
+              <Name>Width</Name>
+              <ToolId value="106" />
+              <Minimum value="0" />
+              <Maximum value="100" />
+              <Increment value="0.1" />
+              <Default value="8" />
+              <Decimals value="1" />
+            </Question>
+            <Question>
+              <Type>NumericUpDown</Type>
+              <Description>Height</Description>
+              <Name>Height</Name>
+              <ToolId value="107" />
+              <Minimum value="0" />
+              <Maximum value="100" />
+              <Increment value="0.1" />
+              <Default value="6" />
+              <Decimals value="1" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Color 1</Description>
+              <Name>Color1</Name>
+              <ToolId value="108" />
+              <Default>#ff0000</Default>
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Color 2</Description>
+              <Name>Color2</Name>
+              <ToolId value="109" />
+              <Default>#0080ff</Default>
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Font Color</Description>
+              <Name>FontColor</Name>
+              <ToolId value="110" />
+              <Default>#ffffff</Default>
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>TextBox</Type>
+              <Description>Arrow Color</Description>
+              <Name>ArrowColor</Name>
+              <ToolId value="111" />
+              <Default>#ffffff</Default>
+              <Password value="False" />
+              <Multiline value="False" />
+              <Hidden value="False" />
+            </Question>
+            <Question>
+              <Type>MacroOutput</Type>
+              <Description>Output</Description>
+              <Name>Output</Name>
+              <ToolId value="115" />
+            </Question>
+          </Questions>
+        </Question>
+        <Question>
+          <Type>Tab</Type>
+          <Description>Input</Description>
+          <Name>Tab (113)</Name>
+          <ToolId value="113" />
+          <Questions>
+            <Question>
+              <Type>MacroInput</Type>
+              <Description>Input</Description>
+              <Name>Input</Name>
+              <ToolId value="114" />
+            </Question>
+          </Questions>
+        </Question>
+      </Questions>
+      <ModuleType>Macro</ModuleType>
+      <MacroCustomHelp value="True" />
+      <MacroCustomHelpLink>http://help.chaosreignswithin.com/Gauge.html</MacroCustomHelpLink>
+      <MacroDynamicOutputFields value="False" />
+      <MacroImage>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</MacroImage>
+      <MacroInputs />
+      <MacroOutputs />
+      <Wiz_CustomHelp value="False" />
+      <Wiz_CustomGraphic value="False" />
+      <Wiz_ShowOutput value="True" />
+      <Wiz_OpenOutputTools>
+        <Tool ToolId="114" Selected="True" />
+        <Tool ToolId="18" Selected="False" />
+        <Tool ToolId="115" Selected="True" />
+        <Tool ToolId="79" Selected="True" />
+        <Tool ToolId="86" Selected="False" />
+        <Tool ToolId="92" Selected="False" />
+        <Tool ToolId="93" Selected="False" />
+        <Tool ToolId="94" Selected="False" />
+      </Wiz_OpenOutputTools>
+      <Wiz_OutputMessage />
+      <Wiz_NoOutputFilesMessage />
+      <Wiz_ChainRunWizard />
+    </RuntimeProperties>
+  </Properties>
+</AlteryxDocument>
